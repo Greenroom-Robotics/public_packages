@@ -1,0 +1,39 @@
+name: Update Lists
+
+on:
+  push:
+    paths:
+      - '**.deb'
+    branches:
+      - main
+
+jobs:
+  build:
+    name: Update Lists
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+      with: 
+          lfs: 'true'
+
+    - name: Import GPG key
+      id: import_gpg
+      uses: crazy-max/ghaction-import-gpg@v4
+      with:
+        gpg_private_key: ${{ secrets.GPG_PRIVATE_KEY }}
+
+    - name: Update PPA
+      env: 
+        GPG_KEY_NAME: ${{ secrets.GPG_PRIVATE_KEY_NAME }}
+      run: |
+        ls ./debian
+        ./scripts/update.sh
+    - name: Git config
+      run: |
+        git config --global user.email "ci@greenroomrobotics.com"
+        git config --global user.name "Github CI"
+    - name: Git push
+      run: |
+        git add .
+        git commit -m "release: update package lists"
+        git push
