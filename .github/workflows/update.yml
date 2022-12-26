@@ -1,6 +1,7 @@
 name: Update Lists
 
 on:
+  workflow_dispatch:
   push:
     paths:
       - '**.deb'
