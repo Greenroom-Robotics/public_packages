@@ -60,18 +60,3 @@ Priority: optional
 Homepage: https://github.com/Greenroom-Robotics/xtypes
 Description: Implementation based on DDS-XTYPES standard (https://www.omg.org/spec/DDS-XTypes)
 
-Package: xtypes
-Version: 0.0.1-0jammy
-Architecture: amd64
-Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
-Installed-Size: 598
-Filename: ./xtypes_0.0.1-0jammy_amd64.deb
-Size: 79606
-MD5sum: ad7124a5d4527d59968976a08f810522
-SHA1: 81e8d4dd2113b301183845c538af03ba5db24403
-SHA256: 0b698d0b4f541b6f5f3e58dc049120a6f897152c9f06016687d22d2e75de883d
-Section: misc
-Priority: optional
-Homepage: https://github.com/Greenroom-Robotics/xtypes
-Description: Implementation based on DDS-XTYPES standard (https://www.omg.org/spec/DDS-XTypes)
-
