@@ -28,6 +28,38 @@ Priority: optional
 Homepage: https://github.com/Greenroom-Robotics/argparse
 Description: Argument Parser for Modern C++
 
+Package: ros-humble-canary
+Version: 1.0.1-0jammy
+Architecture: arm64
+Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
+Installed-Size: 53
+Depends: libasio-dev, libboost-system-dev
+Filename: ./ros-humble-canary_1.0.1-0jammy_arm64.deb
+Size: 8048
+MD5sum: 005546a3fc9bb2a02b6cf2aadfaaa5d8
+SHA1: 2de036929a74caeec4feb4bdb4639e0038c62a52
+SHA256: fef829c19faec3da8b0bafe4a64b2a42a95b8337d8c82c1195d9d2bfa48bdfe7
+Section: misc
+Priority: optional
+Homepage: https://github.com/Greenroom-Robotics/canary
+Description: A lightweight implementation of Linux SocketCAN bindings for ASIO
+
+Package: ros-humble-canary
+Version: 1.0.1-0jammy
+Architecture: amd64
+Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
+Installed-Size: 53
+Depends: libasio-dev, libboost-system-dev
+Filename: ./ros-humble-canary_1.0.1-0jammy_amd64.deb
+Size: 8060
+MD5sum: d155efdf9224dce36d4b580666769720
+SHA1: 28cd0e3c283dc2ef5f2d21bead70d22561529a4b
+SHA256: dd8210461336a96c4c0ec04471fed9dc2dacc03ff6cfffa61b094578d702896d
+Section: misc
+Priority: optional
+Homepage: https://github.com/Greenroom-Robotics/canary
+Description: A lightweight implementation of Linux SocketCAN bindings for ASIO
+
 Package: ros-humble-is-core
 Version: 1.0.0-0jammy
 Architecture: amd64
