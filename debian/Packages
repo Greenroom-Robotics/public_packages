@@ -2,12 +2,12 @@ Package: ros-humble-argparse
 Version: 1.0.0-0jammy
 Architecture: amd64
 Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
-Installed-Size: 8
+Installed-Size: 78
 Filename: ./ros-humble-argparse_1.0.0-0jammy_amd64.deb
-Size: 1240
-MD5sum: 6cadf2a0fcf7f641996d90b8a2248b2e
-SHA1: 30e7dc912f587689060fc7855f07169e66e4c7a6
-SHA256: 14897a9e3a05757aa83ab7a14a504f0bfcdbc6c56b670742da03ddbe94ee22eb
+Size: 14870
+MD5sum: 58340f5d969b86b1d53ef0d22fd3096e
+SHA1: cc11c0b4e058ccf0f8356e28393dd5a83bccc915
+SHA256: 10a2e29639a210a28da1b542cd84a0a7038ae20972018e28410ee65b08b69cf8
 Section: misc
 Priority: optional
 Homepage: https://github.com/Greenroom-Robotics/argparse
@@ -17,12 +17,12 @@ Package: ros-humble-argparse
 Version: 1.0.0-0jammy
 Architecture: arm64
 Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
-Installed-Size: 8
+Installed-Size: 78
 Filename: ./ros-humble-argparse_1.0.0-0jammy_arm64.deb
-Size: 1242
-MD5sum: b9c29c252b54c87cb22155cf07411d90
-SHA1: c777d0c3531ab366dc7f9b254aaecb4f67f6e26c
-SHA256: fdc1b24981c400db579e9d863fbb8fb928d5fcce8edbf4cdb8a1234e2011a8d6
+Size: 14864
+MD5sum: e9c97cbff03cdb78ed10b97edc486b30
+SHA1: b22547c46ea961213d2a81befb29a286ee0a6693
+SHA256: 40e0a9be336bb664359e3b209d72c0ff59753fe11f41c9d57dd6f5efb53c1a79
 Section: misc
 Priority: optional
 Homepage: https://github.com/Greenroom-Robotics/argparse
@@ -62,22 +62,6 @@ Description: A lightweight implementation of Linux SocketCAN bindings for ASIO
 
 Package: ros-humble-is-core
 Version: 1.0.0-0jammy
-Architecture: amd64
-Maintainer: Greenroom Robotics <team@greenroomrobotics.com>
-Installed-Size: 1666
-Depends: libboost-program-options1.74.0 (>= 1.74.0), libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), libyaml-cpp0.7 (>= 0.7.0), libyaml-cpp-dev
-Filename: ./ros-humble-is-core_1.0.0-0jammy_amd64.deb
-Size: 492850
-MD5sum: b0e66cd3ff64f8f542555fa0935975c4
-SHA1: 9b6bc363063b4ae9c0196dd186f0e28e55ac4cd3
-SHA256: 48c87fae5c009728c2dd76d42872c2b374f2e361e8a7f4e6371d875adf95d3ad
-Section: misc
-Priority: optional
-Homepage: https://github.com/Greenroom-Robotics/Integration-Service/tree/gr
-Description: Integration Services core
-
-Package: ros-humble-is-core
-Version: 1.0.0-0jammy
 Architecture: arm64
 Maintainer: Greenroom Robotics <team@greenroomrobotics.com>
 Installed-Size: 1514
@@ -92,20 +76,21 @@ Priority: optional
 Homepage: https://github.com/Greenroom-Robotics/Integration-Service/tree/gr
 Description: Integration Services core
 
-Package: ros-humble-xtypes
+Package: ros-humble-is-core
 Version: 1.0.0-0jammy
 Architecture: amd64
-Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
-Installed-Size: 604
-Filename: ./ros-humble-xtypes_1.0.0-0jammy_amd64.deb
-Size: 79616
-MD5sum: c27c488214fdf066ba683656415abd11
-SHA1: 0131d39fbe088f3a8018fa26ffcf230dca42eea6
-SHA256: 7dfe3774812ae88dfb0fdecc3a1e43c2b48c1a3778a949dcf034be0568533285
+Maintainer: Greenroom Robotics <team@greenroomrobotics.com>
+Installed-Size: 1666
+Depends: libboost-program-options1.74.0 (>= 1.74.0), libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), libyaml-cpp0.7 (>= 0.7.0), libyaml-cpp-dev
+Filename: ./ros-humble-is-core_1.0.0-0jammy_amd64.deb
+Size: 492850
+MD5sum: b0e66cd3ff64f8f542555fa0935975c4
+SHA1: 9b6bc363063b4ae9c0196dd186f0e28e55ac4cd3
+SHA256: 48c87fae5c009728c2dd76d42872c2b374f2e361e8a7f4e6371d875adf95d3ad
 Section: misc
 Priority: optional
-Homepage: https://github.com/Greenroom-Robotics/xtypes
-Description: Implementation based on DDS-XTYPES standard (https://www.omg.org/spec/DDS-XTypes)
+Homepage: https://github.com/Greenroom-Robotics/Integration-Service/tree/gr
+Description: Integration Services core
 
 Package: ros-humble-xtypes
 Version: 1.0.0-0jammy
@@ -117,6 +102,21 @@ Size: 79636
 MD5sum: 68502c6de0a061a1dcba19986513dca9
 SHA1: 71530fc6419b6f0e60bd1a08d90016d6c8bad3bb
 SHA256: fcc9b4532b1bbdedc34bd541f0634598e42acb3ad487bd5bfc35bc261e539346
+Section: misc
+Priority: optional
+Homepage: https://github.com/Greenroom-Robotics/xtypes
+Description: Implementation based on DDS-XTYPES standard (https://www.omg.org/spec/DDS-XTypes)
+
+Package: ros-humble-xtypes
+Version: 1.0.0-0jammy
+Architecture: amd64
+Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
+Installed-Size: 604
+Filename: ./ros-humble-xtypes_1.0.0-0jammy_amd64.deb
+Size: 79616
+MD5sum: c27c488214fdf066ba683656415abd11
+SHA1: 0131d39fbe088f3a8018fa26ffcf230dca42eea6
+SHA256: 7dfe3774812ae88dfb0fdecc3a1e43c2b48c1a3778a949dcf034be0568533285
 Section: misc
 Priority: optional
 Homepage: https://github.com/Greenroom-Robotics/xtypes
