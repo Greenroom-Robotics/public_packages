@@ -1,20 +1,5 @@
 Package: ros-humble-argparse
 Version: 1.0.0-0jammy
-Architecture: amd64
-Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
-Installed-Size: 78
-Filename: ./ros-humble-argparse_1.0.0-0jammy_amd64.deb
-Size: 14870
-MD5sum: 58340f5d969b86b1d53ef0d22fd3096e
-SHA1: cc11c0b4e058ccf0f8356e28393dd5a83bccc915
-SHA256: 10a2e29639a210a28da1b542cd84a0a7038ae20972018e28410ee65b08b69cf8
-Section: misc
-Priority: optional
-Homepage: https://github.com/Greenroom-Robotics/argparse
-Description: Argument Parser for Modern C++
-
-Package: ros-humble-argparse
-Version: 1.0.0-0jammy
 Architecture: arm64
 Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
 Installed-Size: 78
@@ -23,6 +8,21 @@ Size: 14864
 MD5sum: e9c97cbff03cdb78ed10b97edc486b30
 SHA1: b22547c46ea961213d2a81befb29a286ee0a6693
 SHA256: 40e0a9be336bb664359e3b209d72c0ff59753fe11f41c9d57dd6f5efb53c1a79
+Section: misc
+Priority: optional
+Homepage: https://github.com/Greenroom-Robotics/argparse
+Description: Argument Parser for Modern C++
+
+Package: ros-humble-argparse
+Version: 1.0.0-0jammy
+Architecture: amd64
+Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
+Installed-Size: 78
+Filename: ./ros-humble-argparse_1.0.0-0jammy_amd64.deb
+Size: 14870
+MD5sum: 58340f5d969b86b1d53ef0d22fd3096e
+SHA1: cc11c0b4e058ccf0f8356e28393dd5a83bccc915
+SHA256: 10a2e29639a210a28da1b542cd84a0a7038ae20972018e28410ee65b08b69cf8
 Section: misc
 Priority: optional
 Homepage: https://github.com/Greenroom-Robotics/argparse
@@ -91,6 +91,36 @@ Section: misc
 Priority: optional
 Homepage: https://github.com/Greenroom-Robotics/Integration-Service/tree/gr
 Description: Integration Services core
+
+Package: ros-humble-ros2-bt-utils
+Version: 1.0.0-0jammy
+Architecture: amd64
+Maintainer: Michele Colledanchise <michele.colledanchise@gmail.com>
+Installed-Size: 101
+Depends: libc6 (>= 2.32), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 5.2), ros-humble-behaviortree-cpp-v3, ros-humble-rclcpp, ros-humble-rclcpp-action
+Filename: ./ros-humble-ros2-bt-utils_1.0.0-0jammy_amd64.deb
+Size: 16432
+MD5sum: 7064b50e2da5dde649fa7d6c7191222e
+SHA1: ae84facf9f2435b18434c754d048f3174314178c
+SHA256: def96aeff4b16f02bafd7d55ac0b05e7dbff00323d5e95d255380c2fda39463c
+Section: misc
+Priority: optional
+Description: Package containing the base classes (virtual and templates) to ease the development of the BT leaf nodes.
+
+Package: ros-humble-ros2-bt-utils
+Version: 1.0.0-0jammy
+Architecture: arm64
+Maintainer: Michele Colledanchise <michele.colledanchise@gmail.com>
+Installed-Size: 97
+Depends: libc6 (>= 2.32), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 5.2), ros-humble-behaviortree-cpp-v3, ros-humble-rclcpp, ros-humble-rclcpp-action
+Filename: ./ros-humble-ros2-bt-utils_1.0.0-0jammy_arm64.deb
+Size: 16318
+MD5sum: 11a5d0f04bd136c537305d3ca2b145eb
+SHA1: 6acc7409cde947f05e7a6ccc8ca1a1fb86e4af25
+SHA256: e02df1099e1e0c6efea13a1b9eea41d66e9cf3d181856667c4395b29c29535c9
+Section: misc
+Priority: optional
+Description: Package containing the base classes (virtual and templates) to ease the development of the BT leaf nodes.
 
 Package: ros-humble-xtypes
 Version: 1.0.0-0jammy
