@@ -92,6 +92,22 @@ Priority: optional
 Homepage: https://github.com/Greenroom-Robotics/Integration-Service/tree/gr
 Description: Integration Services core
 
+Package: ros-humble-is-core
+Version: 1.0.1-0jammy
+Architecture: amd64
+Maintainer: Greenroom Robotics <team@greenroomrobotics.com>
+Installed-Size: 1666
+Depends: libboost-program-options1.74.0 (>= 1.74.0), libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), libyaml-cpp0.7 (>= 0.7.0), libyaml-cpp-dev
+Filename: ./ros-humble-is-core_1.0.1-0jammy_amd64.deb
+Size: 492872
+MD5sum: 684208bdc3f7ebfca561502411a1a2c2
+SHA1: 82da471264707008fa4402496b531d254754a480
+SHA256: 21f90cbad2f88bf8a2096a4309d2a100ca68e5687416591f45ab5228b1d06273
+Section: misc
+Priority: optional
+Homepage: https://github.com/Greenroom-Robotics/Integration-Service/tree/gr
+Description: Integration Services core
+
 Package: ros-humble-px4-msgs
 Version: 1.1.0-0jammy
 Architecture: amd64
