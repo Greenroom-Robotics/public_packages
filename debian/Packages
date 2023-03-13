@@ -67,10 +67,10 @@ Maintainer: Greenroom Robotics <team@greenroomrobotics.com>
 Installed-Size: 1514
 Depends: libboost-program-options1.74.0 (>= 1.74.0), libc6 (>= 2.34), libgcc-s1 (>= 4.2), libstdc++6 (>= 11), libyaml-cpp0.7 (>= 0.7.0), libyaml-cpp-dev
 Filename: ./ros-humble-is-core_1.0.0-0jammy_arm64.deb
-Size: 452894
-MD5sum: 31211ba86e12b5ece3587ebb5e85c1f9
-SHA1: 0c198dd291b9fe365a1b151cd514c04b33bc4528
-SHA256: f8df2a0ecfd90377d618fe7b0dde8d2a73678dadacb2926666752a47980f70f0
+Size: 452864
+MD5sum: ab62f3926d92ff5bbad70b3026701274
+SHA1: 8bc14a2bfe30b1559c394f236fe7dc2d08e2b435
+SHA256: 194b1c611f87d04ff1aab7e197b741d63f093263fb902a917e2eb8a104dcd939
 Section: misc
 Priority: optional
 Homepage: https://github.com/Greenroom-Robotics/Integration-Service/tree/gr
@@ -110,21 +110,6 @@ Description: Integration Services core
 
 Package: ros-humble-px4-msgs
 Version: 1.1.0-0jammy
-Architecture: amd64
-Maintainer: Nuno Marques <nuno.marques@dronesolutions.io>
-Installed-Size: 28386
-Depends: libc6 (>= 2.4), libpython3.10 (>= 3.10.0), libstdc++6 (>= 4.1.1), ros-humble-fastcdr, ros-humble-builtin-interfaces, ros-humble-ros-environment, ros-humble-rosidl-default-runtime
-Filename: ./ros-humble-px4-msgs_1.1.0-0jammy_amd64.deb
-Size: 1670512
-MD5sum: b2c843b514655d6fe1c55f2ffa5ba242
-SHA1: 00d13588af27be76eb0599d2fc956e04a21ca877
-SHA256: 7f331c8bf607b961874cf03801181f09710d059cf47792807d4b0fd901074bb3
-Section: misc
-Priority: optional
-Description: Package with the ROS-equivalent of PX4 uORB msgs
-
-Package: ros-humble-px4-msgs
-Version: 1.1.0-0jammy
 Architecture: arm64
 Maintainer: Nuno Marques <nuno.marques@dronesolutions.io>
 Installed-Size: 28337
@@ -134,6 +119,21 @@ Size: 1632962
 MD5sum: cef8866e09e262a2a2aa0deaedcef089
 SHA1: d9ff35a9da80f9858673639ac16cc919d7a31043
 SHA256: 6ebc9e255086aaa5995271fb25d57ab882d7c257b8935663ba05805a6372d6e7
+Section: misc
+Priority: optional
+Description: Package with the ROS-equivalent of PX4 uORB msgs
+
+Package: ros-humble-px4-msgs
+Version: 1.1.0-0jammy
+Architecture: amd64
+Maintainer: Nuno Marques <nuno.marques@dronesolutions.io>
+Installed-Size: 28386
+Depends: libc6 (>= 2.4), libpython3.10 (>= 3.10.0), libstdc++6 (>= 4.1.1), ros-humble-fastcdr, ros-humble-builtin-interfaces, ros-humble-ros-environment, ros-humble-rosidl-default-runtime
+Filename: ./ros-humble-px4-msgs_1.1.0-0jammy_amd64.deb
+Size: 1670512
+MD5sum: b2c843b514655d6fe1c55f2ffa5ba242
+SHA1: 00d13588af27be76eb0599d2fc956e04a21ca877
+SHA256: 7f331c8bf607b961874cf03801181f09710d059cf47792807d4b0fd901074bb3
 Section: misc
 Priority: optional
 Description: Package with the ROS-equivalent of PX4 uORB msgs
