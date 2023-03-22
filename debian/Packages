@@ -244,9 +244,9 @@ Installed-Size: 66
 Depends: ros-humble-is-core, ros-humble-is-ros2, ros-humble-rosidl-adapter
 Filename: ./ros-humble-is-ros2-mix-generator_1.0.0-0jammy_amd64.deb
 Size: 11334
-MD5sum: 4873eebf9091eab374f724aa9f8d7b8d
-SHA1: 07de32fa232b5a44d6b03254fdad37daf569fba3
-SHA256: f43161c2e44a0891d1b2fab568f981dcb6889c932e0c77b5d664f5d1464fcd55
+MD5sum: a8313727b3bcbf08d14ac002a649aa21
+SHA1: 59de4f0bb911e798cb0e76f1c6916e483186ff1f
+SHA256: 5a9392859b3cb265a3e7c331b53103be6431d30ed67c9d710f08e8a290c691a4
 Section: misc
 Priority: optional
 Homepage: https://github.com/Greenroom-Robotics/ROS2-SH
