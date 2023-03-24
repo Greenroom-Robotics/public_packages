@@ -284,6 +284,22 @@ Priority: optional
 Homepage: https://github.com/Greenroom-Robotics/ROS2-SH/tree/feature/mix-idl-support
 Description: Integration Service System Handle for ROS 2
 
+Package: ros-humble-is-ros2
+Version: 1.1.1-0jammy
+Architecture: amd64
+Maintainer: Greenroom Robotics <team@greenroomrobotics.com>
+Installed-Size: 516
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), libyaml-cpp0.7 (>= 0.7.0), ros-humble-is-core, ros-humble-rclcpp, ros-humble-xtypes
+Filename: ./ros-humble-is-ros2_1.1.1-0jammy_amd64.deb
+Size: 128244
+MD5sum: f7719df9f5cea883f258e2ecabbdc13a
+SHA1: 80faa702c889e8bb3e4cc6e123db63043448f102
+SHA256: ec217add676a5a94b5b6ac334ef5c3e7811286d373eea5456bc3b7f064bfd37f
+Section: misc
+Priority: optional
+Homepage: https://github.com/Greenroom-Robotics/ROS2-SH/tree/feature/mix-idl-support
+Description: Integration Service System Handle for ROS 2
+
 Package: ros-humble-is-ros2-mix-generator
 Version: 1.0.0-0jammy
 Architecture: arm64
