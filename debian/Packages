@@ -508,6 +508,22 @@ Priority: optional
 Homepage: https://github.com/Greenroom-Robotics/ROS2-SH
 Description: Integration Service System Handle for ROS 2 (mix generator)
 
+Package: ros-humble-is-ros2-mix-generator
+Version: 1.0.2-0jammy
+Architecture: amd64
+Maintainer: Greenroom Robotics <team@greenroomrobotics.com>
+Installed-Size: 16
+Depends: ros-humble-is-core, ros-humble-is-ros2, ros-humble-rosidl-adapter
+Filename: ./ros-humble-is-ros2-mix-generator_1.0.2-0jammy_amd64.deb
+Size: 2032
+MD5sum: 46609a3489292b538376534acccd5766
+SHA1: e7488b0716a43cc0e896654cbcb58f90fb5188d6
+SHA256: dbcc4d054644b14c3a6d319bb11d48c52f0829a1c16f3aa48b6be8d1ed355780
+Section: misc
+Priority: optional
+Homepage: https://github.com/Greenroom-Robotics/ROS2-SH
+Description: Integration Service System Handle for ROS 2 (mix generator)
+
 Package: ros-humble-px4-msgs
 Version: 1.1.0-0jammy
 Architecture: amd64
