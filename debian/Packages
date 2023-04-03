@@ -451,10 +451,10 @@ Maintainer: Greenroom Robotics <team@greenroomrobotics.com>
 Installed-Size: 514
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), libyaml-cpp0.7 (>= 0.7.0), ros-humble-is-core, ros-humble-rclcpp, ros-humble-xtypes
 Filename: ./ros-humble-is-ros2_1.1.2-0jammy_amd64.deb
-Size: 128392
-MD5sum: 110eb1381538cee493f026d998bb11c9
-SHA1: 7b98d99f9ec1e9e9f260fe3d839302312268f0a9
-SHA256: 3f2eed031392211f5e3ee25b483faf237ba1345f11f5b9ce0fa587496c33c84b
+Size: 128406
+MD5sum: c4bd6a6ea7810a7fb2154018b2525d50
+SHA1: de1942aee11dba8236a2939736835d7b2256ab6a
+SHA256: 13ac22f28a93842cd1e57053957764b7417d021fb52317e04aeb92efe26cbf41
 Section: misc
 Priority: optional
 Homepage: https://github.com/Greenroom-Robotics/ROS2-SH/tree/feature/mix-idl-support
