@@ -604,6 +604,21 @@ Priority: optional
 Homepage: https://github.com/Greenroom-Robotics/ROS2-SH
 Description: Integration Service System Handle for ROS 2 (mix generator)
 
+Package: ros-humble-launch-ext
+Version: 1.0.0-0jammy
+Architecture: amd64
+Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
+Installed-Size: 70
+Depends: ros-humble-launch
+Filename: ./ros-humble-launch-ext_1.0.0-0jammy_amd64.deb
+Size: 10034
+MD5sum: 8ace292083d9a81bdfad53e20e63e616
+SHA1: 7d89b1fb1a9e74894054a59a9e4a082f9accb550
+SHA256: 98f76f8f78c4f2327fbe5e432e58ce8f1aace02c15c418e2789e9ca8a4bf7151
+Section: misc
+Priority: optional
+Description: Some extras for launch tooling.
+
 Package: ros-humble-px4-msgs
 Version: 1.1.0-0jammy
 Architecture: amd64
