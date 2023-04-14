@@ -636,6 +636,21 @@ Description: Some extras for launch tooling.
 
 Package: ros-humble-launch-ext
 Version: 1.1.0-0jammy
+Architecture: arm64
+Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
+Installed-Size: 72
+Depends: ros-humble-launch
+Filename: ./ros-humble-launch-ext_1.1.0-0jammy_arm64.deb
+Size: 10552
+MD5sum: c52506f4240c54254645ec8b2035af88
+SHA1: 6cbe9de4115a6d40f9c15e908ede8e0eb295824b
+SHA256: d5c2d31f5cf378b6004127d0e341e06c86553989a84ba458c9a22d27d830a541
+Section: misc
+Priority: optional
+Description: Some extras for launch tooling.
+
+Package: ros-humble-launch-ext
+Version: 1.1.0-0jammy
 Architecture: amd64
 Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
 Installed-Size: 72
