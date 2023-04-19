@@ -754,6 +754,21 @@ Section: misc
 Priority: optional
 Description: Package with the ROS-equivalent of PX4 uORB msgs
 
+Package: ros-humble-px4-msgs
+Version: 1.2.0-0jammy
+Architecture: amd64
+Maintainer: Nuno Marques <nuno.marques@dronesolutions.io>
+Installed-Size: 28467
+Depends: libc6 (>= 2.4), libpython3.10 (>= 3.10.0), libstdc++6 (>= 4.1.1), ros-humble-fastcdr, ros-humble-builtin-interfaces, ros-humble-ros-environment, ros-humble-rosidl-default-runtime
+Filename: ./ros-humble-px4-msgs_1.2.0-0jammy_amd64.deb
+Size: 1673958
+MD5sum: b2db09dc0a38a1b761577566cbdca0dd
+SHA1: b0decceead042c1bdf7ca6e989fe5b4b9a2aefa6
+SHA256: c8a57bbb31b745c44f1ca405220f274ac30dfce0dc1555cd6f3c37043173b57b
+Section: misc
+Priority: optional
+Description: Package with the ROS-equivalent of PX4 uORB msgs
+
 Package: ros-humble-ros2-bt-utils
 Version: 1.0.0-0jammy
 Architecture: arm64
