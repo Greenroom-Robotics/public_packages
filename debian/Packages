@@ -784,6 +784,21 @@ Section: misc
 Priority: optional
 Description: Package with the ROS-equivalent of PX4 uORB msgs
 
+Package: ros-humble-ros-gz-bridge
+Version: 1.0.0-0jammy
+Architecture: amd64
+Maintainer: Aditya Pande <adityapande@intrinsic.ai>
+Installed-Size: 23186
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libgz-msgs9 (>= 9.4.0), libgz-transport12 (>= 12.2.0), libprotobuf23 (>= 3.12.4), libstdc++6 (>= 11), libyaml-cpp0.7 (>= 0.7.0), libgz-msgs9-dev, libgz-transport12-dev, ros-humble-actuator-msgs, ros-humble-geometry-msgs, ros-humble-gps-msgs, ros-humble-nav-msgs, ros-humble-rclcpp, ros-humble-rclcpp-components, ros-humble-ros-gz-interfaces, ros-humble-rosgraph-msgs, ros-humble-sensor-msgs, ros-humble-std-msgs, ros-humble-tf2-msgs, ros-humble-trajectory-msgs, ros-humble-yaml-cpp-vendor
+Filename: ./ros-humble-ros-gz-bridge_1.0.0-0jammy_amd64.deb
+Size: 2929370
+MD5sum: 0f7955b30de869a72a2f8757fd1eb9f6
+SHA1: 89d572b00fd57448a99699e2817999502b61eb29
+SHA256: 33d09624fd885545af663e4fd296c266a4c69978f82f5b8ee84c570d6c11f544
+Section: misc
+Priority: optional
+Description: Bridge communication between ROS and Gazebo Transport
+
 Package: ros-humble-ros-gz-interfaces
 Version: 1.0.0-0jammy
 Architecture: amd64
