@@ -1097,6 +1097,23 @@ Description: A WebSocket interface to rosbridge.
 
 Package: ros-humble-rosbridge-suite
 Version: 1.0.0-0jammy
+Architecture: arm64
+Maintainer: Jihoon Lee <jihoonlee.in@gmail.com>
+Installed-Size: 42
+Depends: ros-humble-rosapi, ros-humble-rosbridge-library, ros-humble-rosbridge-server
+Filename: ./ros-humble-rosbridge-suite_1.0.0-0jammy_arm64.deb
+Size: 5348
+MD5sum: 6f4392437b1b740d1cfe19f0abb0b03c
+SHA1: 527894cc85c936b31e026d831cd8a8cd5c04c329
+SHA256: 89652eb7fac827c728b4c340f4098c263a5ea648e9d03e7c68fcbe3da63a6251
+Section: misc
+Priority: optional
+Homepage: http://ros.org/wiki/rosbridge_suite
+Description: Rosbridge provides a JSON API to ROS functionality for non-ROS programs.
+ There are a variety of front ends that interface with rosbridge, including a WebSocket server for web browsers to interact with. Rosbridge_suite is a meta-package containing rosbridge, various front end packages for rosbridge like a WebSocket package, and helper packages.
+
+Package: ros-humble-rosbridge-suite
+Version: 1.0.0-0jammy
 Architecture: amd64
 Maintainer: Jihoon Lee <jihoonlee.in@gmail.com>
 Installed-Size: 42
