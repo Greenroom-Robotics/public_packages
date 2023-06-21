@@ -984,6 +984,22 @@ Priority: optional
 Homepage: http://ros.org/wiki/rosapi
 Description: Provides service calls for getting ros meta-information, like list of topics, services, params, etc.
 
+Package: ros-humble-rosbridge-library
+Version: 1.0.0-0jammy
+Architecture: amd64
+Maintainer: Jihoon Lee <jihoonlee.in@gmail.com>
+Installed-Size: 226
+Depends: python3-bson, python3-pil, ros-humble-rclpy, ros-humble-rosidl-default-runtime
+Filename: ./ros-humble-rosbridge-library_1.0.0-0jammy_amd64.deb
+Size: 36116
+MD5sum: d1407a9392f7887f42ba9cbf0399c1ad
+SHA1: 0decf76b02f7188f782922815379fe5e8934300d
+SHA256: b99db9a2dee597bf29ca81395130a00ef050fb0046b1e67ab69a538f6ecebdcc
+Section: misc
+Priority: optional
+Homepage: http://ros.org/wiki/rosbridge_library
+Description: The core rosbridge package, responsible for interpreting JSON andperforming the appropriate ROS action, like subscribe, publish, call service, and interact with params.
+
 Package: ros-humble-rosbridge-server
 Version: 1.0.0-0jammy
 Architecture: arm64
