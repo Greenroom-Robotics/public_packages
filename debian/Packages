@@ -936,6 +936,22 @@ Priority: optional
 Homepage: http://ros.org/wiki/rosapi
 Description: Provides service calls for getting ros meta-information, like list of topics, services, params, etc.
 
+Package: ros-humble-rosapi
+Version: 1.1.0-0jammy
+Architecture: amd64
+Maintainer: Jihoon Lee <jihoonlee.in@gmail.com>
+Installed-Size: 105
+Depends: ros-humble-builtin-interfaces, ros-humble-rcl-interfaces, ros-humble-rclpy, ros-humble-ros2node, ros-humble-ros2param, ros-humble-ros2pkg, ros-humble-ros2service, ros-humble-ros2topic, ros-humble-rosapi-msgs, ros-humble-rosbridge-library
+Filename: ./ros-humble-rosapi_1.1.0-0jammy_amd64.deb
+Size: 15118
+MD5sum: 3a920f53139557f1e58de4d9e447882c
+SHA1: 46e5c85e599e6f6a01133b97303dd0426a26bb91
+SHA256: ae9e9999bd2d0673cd208023624f621b873e8d71c82ca87e30cdf17159f0c473
+Section: misc
+Priority: optional
+Homepage: http://ros.org/wiki/rosapi
+Description: Provides service calls for getting ros meta-information, like list of topics, services, params, etc.
+
 Package: ros-humble-rosbridge-server
 Version: 1.0.0-0jammy
 Architecture: arm64
