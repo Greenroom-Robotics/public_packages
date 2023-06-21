@@ -1129,6 +1129,22 @@ Homepage: http://ros.org/wiki/rosbridge_suite
 Description: Rosbridge provides a JSON API to ROS functionality for non-ROS programs.
  There are a variety of front ends that interface with rosbridge, including a WebSocket server for web browsers to interact with. Rosbridge_suite is a meta-package containing rosbridge, various front end packages for rosbridge like a WebSocket package, and helper packages.
 
+Package: ros-humble-rosbridge-test-msgs
+Version: 1.0.0-0jammy
+Architecture: amd64
+Maintainer: Jihoon Lee <jihoonlee.in@gmail.com>
+Installed-Size: 3546
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libpython3.10 (>= 3.10.0), libstdc++6 (>= 5.2), ros-humble-fastcdr, ros-humble-builtin-interfaces, ros-humble-geometry-msgs, ros-humble-rclpy, ros-humble-rosidl-default-runtime, ros-humble-std-msgs
+Filename: ./ros-humble-rosbridge-test-msgs_1.0.0-0jammy_amd64.deb
+Size: 202438
+MD5sum: 43508ff7bfc26e918f0f013e0405230e
+SHA1: ec4ee3786a73fd79cd248fc72162c8dcd5e5df83
+SHA256: f8c6dacc1b297eab93bcef1f87248d6a4ab9a49f4a5c827a45433c7241b055ee
+Section: misc
+Priority: optional
+Homepage: http://ros.org/wiki/rosbridge_library
+Description: Message and service definitions used in internal tests for rosbridge packages.
+
 Package: ros-humble-xtypes
 Version: 1.0.0-0jammy
 Architecture: amd64
