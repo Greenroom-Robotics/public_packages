@@ -1113,6 +1113,21 @@ Description: Package containing message files
 
 Package: ros-humble-rosbridge-msgs
 Version: 2.0.0-0jammy
+Architecture: arm64
+Maintainer: Hans-Joachim Krauch <achim@intermodalics.eu>
+Installed-Size: 470
+Depends: libc6 (>= 2.17), libgcc-s1 (>= 3.3.1), libpython3.10 (>= 3.10.0), libstdc++6 (>= 5.2), ros-humble-fastcdr, ros-humble-rosidl-default-runtime
+Filename: ./ros-humble-rosbridge-msgs_2.0.0-0jammy_arm64.deb
+Size: 48146
+MD5sum: a8bdec72692f30b30c3003d9275e144b
+SHA1: 133635f2b4173765c98cd1bf2e27034b13a5b763
+SHA256: 75fef638f579a5807f81484a2d5770b16034ae2248d346883f0a3b2b6c0658aa
+Section: misc
+Priority: optional
+Description: Package containing message files
+
+Package: ros-humble-rosbridge-msgs
+Version: 2.0.0-0jammy
 Architecture: amd64
 Maintainer: Hans-Joachim Krauch <achim@intermodalics.eu>
 Installed-Size: 526
@@ -1185,6 +1200,22 @@ Size: 11548
 MD5sum: 03e4ada834ba36113bd37b8ae42abc42
 SHA1: 90fcb3b2283ac5b3947591680d1b612875b044ba
 SHA256: 921e8b0350173fec08609acf883ad6a83e6012eb561e4be8a11b57d0207cb0e2
+Section: misc
+Priority: optional
+Homepage: http://ros.org/wiki/rosbridge_server
+Description: A WebSocket interface to rosbridge.
+
+Package: ros-humble-rosbridge-server
+Version: 2.0.0-0jammy
+Architecture: amd64
+Maintainer: Jihoon Lee <jihoonlee.in@gmail.com>
+Installed-Size: 89
+Depends: python3-tornado, python3-twisted, ros-humble-rclpy, ros-humble-rosapi, ros-humble-rosbridge-library, ros-humble-rosbridge-msgs
+Filename: ./ros-humble-rosbridge-server_2.0.0-0jammy_amd64.deb
+Size: 11556
+MD5sum: 0ec1cfcd5f941023c6b8080510bc39bf
+SHA1: 3cad1202cf44edafa00bdd38698ed8bb6c691c4e
+SHA256: 824e310781a0adacb07dcf93f64da1206aa205d95388497acd2216097fa0ba00
 Section: misc
 Priority: optional
 Homepage: http://ros.org/wiki/rosbridge_server
