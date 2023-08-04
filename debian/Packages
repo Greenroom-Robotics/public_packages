@@ -82,10 +82,10 @@ Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
 Installed-Size: 53
 Depends: libasio-dev, libboost-system-dev
 Filename: ./ros-humble-canary_1.1.0-0jammy_amd64.deb
-Size: 8064
-MD5sum: 75e3816a8dc527f0396a5bd81e1363aa
-SHA1: fedaa82e1519f734369bed9027f9270dc3febd07
-SHA256: 94fcdd6910c9849f89dc1eeb52c81ddfedf542afe5bb7b13a6dad27e3e1c4952
+Size: 8060
+MD5sum: 56a31880a67a56f7fb5c9e265bda1a2a
+SHA1: e7dffe70f3a4cdaaaebcd319c741411e90327b2c
+SHA256: 05fc45fbeca42eeac8bee7190a8e11ff5f0a89b45cd5f2da33c2230306c05fa6
 Section: misc
 Priority: optional
 Homepage: https://github.com/Greenroom-Robotics/canary
