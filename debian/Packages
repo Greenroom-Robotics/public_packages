@@ -1429,3 +1429,19 @@ Priority: optional
 Homepage: https://github.com/Greenroom-Robotics/argparse
 Description: Argument Parser for Modern C++
 
+Package: ros-iron-canary
+Version: 1.1.0-0jammy
+Architecture: amd64
+Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
+Installed-Size: 53
+Depends: libasio-dev, libboost-system-dev
+Filename: ./ros-iron-canary_1.1.0-0jammy_amd64.deb
+Size: 8066
+MD5sum: 088db06333f26b9657da68d54dec11af
+SHA1: c80729dbaca54baab20408a9d3ff6e58dff43e96
+SHA256: eb7a4eecf61be348a3ffad538e93ddab61ad1f221d596ca7a232bf0a0fc523e2
+Section: misc
+Priority: optional
+Homepage: https://github.com/Greenroom-Robotics/canary
+Description: A lightweight implementation of Linux SocketCAN bindings for ASIO
+
