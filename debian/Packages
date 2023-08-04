@@ -34,10 +34,10 @@ Architecture: amd64
 Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
 Installed-Size: 82
 Filename: ./ros-humble-argparse_1.1.0-0jammy_amd64.deb
-Size: 15348
-MD5sum: 4d2654419b5c72d07046aea799bc754e
-SHA1: 1028dd30c1827ef4883f1b72bd50efb1baf0bd87
-SHA256: beea4d590b19b09f379e7256195dab64e4a81e0c43ef2b0aa2f5bd9fd3a29865
+Size: 15360
+MD5sum: b4bc3f6dbc06b801f29429e5f28e4f73
+SHA1: 39f39848001c72d4e0dd4b5ce5bc797f5b30c948
+SHA256: a29610ceefa6961f6aac96a9b756b4a49ee0871fa82084915e7409c5292e1c17
 Section: misc
 Priority: optional
 Homepage: https://github.com/Greenroom-Robotics/argparse
