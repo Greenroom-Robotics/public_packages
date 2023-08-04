@@ -28,6 +28,21 @@ Priority: optional
 Homepage: https://github.com/Greenroom-Robotics/argparse
 Description: Argument Parser for Modern C++
 
+Package: ros-humble-argparse
+Version: 1.1.0-0jammy
+Architecture: amd64
+Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
+Installed-Size: 82
+Filename: ./ros-humble-argparse_1.1.0-0jammy_amd64.deb
+Size: 15348
+MD5sum: 4d2654419b5c72d07046aea799bc754e
+SHA1: 1028dd30c1827ef4883f1b72bd50efb1baf0bd87
+SHA256: beea4d590b19b09f379e7256195dab64e4a81e0c43ef2b0aa2f5bd9fd3a29865
+Section: misc
+Priority: optional
+Homepage: https://github.com/Greenroom-Robotics/argparse
+Description: Argument Parser for Modern C++
+
 Package: ros-humble-canary
 Version: 1.0.1-0jammy
 Architecture: amd64
