@@ -1696,6 +1696,22 @@ Description: Package containing message files
 
 Package: ros-iron-rosbridge-server
 Version: 2.1.0-0jammy
+Architecture: arm64
+Maintainer: Jihoon Lee <jihoonlee.in@gmail.com>
+Installed-Size: 87
+Depends: python3-tornado, python3-twisted, ros-iron-rclpy, ros-iron-rosapi, ros-iron-rosbridge-library, ros-iron-rosbridge-msgs
+Filename: ./ros-iron-rosbridge-server_2.1.0-0jammy_arm64.deb
+Size: 11492
+MD5sum: 7683e975772149c0ea45fd2d4580d673
+SHA1: 72bb2e8aee20d9acfe4aee9ffbdc12f27f72d2c6
+SHA256: 6dc09ccb066eb679a6a642a8f37537a086c43516c0fed0d372cf62690bf7168e
+Section: misc
+Priority: optional
+Homepage: http://ros.org/wiki/rosbridge_server
+Description: A WebSocket interface to rosbridge.
+
+Package: ros-iron-rosbridge-server
+Version: 2.1.0-0jammy
 Architecture: amd64
 Maintainer: Jihoon Lee <jihoonlee.in@gmail.com>
 Installed-Size: 87
@@ -1709,6 +1725,23 @@ Section: misc
 Priority: optional
 Homepage: http://ros.org/wiki/rosbridge_server
 Description: A WebSocket interface to rosbridge.
+
+Package: ros-iron-rosbridge-suite
+Version: 2.1.0-0jammy
+Architecture: amd64
+Maintainer: Jihoon Lee <jihoonlee.in@gmail.com>
+Installed-Size: 42
+Depends: ros-iron-rosapi, ros-iron-rosbridge-library, ros-iron-rosbridge-server
+Filename: ./ros-iron-rosbridge-suite_2.1.0-0jammy_amd64.deb
+Size: 5364
+MD5sum: a3192fd66962a6c114fd525659c08454
+SHA1: 353d08e42bede6cda5d53c95d18c52e99fa794f0
+SHA256: f2fff319df9558a03299ff13c7f87585b44b1f5af78d939bcd0a7049aa909620
+Section: misc
+Priority: optional
+Homepage: http://ros.org/wiki/rosbridge_suite
+Description: Rosbridge provides a JSON API to ROS functionality for non-ROS programs.
+ There are a variety of front ends that interface with rosbridge, including a WebSocket server for web browsers to interact with. Rosbridge_suite is a meta-package containing rosbridge, various front end packages for rosbridge like a WebSocket package, and helper packages.
 
 Package: ros-iron-xtypes
 Version: 1.1.0-0jammy
