@@ -1569,6 +1569,21 @@ Priority: optional
 Homepage: https://github.com/Greenroom-Robotics/Integration-Service/tree/gr
 Description: Integration Services core
 
+Package: ros-iron-launch-ext
+Version: 1.5.0-0jammy
+Architecture: amd64
+Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
+Installed-Size: 175
+Depends: python3-psutil, ros-iron-launch
+Filename: ./ros-iron-launch-ext_1.5.0-0jammy_amd64.deb
+Size: 32778
+MD5sum: c46642c42af9407535191b4bc1d1649d
+SHA1: 351819bdc87dea14c8c4552119a389557aa5adfc
+SHA256: 295eea25c7fa09680102797f4bd87e78d0007a76f130694bfcfb9fc1c08ebc7f
+Section: misc
+Priority: optional
+Description: Some extras for launch tooling.
+
 Package: ros-iron-xtypes
 Version: 1.1.0-0jammy
 Architecture: amd64
