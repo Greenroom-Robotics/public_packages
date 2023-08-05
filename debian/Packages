@@ -1601,6 +1601,22 @@ Description: Some extras for launch tooling.
 
 Package: ros-iron-rosapi
 Version: 2.1.0-0jammy
+Architecture: arm64
+Maintainer: Jihoon Lee <jihoonlee.in@gmail.com>
+Installed-Size: 103
+Depends: ros-iron-builtin-interfaces, ros-iron-rcl-interfaces, ros-iron-rclpy, ros-iron-ros2node, ros-iron-ros2param, ros-iron-ros2pkg, ros-iron-ros2service, ros-iron-ros2topic, ros-iron-rosapi-msgs, ros-iron-rosbridge-library
+Filename: ./ros-iron-rosapi_2.1.0-0jammy_arm64.deb
+Size: 15114
+MD5sum: 51daa8e64599974a6a947c4e8995b12d
+SHA1: 68a0a01b46e3fb902ae00feecad74d2bc7688866
+SHA256: 2fdccd344436cac139068e41f7d27741c893bc534338e28014feb12c7137ee2c
+Section: misc
+Priority: optional
+Homepage: http://ros.org/wiki/rosapi
+Description: Provides service calls for getting ros meta-information, like list of topics, services, params, etc.
+
+Package: ros-iron-rosapi
+Version: 2.1.0-0jammy
 Architecture: amd64
 Maintainer: Jihoon Lee <jihoonlee.in@gmail.com>
 Installed-Size: 103
