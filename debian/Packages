@@ -1445,3 +1445,19 @@ Priority: optional
 Homepage: https://github.com/Greenroom-Robotics/canary
 Description: A lightweight implementation of Linux SocketCAN bindings for ASIO
 
+Package: ros-iron-canary
+Version: 1.1.1-0jammy
+Architecture: amd64
+Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
+Installed-Size: 53
+Depends: libasio-dev, libboost-system-dev
+Filename: ./ros-iron-canary_1.1.1-0jammy_amd64.deb
+Size: 8068
+MD5sum: a12d5a096ffbd83f7a8794a2b48c36d4
+SHA1: 352690f3ddccaa3a4b5bd882af80f421febb6191
+SHA256: 298f8bbc660f17cd6b37b2cb4c682c896ebf8865255a2dc81f8e8c3aed8bbd04
+Section: misc
+Priority: optional
+Homepage: https://github.com/Greenroom-Robotics/canary
+Description: A lightweight implementation of Linux SocketCAN bindings for ASIO
+
