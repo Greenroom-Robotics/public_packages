@@ -1647,6 +1647,22 @@ Priority: optional
 Homepage: http://ros.org/wiki/rosapi
 Description: Provides service calls for getting ros meta-information, like list of topics, services, params, etc.
 
+Package: ros-iron-rosbridge-library
+Version: 2.1.0-0jammy
+Architecture: amd64
+Maintainer: Jihoon Lee <jihoonlee.in@gmail.com>
+Installed-Size: 225
+Depends: python3-bson, python3-pil, ros-iron-rclpy, ros-iron-rosidl-default-runtime
+Filename: ./ros-iron-rosbridge-library_2.1.0-0jammy_amd64.deb
+Size: 35970
+MD5sum: 6985f25ba28d4c5992a607aaec2a175c
+SHA1: 1b416cbf5ed36a3c5c25a2f06c7f546b6e0c9b0c
+SHA256: 33840c0881eba5aaf5f1cbdb5bdb61f2701743628e75603748f4f2cecf10b979
+Section: misc
+Priority: optional
+Homepage: http://ros.org/wiki/rosbridge_library
+Description: The core rosbridge package, responsible for interpreting JSON andperforming the appropriate ROS action, like subscribe, publish, call service, and interact with params.
+
 Package: ros-iron-xtypes
 Version: 1.1.0-0jammy
 Architecture: amd64
