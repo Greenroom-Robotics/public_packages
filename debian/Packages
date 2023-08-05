@@ -1694,6 +1694,22 @@ Section: misc
 Priority: optional
 Description: Package containing message files
 
+Package: ros-iron-rosbridge-server
+Version: 2.1.0-0jammy
+Architecture: amd64
+Maintainer: Jihoon Lee <jihoonlee.in@gmail.com>
+Installed-Size: 87
+Depends: python3-tornado, python3-twisted, ros-iron-rclpy, ros-iron-rosapi, ros-iron-rosbridge-library, ros-iron-rosbridge-msgs
+Filename: ./ros-iron-rosbridge-server_2.1.0-0jammy_amd64.deb
+Size: 11498
+MD5sum: 6254d2f73ccd0a0fc9b3d74d33a78f3a
+SHA1: f784807adf5d6724e4362fb315aa7a775788cf9d
+SHA256: daed27d3020b3a682f6343cd3dd53ccba0d6854c65c649bc4fc9317b630d4149
+Section: misc
+Priority: optional
+Homepage: http://ros.org/wiki/rosbridge_server
+Description: A WebSocket interface to rosbridge.
+
 Package: ros-iron-xtypes
 Version: 1.1.0-0jammy
 Architecture: amd64
