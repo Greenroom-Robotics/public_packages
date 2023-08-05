@@ -1537,6 +1537,22 @@ Priority: optional
 Homepage: https://github.com/Greenroom-Robotics/canary
 Description: A lightweight implementation of Linux SocketCAN bindings for ASIO
 
+Package: ros-iron-is-core
+Version: 1.1.0-0jammy
+Architecture: amd64
+Maintainer: Greenroom Robotics <team@greenroomrobotics.com>
+Installed-Size: 1554
+Depends: libboost-program-options1.74.0 (>= 1.74.0), libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), libyaml-cpp0.7 (>= 0.7.0), libyaml-cpp-dev
+Filename: ./ros-iron-is-core_1.1.0-0jammy_amd64.deb
+Size: 455746
+MD5sum: 37f69e346a7191641aff8bfbfed4f80c
+SHA1: abcc80355fb2c502a02fc2dad31a13b71f3005ce
+SHA256: 249d056dfc9d8efd67b58c8738982285d87ba0b8349a644e424174be38ed2f01
+Section: misc
+Priority: optional
+Homepage: https://github.com/Greenroom-Robotics/Integration-Service/tree/gr
+Description: Integration Services core
+
 Package: ros-iron-xtypes
 Version: 1.1.0-0jammy
 Architecture: amd64
