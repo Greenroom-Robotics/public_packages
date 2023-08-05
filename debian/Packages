@@ -1507,3 +1507,33 @@ Priority: optional
 Homepage: https://github.com/Greenroom-Robotics/canary
 Description: A lightweight implementation of Linux SocketCAN bindings for ASIO
 
+Package: ros-iron-xtypes
+Version: 1.1.0-0jammy
+Architecture: amd64
+Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
+Installed-Size: 632
+Filename: ./ros-iron-xtypes_1.1.0-0jammy_amd64.deb
+Size: 83436
+MD5sum: 77b97a1ef10d2fbbc2fc694236196b4e
+SHA1: e81658efaf1992c0f19ca24a331356aa15a8b99d
+SHA256: c657889b1f4214bf59578a4d6a5400427e02bf3669eeec7d128e8603a2efad50
+Section: misc
+Priority: optional
+Homepage: https://github.com/Greenroom-Robotics/xtypes
+Description: Implementation based on DDS-XTYPES standard (https://www.omg.org/spec/DDS-XTypes)
+
+Package: ros-iron-xtypes
+Version: 1.1.0-0jammy
+Architecture: arm64
+Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
+Installed-Size: 632
+Filename: ./ros-iron-xtypes_1.1.0-0jammy_arm64.deb
+Size: 83430
+MD5sum: dfebc96603010bdc5e29782d7aac6873
+SHA1: 012978ad34f8fdd39c060fa1176b2c942a0f13df
+SHA256: 6d3fb2bd9a007c297e470fc4e3c8e6c0f10c797937161f220a9e23fb79732f05
+Section: misc
+Priority: optional
+Homepage: https://github.com/Greenroom-Robotics/xtypes
+Description: Implementation based on DDS-XTYPES standard (https://www.omg.org/spec/DDS-XTypes)
+
