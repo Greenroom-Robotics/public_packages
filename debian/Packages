@@ -1429,6 +1429,21 @@ Priority: optional
 Homepage: https://github.com/Greenroom-Robotics/argparse
 Description: Argument Parser for Modern C++
 
+Package: ros-iron-argparse
+Version: 1.1.1-0jammy
+Architecture: amd64
+Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
+Installed-Size: 82
+Filename: ./ros-iron-argparse_1.1.1-0jammy_amd64.deb
+Size: 15334
+MD5sum: deb07424486f21315f457904a51c001e
+SHA1: d8ca1c268e750084ced3279ff610d8fe92e19ad4
+SHA256: 55102f98bc9824d7435c768bf93b9b02561cb09e9aec84189bd0003bdf480f6c
+Section: misc
+Priority: optional
+Homepage: https://github.com/Greenroom-Robotics/argparse
+Description: Argument Parser for Modern C++
+
 Package: ros-iron-canary
 Version: 1.1.0-0jammy
 Architecture: amd64
@@ -1456,6 +1471,22 @@ Size: 8068
 MD5sum: a12d5a096ffbd83f7a8794a2b48c36d4
 SHA1: 352690f3ddccaa3a4b5bd882af80f421febb6191
 SHA256: 298f8bbc660f17cd6b37b2cb4c682c896ebf8865255a2dc81f8e8c3aed8bbd04
+Section: misc
+Priority: optional
+Homepage: https://github.com/Greenroom-Robotics/canary
+Description: A lightweight implementation of Linux SocketCAN bindings for ASIO
+
+Package: ros-iron-canary
+Version: 1.1.1-0jammy
+Architecture: arm64
+Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
+Installed-Size: 53
+Depends: libasio-dev, libboost-system-dev
+Filename: ./ros-iron-canary_1.1.1-0jammy_arm64.deb
+Size: 8058
+MD5sum: 9f280d95c32aa6486923f0675434e513
+SHA1: 6ee27a7a77582d53cbaa10541c682545de8d52ce
+SHA256: b2d9a52d6666e418891d7250f4b44ac3e08ddfd8eb10f94717b83f2d09bf08dc
 Section: misc
 Priority: optional
 Homepage: https://github.com/Greenroom-Robotics/canary
