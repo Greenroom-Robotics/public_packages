@@ -1760,6 +1760,22 @@ Homepage: http://ros.org/wiki/rosbridge_suite
 Description: Rosbridge provides a JSON API to ROS functionality for non-ROS programs.
  There are a variety of front ends that interface with rosbridge, including a WebSocket server for web browsers to interact with. Rosbridge_suite is a meta-package containing rosbridge, various front end packages for rosbridge like a WebSocket package, and helper packages.
 
+Package: ros-iron-rosbridge-test-msgs
+Version: 2.1.0-0jammy
+Architecture: amd64
+Maintainer: Jihoon Lee <jihoonlee.in@gmail.com>
+Installed-Size: 5585
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libpython3.10 (>= 3.10.0), libstdc++6 (>= 11), ros-iron-fastcdr, ros-iron-builtin-interfaces, ros-iron-geometry-msgs, ros-iron-rclpy, ros-iron-rosidl-default-runtime, ros-iron-std-msgs
+Filename: ./ros-iron-rosbridge-test-msgs_2.1.0-0jammy_amd64.deb
+Size: 334288
+MD5sum: a114c81e139e92422742ceb7dce45fa6
+SHA1: 8bb4dc1d0001c642fa528c1e2262ea4247f7c147
+SHA256: 231c883b6a1d2de7d28ea326784e90ba3cc3e1e3d10e59563c519e2daec56283
+Section: misc
+Priority: optional
+Homepage: http://ros.org/wiki/rosbridge_library
+Description: Message and service definitions used in internal tests for rosbridge packages.
+
 Package: ros-iron-xtypes
 Version: 1.1.0-0jammy
 Architecture: amd64
