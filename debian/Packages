@@ -1605,13 +1605,13 @@ Package: ros-iron-is-ros2-mix-generator
 Version: 1.1.0-0jammy
 Architecture: amd64
 Maintainer: Greenroom Robotics <team@greenroomrobotics.com>
-Installed-Size: 16
-Depends: ros-iron-is-core, ros-iron-is-ros2, ros-iron-rosidl-adapter
+Installed-Size: 2241
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-iron-is-ros2, ros-iron-is-core, ros-iron-rosidl-adapter
 Filename: ./ros-iron-is-ros2-mix-generator_1.1.0-0jammy_amd64.deb
-Size: 2048
-MD5sum: cbeaf61ec56b53a16d84e74a04029f99
-SHA1: c8c8af305a12ef0a4d0912f607cbce58801bf52d
-SHA256: 4f28600e3234170bdcf3bd4b523c60ca38322f1eb91b9a7fca2d0f8563ca41f6
+Size: 438946
+MD5sum: 8df7860f8a0459425967c881a4e6a0d3
+SHA1: f79ea79efb304f977077b8d16037e1815450a1c8
+SHA256: ae637bfa9b8ea8b4c90706a06f9ef42d3b0c0ef237de7663d728cdb7f894f5c4
 Section: misc
 Priority: optional
 Homepage: https://github.com/Greenroom-Robotics/ROS2-SH
