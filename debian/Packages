@@ -1693,6 +1693,22 @@ Section: misc
 Priority: optional
 Description: Package with the ROS-equivalent of PX4 uORB msgs
 
+Package: ros-iron-rclue-rcutils
+Version: 5.2.0-0jammy
+Architecture: amd64
+Maintainer: Alejandro Hernandez Cordero <alejandro@openrobotics.org>
+Installed-Size: 720
+Depends: libc6 (>= 2.17), libatomic1
+Replaces: ros-iron-rcutils
+Filename: ./ros-iron-rclue-rcutils_5.2.0-0jammy_amd64.deb
+Size: 107902
+MD5sum: 1e77cf3d1efdac20176cf4a05ef9dfb5
+SHA1: befb7b47b11b88fd9613315466d344f2f65ee361
+SHA256: 955328d7741497e3be6ced263dd5a06e4c8c8d68b3fc7e1750ed468236ed4256
+Section: misc
+Priority: optional
+Description: Package containing various utility types and functions for C
+
 Package: ros-iron-rosapi
 Version: 2.1.0-0jammy
 Architecture: arm64
