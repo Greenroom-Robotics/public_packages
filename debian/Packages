@@ -1709,6 +1709,22 @@ Section: misc
 Priority: optional
 Description: Package containing various utility types and functions for C
 
+Package: ros-iron-rclue-rcutils
+Version: 6.3.0-0jammy
+Architecture: amd64
+Maintainer: Alejandro Hernandez Cordero <alejandro@openrobotics.org>
+Installed-Size: 720
+Depends: libc6 (>= 2.17), libatomic1
+Replaces: ros-iron-rcutils
+Filename: ./ros-iron-rclue-rcutils_6.3.0-0jammy_amd64.deb
+Size: 107902
+MD5sum: 3bc8600877b26789dfd19a99a44fad93
+SHA1: 063aaf277715b7fd029cb7e6574221ba657e5154
+SHA256: 7d28d5ad8254eeff6a0f7a15746bf6dbfbf247e3ebd88aea7c103c8fd8eb5ab6
+Section: misc
+Priority: optional
+Description: Package containing various utility types and functions for C
+
 Package: ros-iron-rosapi
 Version: 2.1.0-0jammy
 Architecture: arm64
