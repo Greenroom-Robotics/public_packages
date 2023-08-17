@@ -1663,6 +1663,36 @@ Section: misc
 Priority: optional
 Description: Some extras for launch tooling.
 
+Package: ros-iron-launch-ext
+Version: 1.6.0-0jammy
+Architecture: amd64
+Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
+Installed-Size: 181
+Depends: python3-psutil, ros-iron-launch
+Filename: ./ros-iron-launch-ext_1.6.0-0jammy_amd64.deb
+Size: 33998
+MD5sum: 65bdbb5497efa1ce2d37d0484222065a
+SHA1: de997778c6a8e2ff0003737e988d35a7b75aabb0
+SHA256: eef3f715d24390694a79ebd7fcc49aee56d771d35d443008337c720762c0b074
+Section: misc
+Priority: optional
+Description: Some extras for launch tooling.
+
+Package: ros-iron-launch-ext
+Version: 1.6.0-0jammy
+Architecture: arm64
+Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
+Installed-Size: 181
+Depends: python3-psutil, ros-iron-launch
+Filename: ./ros-iron-launch-ext_1.6.0-0jammy_arm64.deb
+Size: 33992
+MD5sum: c20261d4aadd2002bb63832658b7a58f
+SHA1: b90ff7d75154a6ebfacd383a85c417e865180bd9
+SHA256: 9771eab6b720045b68c8b28aeb90926cf8bcbad4ba6ed7f1746d21ad391f65c7
+Section: misc
+Priority: optional
+Description: Some extras for launch tooling.
+
 Package: ros-iron-px4-msgs
 Version: 1.3.0-0jammy
 Architecture: amd64
