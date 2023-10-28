@@ -1753,6 +1753,21 @@ Section: misc
 Priority: optional
 Description: ROS2 Driver for the Linux PWM Interface
 
+Package: ros-iron-pwmdriver
+Version: 1.0.1-0jammy
+Architecture: amd64
+Maintainer: Russ Webber <russ@rw.id.au>
+Installed-Size: 476
+Depends: libc6 (>= 2.34), libfmt8 (>= 8.1.1+ds1), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-iron-rclcpp, ros-iron-std-msgs
+Filename: ./ros-iron-pwmdriver_1.0.1-0jammy_amd64.deb
+Size: 109932
+MD5sum: e47d338a172b0b44ce1f49aa4c789513
+SHA1: 2595763764e7a5e097b6687121445ccf585d7b83
+SHA256: d57ac62c43c37169988870927c89c0bf8449ff37fc57c856e4087ed6c20ffb7c
+Section: misc
+Priority: optional
+Description: ROS2 Driver for the Linux PWM Interface
+
 Package: ros-iron-px4-msgs
 Version: 1.3.0-0jammy
 Architecture: amd64
