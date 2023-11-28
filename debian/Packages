@@ -1,20 +1,5 @@
 Package: ros-humble-argparse
 Version: 1.0.0-0jammy
-Architecture: arm64
-Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
-Installed-Size: 78
-Filename: ./ros-humble-argparse_1.0.0-0jammy_arm64.deb
-Size: 14864
-MD5sum: e9c97cbff03cdb78ed10b97edc486b30
-SHA1: b22547c46ea961213d2a81befb29a286ee0a6693
-SHA256: 40e0a9be336bb664359e3b209d72c0ff59753fe11f41c9d57dd6f5efb53c1a79
-Section: misc
-Priority: optional
-Homepage: https://github.com/Greenroom-Robotics/argparse
-Description: Argument Parser for Modern C++
-
-Package: ros-humble-argparse
-Version: 1.0.0-0jammy
 Architecture: amd64
 Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
 Installed-Size: 78
@@ -23,6 +8,21 @@ Size: 14870
 MD5sum: 58340f5d969b86b1d53ef0d22fd3096e
 SHA1: cc11c0b4e058ccf0f8356e28393dd5a83bccc915
 SHA256: 10a2e29639a210a28da1b542cd84a0a7038ae20972018e28410ee65b08b69cf8
+Section: misc
+Priority: optional
+Homepage: https://github.com/Greenroom-Robotics/argparse
+Description: Argument Parser for Modern C++
+
+Package: ros-humble-argparse
+Version: 1.0.0-0jammy
+Architecture: arm64
+Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
+Installed-Size: 78
+Filename: ./ros-humble-argparse_1.0.0-0jammy_arm64.deb
+Size: 14864
+MD5sum: e9c97cbff03cdb78ed10b97edc486b30
+SHA1: b22547c46ea961213d2a81befb29a286ee0a6693
+SHA256: 40e0a9be336bb664359e3b209d72c0ff59753fe11f41c9d57dd6f5efb53c1a79
 Section: misc
 Priority: optional
 Homepage: https://github.com/Greenroom-Robotics/argparse
@@ -45,22 +45,6 @@ Description: Argument Parser for Modern C++
 
 Package: ros-humble-canary
 Version: 1.0.1-0jammy
-Architecture: amd64
-Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
-Installed-Size: 53
-Depends: libasio-dev, libboost-system-dev
-Filename: ./ros-humble-canary_1.0.1-0jammy_amd64.deb
-Size: 8060
-MD5sum: d155efdf9224dce36d4b580666769720
-SHA1: 28cd0e3c283dc2ef5f2d21bead70d22561529a4b
-SHA256: dd8210461336a96c4c0ec04471fed9dc2dacc03ff6cfffa61b094578d702896d
-Section: misc
-Priority: optional
-Homepage: https://github.com/Greenroom-Robotics/canary
-Description: A lightweight implementation of Linux SocketCAN bindings for ASIO
-
-Package: ros-humble-canary
-Version: 1.0.1-0jammy
 Architecture: arm64
 Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
 Installed-Size: 53
@@ -70,6 +54,22 @@ Size: 8048
 MD5sum: 005546a3fc9bb2a02b6cf2aadfaaa5d8
 SHA1: 2de036929a74caeec4feb4bdb4639e0038c62a52
 SHA256: fef829c19faec3da8b0bafe4a64b2a42a95b8337d8c82c1195d9d2bfa48bdfe7
+Section: misc
+Priority: optional
+Homepage: https://github.com/Greenroom-Robotics/canary
+Description: A lightweight implementation of Linux SocketCAN bindings for ASIO
+
+Package: ros-humble-canary
+Version: 1.0.1-0jammy
+Architecture: amd64
+Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
+Installed-Size: 53
+Depends: libasio-dev, libboost-system-dev
+Filename: ./ros-humble-canary_1.0.1-0jammy_amd64.deb
+Size: 8060
+MD5sum: d155efdf9224dce36d4b580666769720
+SHA1: 28cd0e3c283dc2ef5f2d21bead70d22561529a4b
+SHA256: dd8210461336a96c4c0ec04471fed9dc2dacc03ff6cfffa61b094578d702896d
 Section: misc
 Priority: optional
 Homepage: https://github.com/Greenroom-Robotics/canary
@@ -221,22 +221,6 @@ Description: Integration Services core
 
 Package: ros-humble-is-core
 Version: 1.0.4-0jammy
-Architecture: arm64
-Maintainer: Greenroom Robotics <team@greenroomrobotics.com>
-Installed-Size: 1515
-Depends: libboost-program-options1.74.0 (>= 1.74.0), libc6 (>= 2.34), libgcc-s1 (>= 4.2), libstdc++6 (>= 11), libyaml-cpp0.7 (>= 0.7.0), libyaml-cpp-dev
-Filename: ./ros-humble-is-core_1.0.4-0jammy_arm64.deb
-Size: 452934
-MD5sum: cd42c2a9a7e004148329c1d63b6547d7
-SHA1: b55817f4cfd17395dc0017b02c8dc5aeda1cc8d5
-SHA256: c185b7329b6595e12d6828e5e23791930d54c4fb15115ef5fc600f09b2bbae4a
-Section: misc
-Priority: optional
-Homepage: https://github.com/Greenroom-Robotics/Integration-Service/tree/gr
-Description: Integration Services core
-
-Package: ros-humble-is-core
-Version: 1.0.4-0jammy
 Architecture: amd64
 Maintainer: Greenroom Robotics <team@greenroomrobotics.com>
 Installed-Size: 1667
@@ -252,16 +236,16 @@ Homepage: https://github.com/Greenroom-Robotics/Integration-Service/tree/gr
 Description: Integration Services core
 
 Package: ros-humble-is-core
-Version: 1.0.5-0jammy
+Version: 1.0.4-0jammy
 Architecture: arm64
 Maintainer: Greenroom Robotics <team@greenroomrobotics.com>
 Installed-Size: 1515
 Depends: libboost-program-options1.74.0 (>= 1.74.0), libc6 (>= 2.34), libgcc-s1 (>= 4.2), libstdc++6 (>= 11), libyaml-cpp0.7 (>= 0.7.0), libyaml-cpp-dev
-Filename: ./ros-humble-is-core_1.0.5-0jammy_arm64.deb
-Size: 452912
-MD5sum: 126d681f8930407b5218286e921640b5
-SHA1: 4b299a67fb5a89acaf7525e9241f4335ba0ed005
-SHA256: 343170bcd88e56bf24769eac0c81e485bc0cf2daf5ac3c1e28efcfb651cb063b
+Filename: ./ros-humble-is-core_1.0.4-0jammy_arm64.deb
+Size: 452934
+MD5sum: cd42c2a9a7e004148329c1d63b6547d7
+SHA1: b55817f4cfd17395dc0017b02c8dc5aeda1cc8d5
+SHA256: c185b7329b6595e12d6828e5e23791930d54c4fb15115ef5fc600f09b2bbae4a
 Section: misc
 Priority: optional
 Homepage: https://github.com/Greenroom-Robotics/Integration-Service/tree/gr
@@ -284,16 +268,16 @@ Homepage: https://github.com/Greenroom-Robotics/Integration-Service/tree/gr
 Description: Integration Services core
 
 Package: ros-humble-is-core
-Version: 1.0.6-0jammy
-Architecture: amd64
+Version: 1.0.5-0jammy
+Architecture: arm64
 Maintainer: Greenroom Robotics <team@greenroomrobotics.com>
-Installed-Size: 1667
-Depends: libboost-program-options1.74.0 (>= 1.74.0), libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), libyaml-cpp0.7 (>= 0.7.0), libyaml-cpp-dev
-Filename: ./ros-humble-is-core_1.0.6-0jammy_amd64.deb
-Size: 492922
-MD5sum: 611c99ba0b75bd3691a15b3a708730b4
-SHA1: 4797e924d51153d7debb53ceb474021a353149c4
-SHA256: d51329c7faceab5cb6e6e752b136dcfb0665d552350324e209cbabceb1b74e41
+Installed-Size: 1515
+Depends: libboost-program-options1.74.0 (>= 1.74.0), libc6 (>= 2.34), libgcc-s1 (>= 4.2), libstdc++6 (>= 11), libyaml-cpp0.7 (>= 0.7.0), libyaml-cpp-dev
+Filename: ./ros-humble-is-core_1.0.5-0jammy_arm64.deb
+Size: 452912
+MD5sum: 126d681f8930407b5218286e921640b5
+SHA1: 4b299a67fb5a89acaf7525e9241f4335ba0ed005
+SHA256: 343170bcd88e56bf24769eac0c81e485bc0cf2daf5ac3c1e28efcfb651cb063b
 Section: misc
 Priority: optional
 Homepage: https://github.com/Greenroom-Robotics/Integration-Service/tree/gr
@@ -316,16 +300,16 @@ Homepage: https://github.com/Greenroom-Robotics/Integration-Service/tree/gr
 Description: Integration Services core
 
 Package: ros-humble-is-core
-Version: 1.0.7-0jammy
+Version: 1.0.6-0jammy
 Architecture: amd64
 Maintainer: Greenroom Robotics <team@greenroomrobotics.com>
 Installed-Size: 1667
 Depends: libboost-program-options1.74.0 (>= 1.74.0), libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), libyaml-cpp0.7 (>= 0.7.0), libyaml-cpp-dev
-Filename: ./ros-humble-is-core_1.0.7-0jammy_amd64.deb
-Size: 492924
-MD5sum: f27fb9b66ab1d434357c57bf9ba933dc
-SHA1: 5198d6645d6f78d63b7e4361fd89acfc99edaf4e
-SHA256: 8b033848873f5f17f4f2b307b2bf70e6c218c70e682389902c6f088163d33277
+Filename: ./ros-humble-is-core_1.0.6-0jammy_amd64.deb
+Size: 492922
+MD5sum: 611c99ba0b75bd3691a15b3a708730b4
+SHA1: 4797e924d51153d7debb53ceb474021a353149c4
+SHA256: d51329c7faceab5cb6e6e752b136dcfb0665d552350324e209cbabceb1b74e41
 Section: misc
 Priority: optional
 Homepage: https://github.com/Greenroom-Robotics/Integration-Service/tree/gr
@@ -342,6 +326,22 @@ Size: 452918
 MD5sum: 5ef545cc52befec3252a2cfab3ecd674
 SHA1: bbf5385f772c9e4144b55bea66e01140e588dd6e
 SHA256: 48313fffc3ac1a41d08f085834f7c9cff407b5ee254a3c04a5e4c30d0a13aa5e
+Section: misc
+Priority: optional
+Homepage: https://github.com/Greenroom-Robotics/Integration-Service/tree/gr
+Description: Integration Services core
+
+Package: ros-humble-is-core
+Version: 1.0.7-0jammy
+Architecture: amd64
+Maintainer: Greenroom Robotics <team@greenroomrobotics.com>
+Installed-Size: 1667
+Depends: libboost-program-options1.74.0 (>= 1.74.0), libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), libyaml-cpp0.7 (>= 0.7.0), libyaml-cpp-dev
+Filename: ./ros-humble-is-core_1.0.7-0jammy_amd64.deb
+Size: 492924
+MD5sum: f27fb9b66ab1d434357c57bf9ba933dc
+SHA1: 5198d6645d6f78d63b7e4361fd89acfc99edaf4e
+SHA256: 8b033848873f5f17f4f2b307b2bf70e6c218c70e682389902c6f088163d33277
 Section: misc
 Priority: optional
 Homepage: https://github.com/Greenroom-Robotics/Integration-Service/tree/gr
@@ -413,22 +413,6 @@ Description: Integration Service System Handle for ROS 2
 
 Package: ros-humble-is-ros2
 Version: 1.1.0-0jammy
-Architecture: amd64
-Maintainer: Greenroom Robotics <team@greenroomrobotics.com>
-Installed-Size: 467
-Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), libyaml-cpp0.7 (>= 0.7.0), ros-humble-is-core, ros-humble-rclcpp, ros-humble-xtypes
-Filename: ./ros-humble-is-ros2_1.1.0-0jammy_amd64.deb
-Size: 119820
-MD5sum: cbd4c863048b19c0cc7d374e4f9afdae
-SHA1: cf358f297d6a01741dc577a9290de2223bfe6df2
-SHA256: ebe8a29fbab7eb4e07e0335dfc4767f3787996366e12872f48528c5013b959b6
-Section: misc
-Priority: optional
-Homepage: https://github.com/Greenroom-Robotics/ROS2-SH/tree/feature/mix-idl-support
-Description: Integration Service System Handle for ROS 2
-
-Package: ros-humble-is-ros2
-Version: 1.1.0-0jammy
 Architecture: arm64
 Maintainer: Greenroom Robotics <team@greenroomrobotics.com>
 Installed-Size: 439
@@ -438,6 +422,22 @@ Size: 111724
 MD5sum: 9ece7e1a4b9fb7e49d09df76d4a23248
 SHA1: 960bbd74055f90002823d75853ed100b95574ed9
 SHA256: 42c1152b0e7f292b6988c2da6334721465293598b72f1bde3aeee50f53e29e59
+Section: misc
+Priority: optional
+Homepage: https://github.com/Greenroom-Robotics/ROS2-SH/tree/feature/mix-idl-support
+Description: Integration Service System Handle for ROS 2
+
+Package: ros-humble-is-ros2
+Version: 1.1.0-0jammy
+Architecture: amd64
+Maintainer: Greenroom Robotics <team@greenroomrobotics.com>
+Installed-Size: 467
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), libyaml-cpp0.7 (>= 0.7.0), ros-humble-is-core, ros-humble-rclcpp, ros-humble-xtypes
+Filename: ./ros-humble-is-ros2_1.1.0-0jammy_amd64.deb
+Size: 119820
+MD5sum: cbd4c863048b19c0cc7d374e4f9afdae
+SHA1: cf358f297d6a01741dc577a9290de2223bfe6df2
+SHA256: ebe8a29fbab7eb4e07e0335dfc4767f3787996366e12872f48528c5013b959b6
 Section: misc
 Priority: optional
 Homepage: https://github.com/Greenroom-Robotics/ROS2-SH/tree/feature/mix-idl-support
@@ -477,22 +477,6 @@ Description: Integration Service System Handle for ROS 2
 
 Package: ros-humble-is-ros2
 Version: 1.1.2-0jammy
-Architecture: arm64
-Maintainer: Greenroom Robotics <team@greenroomrobotics.com>
-Installed-Size: 486
-Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), libyaml-cpp0.7 (>= 0.7.0), ros-humble-is-core, ros-humble-rclcpp, ros-humble-xtypes
-Filename: ./ros-humble-is-ros2_1.1.2-0jammy_arm64.deb
-Size: 120554
-MD5sum: cd3a7e60e77ad635cc3d39d05813e719
-SHA1: f012708db1a7209d0be58309dcff6a1042aa76a4
-SHA256: 6556dac1e3b8e30695500fd6e2fcce9e0baa5c3873332824659b8c796a559b32
-Section: misc
-Priority: optional
-Homepage: https://github.com/Greenroom-Robotics/ROS2-SH/tree/feature/mix-idl-support
-Description: Integration Service System Handle for ROS 2
-
-Package: ros-humble-is-ros2
-Version: 1.1.2-0jammy
 Architecture: amd64
 Maintainer: Greenroom Robotics <team@greenroomrobotics.com>
 Installed-Size: 514
@@ -508,16 +492,16 @@ Homepage: https://github.com/Greenroom-Robotics/ROS2-SH/tree/feature/mix-idl-sup
 Description: Integration Service System Handle for ROS 2
 
 Package: ros-humble-is-ros2
-Version: 1.1.3-0jammy
+Version: 1.1.2-0jammy
 Architecture: arm64
 Maintainer: Greenroom Robotics <team@greenroomrobotics.com>
 Installed-Size: 486
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), libyaml-cpp0.7 (>= 0.7.0), ros-humble-is-core, ros-humble-rclcpp, ros-humble-xtypes
-Filename: ./ros-humble-is-ros2_1.1.3-0jammy_arm64.deb
-Size: 120542
-MD5sum: 229f37ad63dfbbafb05104e34d439b67
-SHA1: 51e4fe28f7950fc35f0570dac99668ceaa0f30bc
-SHA256: a33275b7c9bb58ccb0f8cc5b647689d98ab334e7253d5a9d987eeb4e6a550585
+Filename: ./ros-humble-is-ros2_1.1.2-0jammy_arm64.deb
+Size: 120554
+MD5sum: cd3a7e60e77ad635cc3d39d05813e719
+SHA1: f012708db1a7209d0be58309dcff6a1042aa76a4
+SHA256: 6556dac1e3b8e30695500fd6e2fcce9e0baa5c3873332824659b8c796a559b32
 Section: misc
 Priority: optional
 Homepage: https://github.com/Greenroom-Robotics/ROS2-SH/tree/feature/mix-idl-support
@@ -539,21 +523,21 @@ Priority: optional
 Homepage: https://github.com/Greenroom-Robotics/ROS2-SH/tree/feature/mix-idl-support
 Description: Integration Service System Handle for ROS 2
 
-Package: ros-humble-is-ros2-mix-generator
-Version: 1.0.0-0jammy
-Architecture: amd64
+Package: ros-humble-is-ros2
+Version: 1.1.3-0jammy
+Architecture: arm64
 Maintainer: Greenroom Robotics <team@greenroomrobotics.com>
-Installed-Size: 66
-Depends: ros-humble-is-core, ros-humble-is-ros2, ros-humble-rosidl-adapter
-Filename: ./ros-humble-is-ros2-mix-generator_1.0.0-0jammy_amd64.deb
-Size: 11334
-MD5sum: a8313727b3bcbf08d14ac002a649aa21
-SHA1: 59de4f0bb911e798cb0e76f1c6916e483186ff1f
-SHA256: 5a9392859b3cb265a3e7c331b53103be6431d30ed67c9d710f08e8a290c691a4
+Installed-Size: 486
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), libyaml-cpp0.7 (>= 0.7.0), ros-humble-is-core, ros-humble-rclcpp, ros-humble-xtypes
+Filename: ./ros-humble-is-ros2_1.1.3-0jammy_arm64.deb
+Size: 120542
+MD5sum: 229f37ad63dfbbafb05104e34d439b67
+SHA1: 51e4fe28f7950fc35f0570dac99668ceaa0f30bc
+SHA256: a33275b7c9bb58ccb0f8cc5b647689d98ab334e7253d5a9d987eeb4e6a550585
 Section: misc
 Priority: optional
-Homepage: https://github.com/Greenroom-Robotics/ROS2-SH
-Description: Integration Service System Handle for ROS 2 (mix generator)
+Homepage: https://github.com/Greenroom-Robotics/ROS2-SH/tree/feature/mix-idl-support
+Description: Integration Service System Handle for ROS 2
 
 Package: ros-humble-is-ros2-mix-generator
 Version: 1.0.0-0jammy
@@ -572,16 +556,16 @@ Homepage: https://github.com/Greenroom-Robotics/ROS2-SH
 Description: Integration Service System Handle for ROS 2 (mix generator)
 
 Package: ros-humble-is-ros2-mix-generator
-Version: 1.0.1-0jammy
+Version: 1.0.0-0jammy
 Architecture: amd64
 Maintainer: Greenroom Robotics <team@greenroomrobotics.com>
-Installed-Size: 17
+Installed-Size: 66
 Depends: ros-humble-is-core, ros-humble-is-ros2, ros-humble-rosidl-adapter
-Filename: ./ros-humble-is-ros2-mix-generator_1.0.1-0jammy_amd64.deb
-Size: 2106
-MD5sum: 7874b54b2c4a77cab9bc132dac743d25
-SHA1: c2e96beb0efa5fc22fae6baff7f01a25ffe4c5c5
-SHA256: 9b7b8db4323d0d7428c31a741ba923a42af18c87f8728586c573b9cc9739aace
+Filename: ./ros-humble-is-ros2-mix-generator_1.0.0-0jammy_amd64.deb
+Size: 11334
+MD5sum: a8313727b3bcbf08d14ac002a649aa21
+SHA1: 59de4f0bb911e798cb0e76f1c6916e483186ff1f
+SHA256: 5a9392859b3cb265a3e7c331b53103be6431d30ed67c9d710f08e8a290c691a4
 Section: misc
 Priority: optional
 Homepage: https://github.com/Greenroom-Robotics/ROS2-SH
@@ -604,16 +588,16 @@ Homepage: https://github.com/Greenroom-Robotics/ROS2-SH
 Description: Integration Service System Handle for ROS 2 (mix generator)
 
 Package: ros-humble-is-ros2-mix-generator
-Version: 1.0.2-0jammy
+Version: 1.0.1-0jammy
 Architecture: amd64
 Maintainer: Greenroom Robotics <team@greenroomrobotics.com>
-Installed-Size: 16
+Installed-Size: 17
 Depends: ros-humble-is-core, ros-humble-is-ros2, ros-humble-rosidl-adapter
-Filename: ./ros-humble-is-ros2-mix-generator_1.0.2-0jammy_amd64.deb
-Size: 2032
-MD5sum: 46609a3489292b538376534acccd5766
-SHA1: e7488b0716a43cc0e896654cbcb58f90fb5188d6
-SHA256: dbcc4d054644b14c3a6d319bb11d48c52f0829a1c16f3aa48b6be8d1ed355780
+Filename: ./ros-humble-is-ros2-mix-generator_1.0.1-0jammy_amd64.deb
+Size: 2106
+MD5sum: 7874b54b2c4a77cab9bc132dac743d25
+SHA1: c2e96beb0efa5fc22fae6baff7f01a25ffe4c5c5
+SHA256: 9b7b8db4323d0d7428c31a741ba923a42af18c87f8728586c573b9cc9739aace
 Section: misc
 Priority: optional
 Homepage: https://github.com/Greenroom-Robotics/ROS2-SH
@@ -630,6 +614,22 @@ Size: 2038
 MD5sum: 30c8df514cb29eadc73f24ffd7958984
 SHA1: 07dc647f8744c41c598512b962c767641b8ea5b8
 SHA256: 89f03b1e5ed26c9aceaf23ab43f2fef4289579db790f411f28559ef41124b716
+Section: misc
+Priority: optional
+Homepage: https://github.com/Greenroom-Robotics/ROS2-SH
+Description: Integration Service System Handle for ROS 2 (mix generator)
+
+Package: ros-humble-is-ros2-mix-generator
+Version: 1.0.2-0jammy
+Architecture: amd64
+Maintainer: Greenroom Robotics <team@greenroomrobotics.com>
+Installed-Size: 16
+Depends: ros-humble-is-core, ros-humble-is-ros2, ros-humble-rosidl-adapter
+Filename: ./ros-humble-is-ros2-mix-generator_1.0.2-0jammy_amd64.deb
+Size: 2032
+MD5sum: 46609a3489292b538376534acccd5766
+SHA1: e7488b0716a43cc0e896654cbcb58f90fb5188d6
+SHA256: dbcc4d054644b14c3a6d319bb11d48c52f0829a1c16f3aa48b6be8d1ed355780
 Section: misc
 Priority: optional
 Homepage: https://github.com/Greenroom-Robotics/ROS2-SH
@@ -667,21 +667,6 @@ Description: Some extras for launch tooling.
 
 Package: ros-humble-launch-ext
 Version: 1.1.0-0jammy
-Architecture: arm64
-Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
-Installed-Size: 72
-Depends: ros-humble-launch
-Filename: ./ros-humble-launch-ext_1.1.0-0jammy_arm64.deb
-Size: 10552
-MD5sum: c52506f4240c54254645ec8b2035af88
-SHA1: 6cbe9de4115a6d40f9c15e908ede8e0eb295824b
-SHA256: d5c2d31f5cf378b6004127d0e341e06c86553989a84ba458c9a22d27d830a541
-Section: misc
-Priority: optional
-Description: Some extras for launch tooling.
-
-Package: ros-humble-launch-ext
-Version: 1.1.0-0jammy
 Architecture: amd64
 Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
 Installed-Size: 72
@@ -696,16 +681,16 @@ Priority: optional
 Description: Some extras for launch tooling.
 
 Package: ros-humble-launch-ext
-Version: 1.2.0-0jammy
+Version: 1.1.0-0jammy
 Architecture: arm64
 Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
-Installed-Size: 77
+Installed-Size: 72
 Depends: ros-humble-launch
-Filename: ./ros-humble-launch-ext_1.2.0-0jammy_arm64.deb
-Size: 11594
-MD5sum: 8e654ce1046bcdac6364ef67d2115f82
-SHA1: 4b8b74e12969c5b6f15860649705d4c2ff1b2e06
-SHA256: f56968046ffa5db409f820ca3d51c31ad73192c11fb7988090b4fe558115f2a4
+Filename: ./ros-humble-launch-ext_1.1.0-0jammy_arm64.deb
+Size: 10552
+MD5sum: c52506f4240c54254645ec8b2035af88
+SHA1: 6cbe9de4115a6d40f9c15e908ede8e0eb295824b
+SHA256: d5c2d31f5cf378b6004127d0e341e06c86553989a84ba458c9a22d27d830a541
 Section: misc
 Priority: optional
 Description: Some extras for launch tooling.
@@ -726,16 +711,16 @@ Priority: optional
 Description: Some extras for launch tooling.
 
 Package: ros-humble-launch-ext
-Version: 1.3.0-0jammy
+Version: 1.2.0-0jammy
 Architecture: arm64
 Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
-Installed-Size: 83
+Installed-Size: 77
 Depends: ros-humble-launch
-Filename: ./ros-humble-launch-ext_1.3.0-0jammy_arm64.deb
-Size: 12626
-MD5sum: e1403ae64b5a5c164cebd15278c9eacc
-SHA1: 618d16421a63a0800d60cefe24ba3134bf7f5e8e
-SHA256: f1cc2d34bdc0df8816228aaf4964713b19f58c6cc6258e6e7cca7d298949d0cf
+Filename: ./ros-humble-launch-ext_1.2.0-0jammy_arm64.deb
+Size: 11594
+MD5sum: 8e654ce1046bcdac6364ef67d2115f82
+SHA1: 4b8b74e12969c5b6f15860649705d4c2ff1b2e06
+SHA256: f56968046ffa5db409f820ca3d51c31ad73192c11fb7988090b4fe558115f2a4
 Section: misc
 Priority: optional
 Description: Some extras for launch tooling.
@@ -756,16 +741,16 @@ Priority: optional
 Description: Some extras for launch tooling.
 
 Package: ros-humble-launch-ext
-Version: 1.4.0-0jammy
-Architecture: amd64
+Version: 1.3.0-0jammy
+Architecture: arm64
 Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
-Installed-Size: 175
+Installed-Size: 83
 Depends: ros-humble-launch
-Filename: ./ros-humble-launch-ext_1.4.0-0jammy_amd64.deb
-Size: 32754
-MD5sum: 9303b09bb451f8a7bb68f73970b662a4
-SHA1: 7b7d893a2eb80bb1c5b484b630a42b6edbcebebd
-SHA256: cdb340c5d0a2e459a1a8d25a8d4f0ca8aeb3265f1ab5dc9f438f112c7f1c11e7
+Filename: ./ros-humble-launch-ext_1.3.0-0jammy_arm64.deb
+Size: 12626
+MD5sum: e1403ae64b5a5c164cebd15278c9eacc
+SHA1: 618d16421a63a0800d60cefe24ba3134bf7f5e8e
+SHA256: f1cc2d34bdc0df8816228aaf4964713b19f58c6cc6258e6e7cca7d298949d0cf
 Section: misc
 Priority: optional
 Description: Some extras for launch tooling.
@@ -781,6 +766,21 @@ Size: 32762
 MD5sum: 0b5b458fc4a87e4705a188f2896c911a
 SHA1: 4efdf073b8dd3057085b6af5fe5b7da7d50c708f
 SHA256: 12ab870e9769bec46254554d7b0805d2cd7faaae6b80e50b16043e397d2488fe
+Section: misc
+Priority: optional
+Description: Some extras for launch tooling.
+
+Package: ros-humble-launch-ext
+Version: 1.4.0-0jammy
+Architecture: amd64
+Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
+Installed-Size: 175
+Depends: ros-humble-launch
+Filename: ./ros-humble-launch-ext_1.4.0-0jammy_amd64.deb
+Size: 32754
+MD5sum: 9303b09bb451f8a7bb68f73970b662a4
+SHA1: 7b7d893a2eb80bb1c5b484b630a42b6edbcebebd
+SHA256: cdb340c5d0a2e459a1a8d25a8d4f0ca8aeb3265f1ab5dc9f438f112c7f1c11e7
 Section: misc
 Priority: optional
 Description: Some extras for launch tooling.
@@ -817,21 +817,6 @@ Description: Package with the ROS-equivalent of PX4 uORB msgs
 
 Package: ros-humble-px4-msgs
 Version: 1.1.1-0jammy
-Architecture: amd64
-Maintainer: Nuno Marques <nuno.marques@dronesolutions.io>
-Installed-Size: 28382
-Depends: libc6 (>= 2.4), libpython3.10 (>= 3.10.0), libstdc++6 (>= 4.1.1), ros-humble-fastcdr, ros-humble-builtin-interfaces, ros-humble-ros-environment, ros-humble-rosidl-default-runtime
-Filename: ./ros-humble-px4-msgs_1.1.1-0jammy_amd64.deb
-Size: 1670010
-MD5sum: dfeff39d1466c16d66aca2942aaa2b80
-SHA1: 4630fbd89d922144c9891322dde8e453ca68edf1
-SHA256: 62cdae7ca027096baf1a9c0fb7a477b20308e8efb2cd78f176f00d76c1735b97
-Section: misc
-Priority: optional
-Description: Package with the ROS-equivalent of PX4 uORB msgs
-
-Package: ros-humble-px4-msgs
-Version: 1.1.1-0jammy
 Architecture: arm64
 Maintainer: Nuno Marques <nuno.marques@dronesolutions.io>
 Installed-Size: 28345
@@ -841,6 +826,21 @@ Size: 1630902
 MD5sum: 741b45d51f5252c59e8e01aa747431af
 SHA1: 4f21b5f1a1b67284c55a4d136fb71e96d1539f87
 SHA256: ad7a94845fe968fd51e1e02f6b1a68fadee00d24900f12b7c6b5d47c74cbd269
+Section: misc
+Priority: optional
+Description: Package with the ROS-equivalent of PX4 uORB msgs
+
+Package: ros-humble-px4-msgs
+Version: 1.1.1-0jammy
+Architecture: amd64
+Maintainer: Nuno Marques <nuno.marques@dronesolutions.io>
+Installed-Size: 28382
+Depends: libc6 (>= 2.4), libpython3.10 (>= 3.10.0), libstdc++6 (>= 4.1.1), ros-humble-fastcdr, ros-humble-builtin-interfaces, ros-humble-ros-environment, ros-humble-rosidl-default-runtime
+Filename: ./ros-humble-px4-msgs_1.1.1-0jammy_amd64.deb
+Size: 1670010
+MD5sum: dfeff39d1466c16d66aca2942aaa2b80
+SHA1: 4630fbd89d922144c9891322dde8e453ca68edf1
+SHA256: 62cdae7ca027096baf1a9c0fb7a477b20308e8efb2cd78f176f00d76c1735b97
 Section: misc
 Priority: optional
 Description: Package with the ROS-equivalent of PX4 uORB msgs
@@ -877,21 +877,6 @@ Description: Package with the ROS-equivalent of PX4 uORB msgs
 
 Package: ros-humble-px4-msgs
 Version: 1.3.0-0jammy
-Architecture: arm64
-Maintainer: Nuno Marques <nuno.marques@dronesolutions.io>
-Installed-Size: 28447
-Depends: libc6 (>= 2.17), libpython3.10 (>= 3.10.0), libstdc++6 (>= 4.1.1), ros-humble-fastcdr, ros-humble-builtin-interfaces, ros-humble-ros-environment, ros-humble-rosidl-default-runtime
-Filename: ./ros-humble-px4-msgs_1.3.0-0jammy_arm64.deb
-Size: 1636052
-MD5sum: 4785ea0885caf8c0585228b2247b8995
-SHA1: cc35a0437b26997d7e53706393c18a41537c5191
-SHA256: 8aa3a07f6a2eecc02f9f1ae6507b59b9166e2259d9cfe2be94d2a499550ef63f
-Section: misc
-Priority: optional
-Description: Package with the ROS-equivalent of PX4 uORB msgs
-
-Package: ros-humble-px4-msgs
-Version: 1.3.0-0jammy
 Architecture: amd64
 Maintainer: Nuno Marques <nuno.marques@dronesolutions.io>
 Installed-Size: 28467
@@ -901,6 +886,21 @@ Size: 1672254
 MD5sum: 498c2efed55de3933bacb698f7f58e2f
 SHA1: 743f06b89957f4a4247b8aed5ff89310620898eb
 SHA256: eb0307f37a5966cc92198991b88a6c34b55ef211f7951968ff75df59806cabd7
+Section: misc
+Priority: optional
+Description: Package with the ROS-equivalent of PX4 uORB msgs
+
+Package: ros-humble-px4-msgs
+Version: 1.3.0-0jammy
+Architecture: arm64
+Maintainer: Nuno Marques <nuno.marques@dronesolutions.io>
+Installed-Size: 28447
+Depends: libc6 (>= 2.17), libpython3.10 (>= 3.10.0), libstdc++6 (>= 4.1.1), ros-humble-fastcdr, ros-humble-builtin-interfaces, ros-humble-ros-environment, ros-humble-rosidl-default-runtime
+Filename: ./ros-humble-px4-msgs_1.3.0-0jammy_arm64.deb
+Size: 1636052
+MD5sum: 4785ea0885caf8c0585228b2247b8995
+SHA1: cc35a0437b26997d7e53706393c18a41537c5191
+SHA256: 8aa3a07f6a2eecc02f9f1ae6507b59b9166e2259d9cfe2be94d2a499550ef63f
 Section: misc
 Priority: optional
 Description: Package with the ROS-equivalent of PX4 uORB msgs
@@ -937,21 +937,6 @@ Description: Message and service data structures for interacting with Gazebo fro
 
 Package: ros-humble-ros2-bt-utils
 Version: 1.0.0-0jammy
-Architecture: amd64
-Maintainer: Michele Colledanchise <michele.colledanchise@gmail.com>
-Installed-Size: 101
-Depends: libc6 (>= 2.32), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 5.2), ros-humble-behaviortree-cpp-v3, ros-humble-rclcpp, ros-humble-rclcpp-action
-Filename: ./ros-humble-ros2-bt-utils_1.0.0-0jammy_amd64.deb
-Size: 16432
-MD5sum: 7064b50e2da5dde649fa7d6c7191222e
-SHA1: ae84facf9f2435b18434c754d048f3174314178c
-SHA256: def96aeff4b16f02bafd7d55ac0b05e7dbff00323d5e95d255380c2fda39463c
-Section: misc
-Priority: optional
-Description: Package containing the base classes (virtual and templates) to ease the development of the BT leaf nodes.
-
-Package: ros-humble-ros2-bt-utils
-Version: 1.0.0-0jammy
 Architecture: arm64
 Maintainer: Michele Colledanchise <michele.colledanchise@gmail.com>
 Installed-Size: 97
@@ -965,21 +950,20 @@ Section: misc
 Priority: optional
 Description: Package containing the base classes (virtual and templates) to ease the development of the BT leaf nodes.
 
-Package: ros-humble-rosapi
+Package: ros-humble-ros2-bt-utils
 Version: 1.0.0-0jammy
-Architecture: arm64
-Maintainer: Jihoon Lee <jihoonlee.in@gmail.com>
-Installed-Size: 105
-Depends: ros-humble-builtin-interfaces, ros-humble-rcl-interfaces, ros-humble-rclpy, ros-humble-ros2node, ros-humble-ros2param, ros-humble-ros2pkg, ros-humble-ros2service, ros-humble-ros2topic, ros-humble-rosapi-msgs, ros-humble-rosbridge-library
-Filename: ./ros-humble-rosapi_1.0.0-0jammy_arm64.deb
-Size: 15136
-MD5sum: 5067cce4fc5d3625d4542c29bf1c6505
-SHA1: 2480f7ca4747d8eb4ee9bc5043ab90260fa440a7
-SHA256: fc8e0b6f3e71d41051fa53df66c3698354eb9f6776feea3c1d0487081efb65fc
+Architecture: amd64
+Maintainer: Michele Colledanchise <michele.colledanchise@gmail.com>
+Installed-Size: 101
+Depends: libc6 (>= 2.32), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 5.2), ros-humble-behaviortree-cpp-v3, ros-humble-rclcpp, ros-humble-rclcpp-action
+Filename: ./ros-humble-ros2-bt-utils_1.0.0-0jammy_amd64.deb
+Size: 16432
+MD5sum: 7064b50e2da5dde649fa7d6c7191222e
+SHA1: ae84facf9f2435b18434c754d048f3174314178c
+SHA256: def96aeff4b16f02bafd7d55ac0b05e7dbff00323d5e95d255380c2fda39463c
 Section: misc
 Priority: optional
-Homepage: http://ros.org/wiki/rosapi
-Description: Provides service calls for getting ros meta-information, like list of topics, services, params, etc.
+Description: Package containing the base classes (virtual and templates) to ease the development of the BT leaf nodes.
 
 Package: ros-humble-rosapi
 Version: 1.0.0-0jammy
@@ -998,16 +982,16 @@ Homepage: http://ros.org/wiki/rosapi
 Description: Provides service calls for getting ros meta-information, like list of topics, services, params, etc.
 
 Package: ros-humble-rosapi
-Version: 1.1.0-0jammy
-Architecture: amd64
+Version: 1.0.0-0jammy
+Architecture: arm64
 Maintainer: Jihoon Lee <jihoonlee.in@gmail.com>
 Installed-Size: 105
 Depends: ros-humble-builtin-interfaces, ros-humble-rcl-interfaces, ros-humble-rclpy, ros-humble-ros2node, ros-humble-ros2param, ros-humble-ros2pkg, ros-humble-ros2service, ros-humble-ros2topic, ros-humble-rosapi-msgs, ros-humble-rosbridge-library
-Filename: ./ros-humble-rosapi_1.1.0-0jammy_amd64.deb
-Size: 15118
-MD5sum: 3a920f53139557f1e58de4d9e447882c
-SHA1: 46e5c85e599e6f6a01133b97303dd0426a26bb91
-SHA256: ae9e9999bd2d0673cd208023624f621b873e8d71c82ca87e30cdf17159f0c473
+Filename: ./ros-humble-rosapi_1.0.0-0jammy_arm64.deb
+Size: 15136
+MD5sum: 5067cce4fc5d3625d4542c29bf1c6505
+SHA1: 2480f7ca4747d8eb4ee9bc5043ab90260fa440a7
+SHA256: fc8e0b6f3e71d41051fa53df66c3698354eb9f6776feea3c1d0487081efb65fc
 Section: misc
 Priority: optional
 Homepage: http://ros.org/wiki/rosapi
@@ -1030,16 +1014,16 @@ Homepage: http://ros.org/wiki/rosapi
 Description: Provides service calls for getting ros meta-information, like list of topics, services, params, etc.
 
 Package: ros-humble-rosapi
-Version: 2.0.0-0jammy
+Version: 1.1.0-0jammy
 Architecture: amd64
 Maintainer: Jihoon Lee <jihoonlee.in@gmail.com>
 Installed-Size: 105
 Depends: ros-humble-builtin-interfaces, ros-humble-rcl-interfaces, ros-humble-rclpy, ros-humble-ros2node, ros-humble-ros2param, ros-humble-ros2pkg, ros-humble-ros2service, ros-humble-ros2topic, ros-humble-rosapi-msgs, ros-humble-rosbridge-library
-Filename: ./ros-humble-rosapi_2.0.0-0jammy_amd64.deb
-Size: 15124
-MD5sum: d6b994913332afeb244a61fb931a5c53
-SHA1: 2a4e7b1df99efc47ad9b967d7fb92ef45ecc9a59
-SHA256: 0f99e66797afdbad933e45ca310d00bb2577080b2a989318809564683fce860c
+Filename: ./ros-humble-rosapi_1.1.0-0jammy_amd64.deb
+Size: 15118
+MD5sum: 3a920f53139557f1e58de4d9e447882c
+SHA1: 46e5c85e599e6f6a01133b97303dd0426a26bb91
+SHA256: ae9e9999bd2d0673cd208023624f621b873e8d71c82ca87e30cdf17159f0c473
 Section: misc
 Priority: optional
 Homepage: http://ros.org/wiki/rosapi
@@ -1056,6 +1040,22 @@ Size: 15130
 MD5sum: 0ce7616a22979e3e74b223c3c0762df1
 SHA1: 91fb5f3fd65feb87c3e75b94363f4b46a6562b21
 SHA256: fc969c31edea36d27535f76158c4a05a94fab77fe918d1ad8f80225ce1625f01
+Section: misc
+Priority: optional
+Homepage: http://ros.org/wiki/rosapi
+Description: Provides service calls for getting ros meta-information, like list of topics, services, params, etc.
+
+Package: ros-humble-rosapi
+Version: 2.0.0-0jammy
+Architecture: amd64
+Maintainer: Jihoon Lee <jihoonlee.in@gmail.com>
+Installed-Size: 105
+Depends: ros-humble-builtin-interfaces, ros-humble-rcl-interfaces, ros-humble-rclpy, ros-humble-ros2node, ros-humble-ros2param, ros-humble-ros2pkg, ros-humble-ros2service, ros-humble-ros2topic, ros-humble-rosapi-msgs, ros-humble-rosbridge-library
+Filename: ./ros-humble-rosapi_2.0.0-0jammy_amd64.deb
+Size: 15124
+MD5sum: d6b994913332afeb244a61fb931a5c53
+SHA1: 2a4e7b1df99efc47ad9b967d7fb92ef45ecc9a59
+SHA256: 0f99e66797afdbad933e45ca310d00bb2577080b2a989318809564683fce860c
 Section: misc
 Priority: optional
 Homepage: http://ros.org/wiki/rosapi
@@ -1127,22 +1127,6 @@ Description: The core rosbridge package, responsible for interpreting JSON andpe
 
 Package: ros-humble-rosbridge-library
 Version: 2.0.0-0jammy
-Architecture: arm64
-Maintainer: Jihoon Lee <jihoonlee.in@gmail.com>
-Installed-Size: 226
-Depends: python3-bson, python3-pil, ros-humble-rclpy, ros-humble-rosidl-default-runtime
-Filename: ./ros-humble-rosbridge-library_2.0.0-0jammy_arm64.deb
-Size: 36114
-MD5sum: 8f667349e81b4a6e39d0547c4ec5c381
-SHA1: 8616d5f588d47b1a44f00580b82be11cfc4527e8
-SHA256: a288489817906eff42c4f4753cd023140876abf931a44a59737d679e3822394d
-Section: misc
-Priority: optional
-Homepage: http://ros.org/wiki/rosbridge_library
-Description: The core rosbridge package, responsible for interpreting JSON andperforming the appropriate ROS action, like subscribe, publish, call service, and interact with params.
-
-Package: ros-humble-rosbridge-library
-Version: 2.0.0-0jammy
 Architecture: amd64
 Maintainer: Jihoon Lee <jihoonlee.in@gmail.com>
 Installed-Size: 226
@@ -1152,6 +1136,22 @@ Size: 36124
 MD5sum: 9d1ee367417730e4a185cce815c2987e
 SHA1: 737f3d2851e987a892b74b34befe26d6ce76d3ee
 SHA256: 39515306b7fe5bcc2327558c82af25a6bcb603039c45b858dce419fb9badfab1
+Section: misc
+Priority: optional
+Homepage: http://ros.org/wiki/rosbridge_library
+Description: The core rosbridge package, responsible for interpreting JSON andperforming the appropriate ROS action, like subscribe, publish, call service, and interact with params.
+
+Package: ros-humble-rosbridge-library
+Version: 2.0.0-0jammy
+Architecture: arm64
+Maintainer: Jihoon Lee <jihoonlee.in@gmail.com>
+Installed-Size: 226
+Depends: python3-bson, python3-pil, ros-humble-rclpy, ros-humble-rosidl-default-runtime
+Filename: ./ros-humble-rosbridge-library_2.0.0-0jammy_arm64.deb
+Size: 36114
+MD5sum: 8f667349e81b4a6e39d0547c4ec5c381
+SHA1: 8616d5f588d47b1a44f00580b82be11cfc4527e8
+SHA256: a288489817906eff42c4f4753cd023140876abf931a44a59737d679e3822394d
 Section: misc
 Priority: optional
 Homepage: http://ros.org/wiki/rosbridge_library
@@ -1174,21 +1174,6 @@ Description: Package containing message files
 
 Package: ros-humble-rosbridge-msgs
 Version: 2.0.0-0jammy
-Architecture: amd64
-Maintainer: Hans-Joachim Krauch <achim@intermodalics.eu>
-Installed-Size: 526
-Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libpython3.10 (>= 3.10.0), libstdc++6 (>= 5.2), ros-humble-fastcdr, ros-humble-rosidl-default-runtime
-Filename: ./ros-humble-rosbridge-msgs_2.0.0-0jammy_amd64.deb
-Size: 48524
-MD5sum: 5110fee316bef47c69ce47880d16fc33
-SHA1: 5b4258822876addae287e7acec103daf36b42714
-SHA256: d2932bfdf855daa896e939078072384c4270906a1ed9fc6cf79afe11aea272e7
-Section: misc
-Priority: optional
-Description: Package containing message files
-
-Package: ros-humble-rosbridge-msgs
-Version: 2.0.0-0jammy
 Architecture: arm64
 Maintainer: Hans-Joachim Krauch <achim@intermodalics.eu>
 Installed-Size: 470
@@ -1202,21 +1187,20 @@ Section: misc
 Priority: optional
 Description: Package containing message files
 
-Package: ros-humble-rosbridge-server
-Version: 1.0.0-0jammy
+Package: ros-humble-rosbridge-msgs
+Version: 2.0.0-0jammy
 Architecture: amd64
-Maintainer: Jihoon Lee <jihoonlee.in@gmail.com>
-Installed-Size: 89
-Depends: python3-tornado, python3-twisted, ros-humble-rclpy, ros-humble-rosapi, ros-humble-rosbridge-library, ros-humble-rosbridge-msgs
-Filename: ./ros-humble-rosbridge-server_1.0.0-0jammy_amd64.deb
-Size: 11564
-MD5sum: 55cff208caefcda875050c4531645194
-SHA1: b9f7f3939f84630b2cff74dd98d224d78ab3bf7f
-SHA256: b08f53c043ba4d7f2ac75ffae51279e17e0021ca2c1ccd05fead49345a147363
+Maintainer: Hans-Joachim Krauch <achim@intermodalics.eu>
+Installed-Size: 526
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libpython3.10 (>= 3.10.0), libstdc++6 (>= 5.2), ros-humble-fastcdr, ros-humble-rosidl-default-runtime
+Filename: ./ros-humble-rosbridge-msgs_2.0.0-0jammy_amd64.deb
+Size: 48524
+MD5sum: 5110fee316bef47c69ce47880d16fc33
+SHA1: 5b4258822876addae287e7acec103daf36b42714
+SHA256: d2932bfdf855daa896e939078072384c4270906a1ed9fc6cf79afe11aea272e7
 Section: misc
 Priority: optional
-Homepage: http://ros.org/wiki/rosbridge_server
-Description: A WebSocket interface to rosbridge.
+Description: Package containing message files
 
 Package: ros-humble-rosbridge-server
 Version: 1.0.0-0jammy
@@ -1235,16 +1219,16 @@ Homepage: http://ros.org/wiki/rosbridge_server
 Description: A WebSocket interface to rosbridge.
 
 Package: ros-humble-rosbridge-server
-Version: 1.1.0-0jammy
-Architecture: arm64
+Version: 1.0.0-0jammy
+Architecture: amd64
 Maintainer: Jihoon Lee <jihoonlee.in@gmail.com>
 Installed-Size: 89
 Depends: python3-tornado, python3-twisted, ros-humble-rclpy, ros-humble-rosapi, ros-humble-rosbridge-library, ros-humble-rosbridge-msgs
-Filename: ./ros-humble-rosbridge-server_1.1.0-0jammy_arm64.deb
-Size: 11558
-MD5sum: 181bba059b4db69a5a4135022181e54c
-SHA1: 4742c4160c0b32ed4a45f7580976e8d6f10c433b
-SHA256: 5cb5691f63a1561b82a644c8a326579ce5f481d0f4c4020a179b8425a6a9708b
+Filename: ./ros-humble-rosbridge-server_1.0.0-0jammy_amd64.deb
+Size: 11564
+MD5sum: 55cff208caefcda875050c4531645194
+SHA1: b9f7f3939f84630b2cff74dd98d224d78ab3bf7f
+SHA256: b08f53c043ba4d7f2ac75ffae51279e17e0021ca2c1ccd05fead49345a147363
 Section: misc
 Priority: optional
 Homepage: http://ros.org/wiki/rosbridge_server
@@ -1261,6 +1245,22 @@ Size: 11548
 MD5sum: 03e4ada834ba36113bd37b8ae42abc42
 SHA1: 90fcb3b2283ac5b3947591680d1b612875b044ba
 SHA256: 921e8b0350173fec08609acf883ad6a83e6012eb561e4be8a11b57d0207cb0e2
+Section: misc
+Priority: optional
+Homepage: http://ros.org/wiki/rosbridge_server
+Description: A WebSocket interface to rosbridge.
+
+Package: ros-humble-rosbridge-server
+Version: 1.1.0-0jammy
+Architecture: arm64
+Maintainer: Jihoon Lee <jihoonlee.in@gmail.com>
+Installed-Size: 89
+Depends: python3-tornado, python3-twisted, ros-humble-rclpy, ros-humble-rosapi, ros-humble-rosbridge-library, ros-humble-rosbridge-msgs
+Filename: ./ros-humble-rosbridge-server_1.1.0-0jammy_arm64.deb
+Size: 11558
+MD5sum: 181bba059b4db69a5a4135022181e54c
+SHA1: 4742c4160c0b32ed4a45f7580976e8d6f10c433b
+SHA256: 5cb5691f63a1561b82a644c8a326579ce5f481d0f4c4020a179b8425a6a9708b
 Section: misc
 Priority: optional
 Homepage: http://ros.org/wiki/rosbridge_server
@@ -1384,22 +1384,6 @@ Description: Message and service definitions used in internal tests for rosbridg
 
 Package: ros-humble-rosbridge-test-msgs
 Version: 2.0.0-0jammy
-Architecture: amd64
-Maintainer: Jihoon Lee <jihoonlee.in@gmail.com>
-Installed-Size: 3546
-Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libpython3.10 (>= 3.10.0), libstdc++6 (>= 5.2), ros-humble-fastcdr, ros-humble-builtin-interfaces, ros-humble-geometry-msgs, ros-humble-rclpy, ros-humble-rosidl-default-runtime, ros-humble-std-msgs
-Filename: ./ros-humble-rosbridge-test-msgs_2.0.0-0jammy_amd64.deb
-Size: 202782
-MD5sum: 3aa8593d3ace10f544089a566ffdaa2c
-SHA1: ba3a1ffa5e6b544714f40a6a91a0629ccf3d77cd
-SHA256: b08b3fbce6ea29b366c15c6beda8aef50086b14152945041a6018f95866ccce3
-Section: misc
-Priority: optional
-Homepage: http://ros.org/wiki/rosbridge_library
-Description: Message and service definitions used in internal tests for rosbridge packages.
-
-Package: ros-humble-rosbridge-test-msgs
-Version: 2.0.0-0jammy
 Architecture: arm64
 Maintainer: Jihoon Lee <jihoonlee.in@gmail.com>
 Installed-Size: 3493
@@ -1409,6 +1393,22 @@ Size: 200552
 MD5sum: 1e97a97de655607db1a8489b676ae248
 SHA1: a17d31adb7b6f63e95e5c6d7179baa0d0eb6061b
 SHA256: 9858577a2478edb586a9bdd46018f754dc69303c2a812cf82b7fe7fdc3941ce6
+Section: misc
+Priority: optional
+Homepage: http://ros.org/wiki/rosbridge_library
+Description: Message and service definitions used in internal tests for rosbridge packages.
+
+Package: ros-humble-rosbridge-test-msgs
+Version: 2.0.0-0jammy
+Architecture: amd64
+Maintainer: Jihoon Lee <jihoonlee.in@gmail.com>
+Installed-Size: 3546
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libpython3.10 (>= 3.10.0), libstdc++6 (>= 5.2), ros-humble-fastcdr, ros-humble-builtin-interfaces, ros-humble-geometry-msgs, ros-humble-rclpy, ros-humble-rosidl-default-runtime, ros-humble-std-msgs
+Filename: ./ros-humble-rosbridge-test-msgs_2.0.0-0jammy_amd64.deb
+Size: 202782
+MD5sum: 3aa8593d3ace10f544089a566ffdaa2c
+SHA1: ba3a1ffa5e6b544714f40a6a91a0629ccf3d77cd
+SHA256: b08b3fbce6ea29b366c15c6beda8aef50086b14152945041a6018f95866ccce3
 Section: misc
 Priority: optional
 Homepage: http://ros.org/wiki/rosbridge_library
@@ -1461,21 +1461,6 @@ Description: Argument Parser for Modern C++
 
 Package: ros-iron-argparse
 Version: 1.1.1-0jammy
-Architecture: amd64
-Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
-Installed-Size: 82
-Filename: ./ros-iron-argparse_1.1.1-0jammy_amd64.deb
-Size: 15334
-MD5sum: deb07424486f21315f457904a51c001e
-SHA1: d8ca1c268e750084ced3279ff610d8fe92e19ad4
-SHA256: 55102f98bc9824d7435c768bf93b9b02561cb09e9aec84189bd0003bdf480f6c
-Section: misc
-Priority: optional
-Homepage: https://github.com/Greenroom-Robotics/argparse
-Description: Argument Parser for Modern C++
-
-Package: ros-iron-argparse
-Version: 1.1.1-0jammy
 Architecture: arm64
 Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
 Installed-Size: 82
@@ -1484,6 +1469,21 @@ Size: 15348
 MD5sum: dd78bc57b0ed2772e08b941a553d3ad7
 SHA1: 84cfd0866f6daf7880fb702e8988cc34cc719f5f
 SHA256: a650e27ca374c64edd2c6af03a428a72f104928410807d0ded2f3f3ceb8e8d9c
+Section: misc
+Priority: optional
+Homepage: https://github.com/Greenroom-Robotics/argparse
+Description: Argument Parser for Modern C++
+
+Package: ros-iron-argparse
+Version: 1.1.1-0jammy
+Architecture: amd64
+Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
+Installed-Size: 82
+Filename: ./ros-iron-argparse_1.1.1-0jammy_amd64.deb
+Size: 15334
+MD5sum: deb07424486f21315f457904a51c001e
+SHA1: d8ca1c268e750084ced3279ff610d8fe92e19ad4
+SHA256: 55102f98bc9824d7435c768bf93b9b02561cb09e9aec84189bd0003bdf480f6c
 Section: misc
 Priority: optional
 Homepage: https://github.com/Greenroom-Robotics/argparse
@@ -1507,22 +1507,6 @@ Description: A lightweight implementation of Linux SocketCAN bindings for ASIO
 
 Package: ros-iron-canary
 Version: 1.1.1-0jammy
-Architecture: arm64
-Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
-Installed-Size: 53
-Depends: libasio-dev, libboost-system-dev
-Filename: ./ros-iron-canary_1.1.1-0jammy_arm64.deb
-Size: 8058
-MD5sum: 9f280d95c32aa6486923f0675434e513
-SHA1: 6ee27a7a77582d53cbaa10541c682545de8d52ce
-SHA256: b2d9a52d6666e418891d7250f4b44ac3e08ddfd8eb10f94717b83f2d09bf08dc
-Section: misc
-Priority: optional
-Homepage: https://github.com/Greenroom-Robotics/canary
-Description: A lightweight implementation of Linux SocketCAN bindings for ASIO
-
-Package: ros-iron-canary
-Version: 1.1.1-0jammy
 Architecture: amd64
 Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
 Installed-Size: 53
@@ -1532,6 +1516,22 @@ Size: 8068
 MD5sum: a12d5a096ffbd83f7a8794a2b48c36d4
 SHA1: 352690f3ddccaa3a4b5bd882af80f421febb6191
 SHA256: 298f8bbc660f17cd6b37b2cb4c682c896ebf8865255a2dc81f8e8c3aed8bbd04
+Section: misc
+Priority: optional
+Homepage: https://github.com/Greenroom-Robotics/canary
+Description: A lightweight implementation of Linux SocketCAN bindings for ASIO
+
+Package: ros-iron-canary
+Version: 1.1.1-0jammy
+Architecture: arm64
+Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
+Installed-Size: 53
+Depends: libasio-dev, libboost-system-dev
+Filename: ./ros-iron-canary_1.1.1-0jammy_arm64.deb
+Size: 8058
+MD5sum: 9f280d95c32aa6486923f0675434e513
+SHA1: 6ee27a7a77582d53cbaa10541c682545de8d52ce
+SHA256: b2d9a52d6666e418891d7250f4b44ac3e08ddfd8eb10f94717b83f2d09bf08dc
 Section: misc
 Priority: optional
 Homepage: https://github.com/Greenroom-Robotics/canary
@@ -1603,22 +1603,6 @@ Description: Integration Service System Handle for ROS 2
 
 Package: ros-iron-is-ros2-mix-generator
 Version: 1.1.0-0jammy
-Architecture: amd64
-Maintainer: Greenroom Robotics <team@greenroomrobotics.com>
-Installed-Size: 2241
-Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-iron-is-ros2, ros-iron-is-core, ros-iron-rosidl-adapter
-Filename: ./ros-iron-is-ros2-mix-generator_1.1.0-0jammy_amd64.deb
-Size: 438946
-MD5sum: 8df7860f8a0459425967c881a4e6a0d3
-SHA1: f79ea79efb304f977077b8d16037e1815450a1c8
-SHA256: ae637bfa9b8ea8b4c90706a06f9ef42d3b0c0ef237de7663d728cdb7f894f5c4
-Section: misc
-Priority: optional
-Homepage: https://github.com/Greenroom-Robotics/ROS2-SH
-Description: Integration Service System Handle for ROS 2 (mix generator)
-
-Package: ros-iron-is-ros2-mix-generator
-Version: 1.1.0-0jammy
 Architecture: arm64
 Maintainer: Greenroom Robotics <team@greenroomrobotics.com>
 Installed-Size: 2041
@@ -1628,6 +1612,22 @@ Size: 397582
 MD5sum: e3e9c2a3d419c9a8df79ac6aebee3019
 SHA1: d4bd85f6db3f8fe162d3bcc09eac05583c1191dc
 SHA256: fa36a83cdb40990d22fe02ed7ef948562f887c9fa11d9b58cb08c57fc8435654
+Section: misc
+Priority: optional
+Homepage: https://github.com/Greenroom-Robotics/ROS2-SH
+Description: Integration Service System Handle for ROS 2 (mix generator)
+
+Package: ros-iron-is-ros2-mix-generator
+Version: 1.1.0-0jammy
+Architecture: amd64
+Maintainer: Greenroom Robotics <team@greenroomrobotics.com>
+Installed-Size: 2241
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-iron-is-ros2, ros-iron-is-core, ros-iron-rosidl-adapter
+Filename: ./ros-iron-is-ros2-mix-generator_1.1.0-0jammy_amd64.deb
+Size: 438946
+MD5sum: 8df7860f8a0459425967c881a4e6a0d3
+SHA1: f79ea79efb304f977077b8d16037e1815450a1c8
+SHA256: ae637bfa9b8ea8b4c90706a06f9ef42d3b0c0ef237de7663d728cdb7f894f5c4
 Section: misc
 Priority: optional
 Homepage: https://github.com/Greenroom-Robotics/ROS2-SH
@@ -1665,21 +1665,6 @@ Description: Some extras for launch tooling.
 
 Package: ros-iron-launch-ext
 Version: 1.6.0-0jammy
-Architecture: amd64
-Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
-Installed-Size: 181
-Depends: python3-psutil, ros-iron-launch
-Filename: ./ros-iron-launch-ext_1.6.0-0jammy_amd64.deb
-Size: 33998
-MD5sum: 65bdbb5497efa1ce2d37d0484222065a
-SHA1: de997778c6a8e2ff0003737e988d35a7b75aabb0
-SHA256: eef3f715d24390694a79ebd7fcc49aee56d771d35d443008337c720762c0b074
-Section: misc
-Priority: optional
-Description: Some extras for launch tooling.
-
-Package: ros-iron-launch-ext
-Version: 1.6.0-0jammy
 Architecture: arm64
 Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
 Installed-Size: 181
@@ -1694,16 +1679,16 @@ Priority: optional
 Description: Some extras for launch tooling.
 
 Package: ros-iron-launch-ext
-Version: 1.6.1-0jammy
-Architecture: arm64
+Version: 1.6.0-0jammy
+Architecture: amd64
 Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
 Installed-Size: 181
 Depends: python3-psutil, ros-iron-launch
-Filename: ./ros-iron-launch-ext_1.6.1-0jammy_arm64.deb
-Size: 34000
-MD5sum: 9afbb254e03cc9fbbbaf44828d1e859c
-SHA1: e40eaed428149adfd78ee1122d1d68db96738047
-SHA256: cca67c8247397e291e0cacec85512df6dc62c8f8b09ad02bc65674c2ceb33b4e
+Filename: ./ros-iron-launch-ext_1.6.0-0jammy_amd64.deb
+Size: 33998
+MD5sum: 65bdbb5497efa1ce2d37d0484222065a
+SHA1: de997778c6a8e2ff0003737e988d35a7b75aabb0
+SHA256: eef3f715d24390694a79ebd7fcc49aee56d771d35d443008337c720762c0b074
 Section: misc
 Priority: optional
 Description: Some extras for launch tooling.
@@ -1719,6 +1704,21 @@ Size: 34002
 MD5sum: 81786eb71d4efc69231914a42e5a5527
 SHA1: b45d12cff8cc0169697247b8240778c674c24013
 SHA256: 66912f90813c11c8003c39fdbd4abed9fcc688d7c0f64fe241f96aa2bb19abc1
+Section: misc
+Priority: optional
+Description: Some extras for launch tooling.
+
+Package: ros-iron-launch-ext
+Version: 1.6.1-0jammy
+Architecture: arm64
+Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
+Installed-Size: 181
+Depends: python3-psutil, ros-iron-launch
+Filename: ./ros-iron-launch-ext_1.6.1-0jammy_arm64.deb
+Size: 34000
+MD5sum: 9afbb254e03cc9fbbbaf44828d1e859c
+SHA1: e40eaed428149adfd78ee1122d1d68db96738047
+SHA256: cca67c8247397e291e0cacec85512df6dc62c8f8b09ad02bc65674c2ceb33b4e
 Section: misc
 Priority: optional
 Description: Some extras for launch tooling.
@@ -1800,21 +1800,6 @@ Description: Some extras for launch tooling.
 
 Package: ros-iron-launch-ext
 Version: 1.9.1-0jammy
-Architecture: arm64
-Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
-Installed-Size: 197
-Depends: python3-psutil, ros-iron-launch, ros-iron-xacro
-Filename: ./ros-iron-launch-ext_1.9.1-0jammy_arm64.deb
-Size: 37882
-MD5sum: 745a3a5457604c7a73ed72c4ca61df5c
-SHA1: 09a8621033b7339e9d1af8b5d8d0852e33d2c1b3
-SHA256: 01813c7a59aaa5f6e41dbd78c5fe95751d772012c80d1dc02570cdfadc45b9f4
-Section: misc
-Priority: optional
-Description: Some extras for launch tooling.
-
-Package: ros-iron-launch-ext
-Version: 1.9.1-0jammy
 Architecture: amd64
 Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
 Installed-Size: 197
@@ -1824,6 +1809,21 @@ Size: 37880
 MD5sum: e6ab0526a4ece1f6c3ccb642daca917b
 SHA1: 3e513edf24aa445c193f96441eb8992177b3ae61
 SHA256: ad172ed6ec044ca717605198ba937dabe9e0d3bb1c65c8edd3f8b8f11115b2c0
+Section: misc
+Priority: optional
+Description: Some extras for launch tooling.
+
+Package: ros-iron-launch-ext
+Version: 1.9.1-0jammy
+Architecture: arm64
+Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
+Installed-Size: 197
+Depends: python3-psutil, ros-iron-launch, ros-iron-xacro
+Filename: ./ros-iron-launch-ext_1.9.1-0jammy_arm64.deb
+Size: 37882
+MD5sum: 745a3a5457604c7a73ed72c4ca61df5c
+SHA1: 09a8621033b7339e9d1af8b5d8d0852e33d2c1b3
+SHA256: 01813c7a59aaa5f6e41dbd78c5fe95751d772012c80d1dc02570cdfadc45b9f4
 Section: misc
 Priority: optional
 Description: Some extras for launch tooling.
@@ -1918,6 +1918,21 @@ Section: misc
 Priority: optional
 Description: ROS2 Driver for the Linux PWM Interface
 
+Package: ros-iron-pwmdriver
+Version: 1.1.1-0jammy
+Architecture: amd64
+Maintainer: Russ Webber <russ@rw.id.au>
+Installed-Size: 493
+Depends: libc6 (>= 2.34), libfmt8 (>= 8.1.1+ds1), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-iron-rclcpp, ros-iron-std-msgs
+Filename: ./ros-iron-pwmdriver_1.1.1-0jammy_amd64.deb
+Size: 112226
+MD5sum: bb5f5b8aa48b52222554faf9cb9ff4dd
+SHA1: 6becc5a7179e65e5b4a0bafaef740ffbee807dd0
+SHA256: 16af2b53f1d7deee2a85878a31a10fd11a802fa8a705b242f7e1acc27bad9e74
+Section: misc
+Priority: optional
+Description: ROS2 Driver for the Linux PWM Interface
+
 Package: ros-iron-px4-msgs
 Version: 1.3.0-0jammy
 Architecture: amd64
@@ -1982,22 +1997,6 @@ Description: Package containing various utility types and functions for C
 
 Package: ros-iron-rosapi
 Version: 2.1.0-0jammy
-Architecture: amd64
-Maintainer: Jihoon Lee <jihoonlee.in@gmail.com>
-Installed-Size: 103
-Depends: ros-iron-builtin-interfaces, ros-iron-rcl-interfaces, ros-iron-rclpy, ros-iron-ros2node, ros-iron-ros2param, ros-iron-ros2pkg, ros-iron-ros2service, ros-iron-ros2topic, ros-iron-rosapi-msgs, ros-iron-rosbridge-library
-Filename: ./ros-iron-rosapi_2.1.0-0jammy_amd64.deb
-Size: 15114
-MD5sum: b3c37effad4cc3cd09960524208a41cd
-SHA1: 44d0a7745bec9612faac6d09252e58d13c712e38
-SHA256: d56e4fc852a128af894035fa6aef1b027d5fbe6ea7d967f6106713a1cad341c3
-Section: misc
-Priority: optional
-Homepage: http://ros.org/wiki/rosapi
-Description: Provides service calls for getting ros meta-information, like list of topics, services, params, etc.
-
-Package: ros-iron-rosapi
-Version: 2.1.0-0jammy
 Architecture: arm64
 Maintainer: Jihoon Lee <jihoonlee.in@gmail.com>
 Installed-Size: 103
@@ -2012,17 +2011,17 @@ Priority: optional
 Homepage: http://ros.org/wiki/rosapi
 Description: Provides service calls for getting ros meta-information, like list of topics, services, params, etc.
 
-Package: ros-iron-rosapi-msgs
+Package: ros-iron-rosapi
 Version: 2.1.0-0jammy
 Architecture: amd64
 Maintainer: Jihoon Lee <jihoonlee.in@gmail.com>
-Installed-Size: 9762
-Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libpython3.10 (>= 3.10.0), libstdc++6 (>= 11), ros-iron-fastcdr, ros-iron-builtin-interfaces, ros-iron-rcl-interfaces, ros-iron-rosidl-default-runtime
-Filename: ./ros-iron-rosapi-msgs_2.1.0-0jammy_amd64.deb
-Size: 571112
-MD5sum: 53ca64cd6bb828085226c4c0dad3e28d
-SHA1: b7da2d06f4f4eb9264367c2175c8835727713117
-SHA256: 35ab6ca8bf0e3c24b175b3a1f25540348c3050d6da182e88ec62ae6ba9ddeee0
+Installed-Size: 103
+Depends: ros-iron-builtin-interfaces, ros-iron-rcl-interfaces, ros-iron-rclpy, ros-iron-ros2node, ros-iron-ros2param, ros-iron-ros2pkg, ros-iron-ros2service, ros-iron-ros2topic, ros-iron-rosapi-msgs, ros-iron-rosbridge-library
+Filename: ./ros-iron-rosapi_2.1.0-0jammy_amd64.deb
+Size: 15114
+MD5sum: b3c37effad4cc3cd09960524208a41cd
+SHA1: 44d0a7745bec9612faac6d09252e58d13c712e38
+SHA256: d56e4fc852a128af894035fa6aef1b027d5fbe6ea7d967f6106713a1cad341c3
 Section: misc
 Priority: optional
 Homepage: http://ros.org/wiki/rosapi
@@ -2039,6 +2038,22 @@ Size: 559532
 MD5sum: 056531c8cd06d2817e22515ac62aebf4
 SHA1: 40d84563243a0e39ad950027a7e2281fa3231849
 SHA256: 31e4ae2ec767a8266d47af7b8e5202e438c7e028bbd4b5cab33bc47df4a9d778
+Section: misc
+Priority: optional
+Homepage: http://ros.org/wiki/rosapi
+Description: Provides service calls for getting ros meta-information, like list of topics, services, params, etc.
+
+Package: ros-iron-rosapi-msgs
+Version: 2.1.0-0jammy
+Architecture: amd64
+Maintainer: Jihoon Lee <jihoonlee.in@gmail.com>
+Installed-Size: 9762
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libpython3.10 (>= 3.10.0), libstdc++6 (>= 11), ros-iron-fastcdr, ros-iron-builtin-interfaces, ros-iron-rcl-interfaces, ros-iron-rosidl-default-runtime
+Filename: ./ros-iron-rosapi-msgs_2.1.0-0jammy_amd64.deb
+Size: 571112
+MD5sum: 53ca64cd6bb828085226c4c0dad3e28d
+SHA1: b7da2d06f4f4eb9264367c2175c8835727713117
+SHA256: 35ab6ca8bf0e3c24b175b3a1f25540348c3050d6da182e88ec62ae6ba9ddeee0
 Section: misc
 Priority: optional
 Homepage: http://ros.org/wiki/rosapi
@@ -2175,21 +2190,6 @@ Description: Message and service definitions used in internal tests for rosbridg
 
 Package: ros-iron-xtypes
 Version: 1.1.0-0jammy
-Architecture: arm64
-Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
-Installed-Size: 632
-Filename: ./ros-iron-xtypes_1.1.0-0jammy_arm64.deb
-Size: 83430
-MD5sum: dfebc96603010bdc5e29782d7aac6873
-SHA1: 012978ad34f8fdd39c060fa1176b2c942a0f13df
-SHA256: 6d3fb2bd9a007c297e470fc4e3c8e6c0f10c797937161f220a9e23fb79732f05
-Section: misc
-Priority: optional
-Homepage: https://github.com/Greenroom-Robotics/xtypes
-Description: Implementation based on DDS-XTYPES standard (https://www.omg.org/spec/DDS-XTypes)
-
-Package: ros-iron-xtypes
-Version: 1.1.0-0jammy
 Architecture: amd64
 Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
 Installed-Size: 632
@@ -2198,6 +2198,21 @@ Size: 83436
 MD5sum: 77b97a1ef10d2fbbc2fc694236196b4e
 SHA1: e81658efaf1992c0f19ca24a331356aa15a8b99d
 SHA256: c657889b1f4214bf59578a4d6a5400427e02bf3669eeec7d128e8603a2efad50
+Section: misc
+Priority: optional
+Homepage: https://github.com/Greenroom-Robotics/xtypes
+Description: Implementation based on DDS-XTYPES standard (https://www.omg.org/spec/DDS-XTypes)
+
+Package: ros-iron-xtypes
+Version: 1.1.0-0jammy
+Architecture: arm64
+Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
+Installed-Size: 632
+Filename: ./ros-iron-xtypes_1.1.0-0jammy_arm64.deb
+Size: 83430
+MD5sum: dfebc96603010bdc5e29782d7aac6873
+SHA1: 012978ad34f8fdd39c060fa1176b2c942a0f13df
+SHA256: 6d3fb2bd9a007c297e470fc4e3c8e6c0f10c797937161f220a9e23fb79732f05
 Section: misc
 Priority: optional
 Homepage: https://github.com/Greenroom-Robotics/xtypes
