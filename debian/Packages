@@ -1446,6 +1446,21 @@ Description: Implementation based on DDS-XTYPES standard (https://www.omg.org/sp
 
 Package: ros-iron-argparse
 Version: 1.0.0-0jammy
+Architecture: arm64
+Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
+Installed-Size: 98
+Filename: ./ros-iron-argparse_1.0.0-0jammy_arm64.deb
+Size: 17924
+MD5sum: de1287294b8665fe682ef93e927bb881
+SHA1: 250a4a0592087d61a555bf846e271bf7e91273f5
+SHA256: 3362c998f482b93b03661fd2606501f80ff9fc7c0e2e628fdb4e0d321042999c
+Section: misc
+Priority: optional
+Homepage: https://github.com/Greenroom-Robotics/argparse
+Description: Argument Parser for Modern C++
+
+Package: ros-iron-argparse
+Version: 1.0.0-0jammy
 Architecture: amd64
 Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
 Installed-Size: 98
