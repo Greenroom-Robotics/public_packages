@@ -1664,6 +1664,36 @@ Homepage: https://github.com/Greenroom-Robotics/ROS2-SH
 Description: Integration Service System Handle for ROS 2 (mix generator)
 
 Package: ros-iron-launch-ext
+Version: 1.10.0-0jammy
+Architecture: amd64
+Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
+Installed-Size: 222
+Depends: gitpython, python3-psutil, ros-iron-launch, ros-iron-xacro
+Filename: ./ros-iron-launch-ext_1.10.0-0jammy_amd64.deb
+Size: 42286
+MD5sum: 4b2556d4be36d945f0d0f167f8db0115
+SHA1: f3c071d2b4ef881b8ba8731e6c47f7241972dce7
+SHA256: ad913f51f20b030c07e0844e5b08cfc24b600383457b151813127d54dd7e8acf
+Section: misc
+Priority: optional
+Description: Some extras for launch tooling.
+
+Package: ros-iron-launch-ext
+Version: 1.10.0-0jammy
+Architecture: arm64
+Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
+Installed-Size: 222
+Depends: gitpython, python3-psutil, ros-iron-launch, ros-iron-xacro
+Filename: ./ros-iron-launch-ext_1.10.0-0jammy_arm64.deb
+Size: 42272
+MD5sum: 24143ff13cab663f3b224eca79d458db
+SHA1: 0edae0028862a85812e814de58b81657392b6f0f
+SHA256: e8d59dc2e19925106cf64a3eac4982129df81b9a2e7762a7e9499acfae718c21
+Section: misc
+Priority: optional
+Description: Some extras for launch tooling.
+
+Package: ros-iron-launch-ext
 Version: 1.5.0-0jammy
 Architecture: amd64
 Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
