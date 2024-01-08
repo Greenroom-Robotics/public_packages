@@ -2338,3 +2338,18 @@ Priority: optional
 Homepage: https://github.com/Greenroom-Robotics/xtypes
 Description: Implementation based on DDS-XTYPES standard (https://www.omg.org/spec/DDS-XTypes)
 
+Package: ros-iron-xtypes
+Version: 1.1.1-0jammy
+Architecture: arm64
+Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
+Installed-Size: 632
+Filename: ./ros-iron-xtypes_1.1.1-0jammy_arm64.deb
+Size: 83504
+MD5sum: 05285fc37a876ecbc010d0646ca1fbd5
+SHA1: 755ca60f0aa3130a0c19a03115ee0aff28b243c9
+SHA256: 6ced52ac46b47964c0ecd582988fcc41d34f5c721974972b73b6c4a4a4d0baf5
+Section: misc
+Priority: optional
+Homepage: https://github.com/Greenroom-Robotics/xtypes
+Description: Implementation based on DDS-XTYPES standard (https://www.omg.org/spec/DDS-XTypes)
+
