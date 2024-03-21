@@ -2350,6 +2350,22 @@ Priority: optional
 Homepage: http://ros.org/wiki/rosapi
 Description: Provides service calls for getting ros meta-information, like list of topics, services, params, etc.
 
+Package: ros-iron-rosapi-msgs
+Version: 2.2.0-0jammy
+Architecture: amd64
+Maintainer: Jihoon Lee <jihoonlee.in@gmail.com>
+Installed-Size: 9766
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libpython3.10 (>= 3.10.0), libstdc++6 (>= 11), ros-iron-fastcdr, ros-iron-builtin-interfaces, ros-iron-rcl-interfaces, ros-iron-rosidl-default-runtime
+Filename: ./ros-iron-rosapi-msgs_2.2.0-0jammy_amd64.deb
+Size: 572208
+MD5sum: 966a244bf2e184b2da9276a2b8506b47
+SHA1: a508768c2380846f30039caf2809da6cba6e890f
+SHA256: 6b4d1bec9b608aec9f29de6caa6a7a1c5a64da62b1d2242c6be937929bb0fa2e
+Section: misc
+Priority: optional
+Homepage: http://ros.org/wiki/rosapi
+Description: Provides service calls for getting ros meta-information, like list of topics, services, params, etc.
+
 Package: ros-iron-rosbridge-library
 Version: 2.1.0-0jammy
 Architecture: amd64
