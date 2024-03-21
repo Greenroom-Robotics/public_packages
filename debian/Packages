@@ -2543,6 +2543,23 @@ Description: Rosbridge provides a JSON API to ROS functionality for non-ROS prog
 
 Package: ros-iron-rosbridge-suite
 Version: 2.2.0-0jammy
+Architecture: arm64
+Maintainer: Jihoon Lee <jihoonlee.in@gmail.com>
+Installed-Size: 43
+Depends: ros-iron-rosapi, ros-iron-rosbridge-library, ros-iron-rosbridge-server
+Filename: ./ros-iron-rosbridge-suite_2.2.0-0jammy_arm64.deb
+Size: 6900
+MD5sum: 971c2badf2a3b184c767226ba74b1a1a
+SHA1: 1178a2f282e507ad0d79a1c19dae987a5f8c8e05
+SHA256: 6d69b6ac1bba2069e3f6fcd97ba8d2c9f675cd872e44f377afe9c99b89d4df17
+Section: misc
+Priority: optional
+Homepage: http://ros.org/wiki/rosbridge_suite
+Description: Rosbridge provides a JSON API to ROS functionality for non-ROS programs.
+ There are a variety of front ends that interface with rosbridge, including a WebSocket server for web browsers to interact with. Rosbridge_suite is a meta-package containing rosbridge, various front end packages for rosbridge like a WebSocket package, and helper packages.
+
+Package: ros-iron-rosbridge-suite
+Version: 2.2.0-0jammy
 Architecture: amd64
 Maintainer: Jihoon Lee <jihoonlee.in@gmail.com>
 Installed-Size: 43
