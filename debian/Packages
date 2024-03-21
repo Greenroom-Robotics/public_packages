@@ -2382,6 +2382,22 @@ Priority: optional
 Homepage: http://ros.org/wiki/rosbridge_library
 Description: The core rosbridge package, responsible for interpreting JSON andperforming the appropriate ROS action, like subscribe, publish, call service, and interact with params.
 
+Package: ros-iron-rosbridge-library
+Version: 2.2.0-0jammy
+Architecture: amd64
+Maintainer: Jihoon Lee <jihoonlee.in@gmail.com>
+Installed-Size: 276
+Depends: python3-bson, python3-pil, ros-iron-rclpy, ros-iron-rosidl-default-runtime
+Filename: ./ros-iron-rosbridge-library_2.2.0-0jammy_amd64.deb
+Size: 49552
+MD5sum: b1fde045b4d83f0db27938f3e7ba586e
+SHA1: e14160feaf4d34a0bfca5ad87922a38927983ccc
+SHA256: 348b121bfd1a2532423d03040554f037d7aa34586ec32913142e140185b6a6cd
+Section: misc
+Priority: optional
+Homepage: http://ros.org/wiki/rosbridge_library
+Description: The core rosbridge package, responsible for interpreting JSON andperforming the appropriate ROS action, like subscribe, publish, call service, and interact with params.
+
 Package: ros-iron-rosbridge-msgs
 Version: 2.1.0-0jammy
 Architecture: amd64
