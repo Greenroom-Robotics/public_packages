@@ -2607,6 +2607,22 @@ Priority: optional
 Homepage: http://ros.org/wiki/rosbridge_library
 Description: Message and service definitions used in internal tests for rosbridge packages.
 
+Package: ros-iron-rosbridge-test-msgs
+Version: 2.2.0-0jammy
+Architecture: amd64
+Maintainer: Jihoon Lee <jihoonlee.in@gmail.com>
+Installed-Size: 14255
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libpython3.10 (>= 3.10.0), libstdc++6 (>= 11), ros-iron-fastcdr, ros-iron-builtin-interfaces, ros-iron-geometry-msgs, ros-iron-rclpy, ros-iron-rosidl-default-runtime, ros-iron-std-msgs
+Filename: ./ros-iron-rosbridge-test-msgs_2.2.0-0jammy_amd64.deb
+Size: 725190
+MD5sum: 23ab765e3b73b15ffe9964d3dd37cfa1
+SHA1: b218fc806f2dc39407ef6b325ecf52f8f3b0178c
+SHA256: b2443604e096c99c0da2ccc0168180fb19915364e06c6dae6298cfb99a98f576
+Section: misc
+Priority: optional
+Homepage: http://ros.org/wiki/rosbridge_library
+Description: Message and service definitions used in internal tests for rosbridge packages.
+
 Package: ros-iron-xtypes
 Version: 1.1.0-0jammy
 Architecture: arm64
