@@ -1878,6 +1878,36 @@ Priority: optional
 Description: Some extras for launch tooling.
 
 Package: ros-iron-launch-ext
+Version: 1.11.0-0jammy
+Architecture: arm64
+Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
+Installed-Size: 223
+Depends: python3-git, python3-psutil, ros-iron-launch, ros-iron-xacro
+Filename: ./ros-iron-launch-ext_1.11.0-0jammy_arm64.deb
+Size: 42526
+MD5sum: 4d728eb7c4c8e47a8c553d08bd9ca33e
+SHA1: 83de3913acef4c4eec7b61a6d2181eddc55ac800
+SHA256: 3873801be94ed33d2733be7bc9ae263dc7263845d67455a0ef27c5deab3126fe
+Section: misc
+Priority: optional
+Description: Some extras for launch tooling.
+
+Package: ros-iron-launch-ext
+Version: 1.11.0-0jammy
+Architecture: amd64
+Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
+Installed-Size: 223
+Depends: python3-git, python3-psutil, ros-iron-launch, ros-iron-xacro
+Filename: ./ros-iron-launch-ext_1.11.0-0jammy_amd64.deb
+Size: 42536
+MD5sum: dbc4278f77957327514296960923924a
+SHA1: 861570a8a6366887452a53e8de0adea33514b89f
+SHA256: ea795af55a50f889851f269ea685f84cec3327d747a0cd097de8744622aa7272
+Section: misc
+Priority: optional
+Description: Some extras for launch tooling.
+
+Package: ros-iron-launch-ext
 Version: 1.5.0-0jammy
 Architecture: amd64
 Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
@@ -2710,6 +2740,21 @@ Size: 54312
 MD5sum: 8d5df0f00ff3628bbdead9793123d0e5
 SHA1: ca44dda6e80ea9ff300b4aee6c82a45076e77cb1
 SHA256: 6ed77dd76d13314a19e67d92ff4c7f27a41e2244f73128f87297d7760eab2dc7
+Section: misc
+Priority: optional
+Description: Some extras for launch tooling.
+
+Package: ros-jazzy-launch-ext
+Version: 1.11.0-0noble
+Architecture: arm64
+Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
+Installed-Size: 253
+Depends: python3-git, python3-psutil, ros-jazzy-launch, ros-jazzy-xacro
+Filename: ./ros-jazzy-launch-ext_1.11.0-0noble_arm64.deb
+Size: 54316
+MD5sum: 1bb5083ee6f4ce629556ed8154265699
+SHA1: 1fdbff6580b80a7b61569706232695a0873425a1
+SHA256: dec0ab7dcc7a2cccc0f875a84239f864c8cf5f71d5a312c070b8071344e15828
 Section: misc
 Priority: optional
 Description: Some extras for launch tooling.
