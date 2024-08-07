@@ -2775,3 +2775,19 @@ Section: misc
 Priority: optional
 Description: Some extras for launch tooling.
 
+Package: ros-jazzy-septentrio-gnss-driver
+Version: 1.4.2-0noble
+Architecture: amd64
+Maintainer: Tibor Dome <tibor.doeme@alumni.ethz.ch>
+Installed-Size: 9108
+Depends: libc6 (>= 2.38), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.4), libgeographiclib26 (>= 1.43), libpcap0.8t64 (>= 0.9.8), libpython3.12t64 (>= 3.12.1), libstdc++6 (>= 14), ros-jazzy-fastcdr, libboost-all-dev, libgeographiclib-dev, libpcap0.8-dev, ros-jazzy-diagnostic-msgs, ros-jazzy-geometry-msgs, ros-jazzy-gps-msgs, ros-jazzy-nav-msgs, ros-jazzy-nmea-msgs, ros-jazzy-rclcpp, ros-jazzy-rclcpp-components, ros-jazzy-rosidl-default-runtime, ros-jazzy-sensor-msgs, ros-jazzy-tf2, ros-jazzy-tf2-eigen, ros-jazzy-tf2-geometry-msgs, ros-jazzy-tf2-ros
+Filename: ./ros-jazzy-septentrio-gnss-driver_1.4.2-0noble_amd64.deb
+Size: 1026926
+MD5sum: b69cb202667c7498ba7559b825761d42
+SHA1: 7ffddb90b0cbfbdfb81c5eb103a5c70391c742e2
+SHA256: cec6d79ba58b7d51b2975aec7acf03b6b6393e5ed908cc1f4c546b14c8cf05c1
+Section: misc
+Priority: optional
+Homepage: https://github.com/septentrio-gnss/septentrio_gnss_driver
+Description: ROSaic: C++ driver for Septentrio's GNSS and INS receivers
+
