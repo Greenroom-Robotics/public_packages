@@ -2793,6 +2793,21 @@ Priority: optional
 Homepage: https://github.com/Greenroom-Robotics/xtypes
 Description: Implementation based on DDS-XTYPES standard (https://www.omg.org/spec/DDS-XTypes)
 
+Package: ros-jazzy-argparse
+Version: 1.1.0-0noble
+Architecture: amd64
+Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
+Installed-Size: 98
+Filename: ./ros-jazzy-argparse_1.1.0-0noble_amd64.deb
+Size: 17820
+MD5sum: 3ef90c93829768cb3a8238e5e727d8cb
+SHA1: 1e3c4eef1230132aa2fe12f69e6239bd236c5e05
+SHA256: fdbd07a9f6cf108ede1b7eae1401eadc969850ac8e643ed44dd9d4ba3fd91bb6
+Section: misc
+Priority: optional
+Homepage: https://github.com/Greenroom-Robotics/argparse
+Description: Argument Parser for Modern C++
+
 Package: ros-jazzy-canary
 Version: 1.1.1-0noble
 Architecture: amd64
