@@ -2767,12 +2767,12 @@ Package: ros-iron-xtypes
 Version: 1.1.1-0jammy
 Architecture: arm64
 Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
-Installed-Size: 632
+Installed-Size: 633
 Filename: ./ros-iron-xtypes_1.1.1-0jammy_arm64.deb
-Size: 83504
-MD5sum: 05285fc37a876ecbc010d0646ca1fbd5
-SHA1: 755ca60f0aa3130a0c19a03115ee0aff28b243c9
-SHA256: 6ced52ac46b47964c0ecd582988fcc41d34f5c721974972b73b6c4a4a4d0baf5
+Size: 83692
+MD5sum: 8159889d7616acdf4a306c7c2bad1e0a
+SHA1: 3e9b281a8aa148600dd92d5d3379d724950c4572
+SHA256: 7ff0dadcf4b5cea455cc31752dc55e70b1270612ef6edece9bd759b5e8ded0ee
 Section: misc
 Priority: optional
 Homepage: https://github.com/Greenroom-Robotics/xtypes
