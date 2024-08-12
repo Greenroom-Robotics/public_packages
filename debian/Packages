@@ -1476,6 +1476,21 @@ Description: Argument Parser for Modern C++
 
 Package: ros-iron-argparse
 Version: 1.1.0-0jammy
+Architecture: arm64
+Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
+Installed-Size: 98
+Filename: ./ros-iron-argparse_1.1.0-0jammy_arm64.deb
+Size: 17924
+MD5sum: 5ab07cd13ee6a66a87809fd44c288933
+SHA1: b64cb5b022f15db5ee450e0d18e1aaead73dae5c
+SHA256: eec975d1769ae41f99467a59eaa686dc9c76a96941f58955adbad07890cd56a5
+Section: misc
+Priority: optional
+Homepage: https://github.com/Greenroom-Robotics/argparse
+Description: Argument Parser for Modern C++
+
+Package: ros-iron-argparse
+Version: 1.1.0-0jammy
 Architecture: amd64
 Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
 Installed-Size: 98
