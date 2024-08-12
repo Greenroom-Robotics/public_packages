@@ -1747,12 +1747,12 @@ Version: 1.2.2-0jammy
 Architecture: arm64
 Maintainer: Greenroom Robotics <team@greenroomrobotics.com>
 Installed-Size: 421
-Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), libyaml-cpp0.7 (>= 0.7.0), ros-iron-is-core, ros-iron-rclcpp, ros-iron-xtypes
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), libyaml-cpp0.7 (>= 0.7.0), ros-iron-is-core (>= 1.1.2), ros-iron-rclcpp, ros-iron-xtypes
 Filename: ./ros-iron-is-ros2_1.2.2-0jammy_arm64.deb
-Size: 106024
-MD5sum: 4773f58289b8c3b8e070353b67931912
-SHA1: e97bb5480ab82f5edbfb73f7d19bda9efac27dab
-SHA256: c3c815ea101849ecd9bad69423c161ce787dccc1f90669172ac48b21f0e66323
+Size: 106600
+MD5sum: 821040bd1af22018003010b78c31e5a1
+SHA1: 452384efb81c9088a2e2c1788552bbeee5745253
+SHA256: 4d9642e4c43f721485e67019940c1b6e72cc739a30722710753bcaa252347f3f
 Section: misc
 Priority: optional
 Homepage: https://github.com/Greenroom-Robotics/ROS2-SH/tree/feature/mix-idl-support
