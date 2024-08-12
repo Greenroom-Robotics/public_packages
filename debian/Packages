@@ -2904,6 +2904,22 @@ Description: A lightweight implementation of Linux SocketCAN bindings for ASIO
 
 Package: ros-jazzy-is-core
 Version: 1.1.2-0noble
+Architecture: arm64
+Maintainer: Greenroom Robotics <team@greenroomrobotics.com>
+Installed-Size: 1627
+Depends: libboost-program-options1.83.0 (>= 1.83.0), libc6 (>= 2.38), libgcc-s1 (>= 4.2), libstdc++6 (>= 14), libyaml-cpp0.8 (>= 0.7.0), libyaml-cpp-dev
+Filename: ./ros-jazzy-is-core_1.1.2-0noble_arm64.deb
+Size: 427404
+MD5sum: 3f6a1a61f72d27d7279dfb20fc5f6ca5
+SHA1: 395ab9f0f9fb6d481ba575d611eb3c5fd3102ec5
+SHA256: c601646a7b48d9abf511f04499974cb69846d2955c101639c883dd79200b2b6d
+Section: misc
+Priority: optional
+Homepage: https://github.com/Greenroom-Robotics/Integration-Service/tree/gr
+Description: Integration Services core
+
+Package: ros-jazzy-is-core
+Version: 1.1.2-0noble
 Architecture: amd64
 Maintainer: Greenroom Robotics <team@greenroomrobotics.com>
 Installed-Size: 1607
