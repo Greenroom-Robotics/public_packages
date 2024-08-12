@@ -1543,9 +1543,9 @@ Installed-Size: 53
 Depends: libasio-dev, libboost-system-dev
 Filename: ./ros-iron-canary_1.1.1-0jammy_amd64.deb
 Size: 8068
-MD5sum: a12d5a096ffbd83f7a8794a2b48c36d4
-SHA1: 352690f3ddccaa3a4b5bd882af80f421febb6191
-SHA256: 298f8bbc660f17cd6b37b2cb4c682c896ebf8865255a2dc81f8e8c3aed8bbd04
+MD5sum: 926df5f8916a234176d62e8afc8b6b94
+SHA1: eafb0482f7c06c362b074e6a22b3ac0bbf96ec3c
+SHA256: 9cdfa7a954427681eae1c0c649d6f180f36aa53bd2307ff3a1b405b491b73ec7
 Section: misc
 Priority: optional
 Homepage: https://github.com/Greenroom-Robotics/canary
@@ -2792,6 +2792,22 @@ Section: misc
 Priority: optional
 Homepage: https://github.com/Greenroom-Robotics/xtypes
 Description: Implementation based on DDS-XTYPES standard (https://www.omg.org/spec/DDS-XTypes)
+
+Package: ros-jazzy-canary
+Version: 1.1.1-0noble
+Architecture: amd64
+Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
+Installed-Size: 54
+Depends: libasio-dev, libboost-system-dev
+Filename: ./ros-jazzy-canary_1.1.1-0noble_amd64.deb
+Size: 8110
+MD5sum: b53fbfbaee677033e5932812c1a4fa2c
+SHA1: b0e35d1f6093bdbad27973f3f0c638577b8d360f
+SHA256: 24705b27e9332327978a5486eff7d67a2d02ca5b82278b4de778d2c2da239bb6
+Section: misc
+Priority: optional
+Homepage: https://github.com/Greenroom-Robotics/canary
+Description: A lightweight implementation of Linux SocketCAN bindings for ASIO
 
 Package: ros-jazzy-launch-ext
 Version: 1.11.0-0noble
