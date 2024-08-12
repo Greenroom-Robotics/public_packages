@@ -1478,12 +1478,12 @@ Package: ros-iron-argparse
 Version: 1.1.0-0jammy
 Architecture: amd64
 Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
-Installed-Size: 82
+Installed-Size: 98
 Filename: ./ros-iron-argparse_1.1.0-0jammy_amd64.deb
-Size: 15344
-MD5sum: f698c4a59855d71bbda9aebbf78129af
-SHA1: e730c6dc72b9ba20f01bd817750624d1b8115d2b
-SHA256: 28a9234ce06dbde310d62cdfcb94d2fd0203246a34c8bda51118bd1bb0ca120d
+Size: 17926
+MD5sum: c1e65df5263b16ce13e52e458b417257
+SHA1: d858c692a685d93cfdf9465e9dd16e4ef3ae465b
+SHA256: 7532e49b73f257d477d3a7dd4cc0d2b58ae6bc82c5983c1cffb1ebca1ded999c
 Section: misc
 Priority: optional
 Homepage: https://github.com/Greenroom-Robotics/argparse
