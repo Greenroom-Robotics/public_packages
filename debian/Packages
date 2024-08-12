@@ -1662,6 +1662,22 @@ Priority: optional
 Homepage: https://github.com/Greenroom-Robotics/Integration-Service/tree/gr
 Description: Integration Services core
 
+Package: ros-iron-is-core
+Version: 1.1.2-0jammy
+Architecture: arm64
+Maintainer: Greenroom Robotics <team@greenroomrobotics.com>
+Installed-Size: 1402
+Depends: libboost-program-options1.74.0 (>= 1.74.0), libc6 (>= 2.34), libgcc-s1 (>= 4.2), libstdc++6 (>= 11), libyaml-cpp0.7 (>= 0.7.0), libyaml-cpp-dev
+Filename: ./ros-iron-is-core_1.1.2-0jammy_arm64.deb
+Size: 414026
+MD5sum: 85258723d634235e775efa161cc25b53
+SHA1: 8e24001688c1dc4cfffee781fa8c1afeb56fa9b8
+SHA256: 8789c196a200537547de73f2a681635807c508110f9daf0ea2811da9c619b364
+Section: misc
+Priority: optional
+Homepage: https://github.com/Greenroom-Robotics/Integration-Service/tree/gr
+Description: Integration Services core
+
 Package: ros-iron-is-ros2
 Version: 1.2.0-0jammy
 Architecture: arm64
