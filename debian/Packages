@@ -2886,6 +2886,22 @@ Priority: optional
 Homepage: https://github.com/Greenroom-Robotics/canary
 Description: A lightweight implementation of Linux SocketCAN bindings for ASIO
 
+Package: ros-jazzy-is-core
+Version: 1.1.2-0noble
+Architecture: amd64
+Maintainer: Greenroom Robotics <team@greenroomrobotics.com>
+Installed-Size: 1607
+Depends: libboost-program-options1.83.0 (>= 1.83.0), libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 14), libyaml-cpp0.8 (>= 0.7.0), libyaml-cpp-dev
+Filename: ./ros-jazzy-is-core_1.1.2-0noble_amd64.deb
+Size: 461002
+MD5sum: 767bdc9a442cc345036b55020fdf1754
+SHA1: 3a6001b1ced7e328c5cad1165c17d8f7865e5b19
+SHA256: 54a536997b72b0a0cdb0c38aab5ec375092b46edc0c89ce3f6a547221b5eedef
+Section: misc
+Priority: optional
+Homepage: https://github.com/Greenroom-Robotics/Integration-Service/tree/gr
+Description: Integration Services core
+
 Package: ros-jazzy-launch-ext
 Version: 1.11.0-0noble
 Architecture: arm64
