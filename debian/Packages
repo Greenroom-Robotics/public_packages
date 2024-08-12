@@ -2902,3 +2902,18 @@ Priority: optional
 Homepage: https://github.com/Greenroom-Robotics/xtypes
 Description: Implementation based on DDS-XTYPES standard (https://www.omg.org/spec/DDS-XTypes)
 
+Package: ros-jazzy-xtypes
+Version: 1.1.1-0noble
+Architecture: arm64
+Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
+Installed-Size: 633
+Filename: ./ros-jazzy-xtypes_1.1.1-0noble_arm64.deb
+Size: 83766
+MD5sum: cba1d2759cc07e287a811867745dfd64
+SHA1: 463383ba26b6427afd3a58952677412a2ecc9805
+SHA256: 7c617e10159dc2f2e3cbc9bcedbb1f0cb0ebd38f3288053a1257e700b5912149
+Section: misc
+Priority: optional
+Homepage: https://github.com/Greenroom-Robotics/xtypes
+Description: Implementation based on DDS-XTYPES standard (https://www.omg.org/spec/DDS-XTypes)
+
