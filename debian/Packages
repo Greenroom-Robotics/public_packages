@@ -2810,6 +2810,21 @@ Description: Implementation based on DDS-XTYPES standard (https://www.omg.org/sp
 
 Package: ros-jazzy-argparse
 Version: 1.1.0-0noble
+Architecture: arm64
+Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
+Installed-Size: 98
+Filename: ./ros-jazzy-argparse_1.1.0-0noble_arm64.deb
+Size: 17818
+MD5sum: 8c0b72e55648ace0ecbd322dd0148604
+SHA1: 2492f454483606793e86147c0fb6516d60027006
+SHA256: 656fddb70f5f874374883ef9b45b80ef261ef473585e1b0efe82248762f51343
+Section: misc
+Priority: optional
+Homepage: https://github.com/Greenroom-Robotics/argparse
+Description: Argument Parser for Modern C++
+
+Package: ros-jazzy-argparse
+Version: 1.1.0-0noble
 Architecture: amd64
 Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
 Installed-Size: 98
