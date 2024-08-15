@@ -2966,6 +2966,22 @@ Priority: optional
 Homepage: https://github.com/Greenroom-Robotics/Integration-Service/tree/gr
 Description: Integration Services core
 
+Package: ros-jazzy-is-ros2
+Version: 1.2.2-0noble
+Architecture: amd64
+Maintainer: Greenroom Robotics <team@greenroomrobotics.com>
+Installed-Size: 484
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 14), libyaml-cpp0.8 (>= 0.7.0), ros-jazzy-is-core (>= 1.1.2), ros-jazzy-rclcpp, ros-jazzy-xtypes
+Filename: ./ros-jazzy-is-ros2_1.2.2-0noble_amd64.deb
+Size: 115424
+MD5sum: d06e445b490c0720292d5c78a08422a0
+SHA1: 9abf4f3b4a07ff3a129b39af0798c81fd67e0a22
+SHA256: 20959d97af345386d9804f6aff026ed42a5474f2873f8aa5f469588017834a01
+Section: misc
+Priority: optional
+Homepage: https://github.com/Greenroom-Robotics/ROS2-SH/tree/feature/mix-idl-support
+Description: Integration Service System Handle for ROS 2
+
 Package: ros-jazzy-launch-ext
 Version: 1.11.0-0noble
 Architecture: arm64
