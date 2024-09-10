@@ -2183,6 +2183,22 @@ Description: Some extras for launch tooling.
 
 Package: ros-iron-libxmlmm
 Version: 1.0.0-0jammy
+Architecture: arm64
+Maintainer: Denis Draca <denis.draca@greenroomrobotics.com>
+Installed-Size: 117
+Depends: libc6 (>= 2.17), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 5.2), libxml2 (>= 2.7.4), libxml2-dev
+Filename: ./ros-iron-libxmlmm_1.0.0-0jammy_arm64.deb
+Size: 23236
+MD5sum: 7d3c6116c156838217ab2a438c2119d3
+SHA1: 3abd3acf7297caa87f328acb746ae04c0a3d8de7
+SHA256: a61264b7baa4c9f5efc5b8c916b94315e2e5ae8d41a8e21380a073b4500ac90e
+Section: misc
+Priority: optional
+Homepage: https://github.com/Greenroom-Robotics/libxmlmm
+Description: Libxmlmm is a C++ wrapper for libxml 2.0 that only relies on standard C++ and libxml2
+
+Package: ros-iron-libxmlmm
+Version: 1.0.0-0jammy
 Architecture: amd64
 Maintainer: Denis Draca <denis.draca@greenroomrobotics.com>
 Installed-Size: 121
