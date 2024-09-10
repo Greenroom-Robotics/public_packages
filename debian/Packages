@@ -3076,6 +3076,22 @@ Priority: optional
 Homepage: https://github.com/Greenroom-Robotics/libxmlmm
 Description: Libxmlmm is a C++ wrapper for libxml 2.0 that only relies on standard C++ and libxml2
 
+Package: ros-jazzy-libxmlmm
+Version: 1.0.0-0noble
+Architecture: arm64
+Maintainer: Denis Draca <denis.draca@greenroomrobotics.com>
+Installed-Size: 124
+Depends: libc6 (>= 2.17), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), libxml2 (>= 2.7.4), libxml2-dev
+Filename: ./ros-jazzy-libxmlmm_1.0.0-0noble_arm64.deb
+Size: 23588
+MD5sum: bc9829060a9aa24e25b52b35ff89afe8
+SHA1: b677afd8f7f5bc3b583afee1107b36dddb043125
+SHA256: f51b6582186bfb20b496894be67dc0248a760516897a136b19a35a9e3db57222
+Section: misc
+Priority: optional
+Homepage: https://github.com/Greenroom-Robotics/libxmlmm
+Description: Libxmlmm is a C++ wrapper for libxml 2.0 that only relies on standard C++ and libxml2
+
 Package: ros-jazzy-septentrio-gnss-driver
 Version: 1.4.2-0noble
 Architecture: arm64
