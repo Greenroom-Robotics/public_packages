@@ -1612,6 +1612,21 @@ Section: misc
 Priority: optional
 Description: Python to generate ROS parameter library.
 
+Package: ros-iron-generate-parameter-module-example
+Version: 1.0.0-0jammy
+Architecture: amd64
+Maintainer: paul <paulgesel@gmail.com>
+Installed-Size: 42
+Depends: ros-iron-generate-parameter-library, ros-iron-generate-parameter-library-py, ros-iron-rclpy
+Filename: ./ros-iron-generate-parameter-module-example_1.0.0-0jammy_amd64.deb
+Size: 6302
+MD5sum: 47f01aea4ea4a0e1032d2dc20e473652
+SHA1: bcbf3fbd03f30a113f7b79014175cedcefad0f66
+SHA256: 6f2bc41a6bb80be21168b441043b59753a9879063c5527437893fef9d61c308f
+Section: misc
+Priority: optional
+Description: Example usage of generate_parameter_library for a python module
+
 Package: ros-iron-is-core
 Version: 1.1.0-0jammy
 Architecture: arm64
