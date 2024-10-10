@@ -1597,6 +1597,21 @@ Section: misc
 Priority: optional
 Description: Example usage of generate_parameter_library.
 
+Package: ros-iron-generate-parameter-library-example
+Version: 1.0.0-0jammy
+Architecture: arm64
+Maintainer: Paul Gesel <paul.gesel@picknik.ai>
+Installed-Size: 520
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libfmt8 (>= 8.1.1+ds1), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-iron-ament-cmake-core, ros-iron-generate-parameter-library, ros-iron-rclcpp, ros-iron-rclcpp-components
+Filename: ./ros-iron-generate-parameter-library-example_1.0.0-0jammy_arm64.deb
+Size: 124430
+MD5sum: 4ab9077ba82e0e427dc4d51992fad285
+SHA1: bcf622069eb4ec06d8fa7ab435d9c55239dba031
+SHA256: cb4f5672e77722767af8570c1d50483a0a59f7a4f8a0a13048fa9e18f7528259
+Section: misc
+Priority: optional
+Description: Example usage of generate_parameter_library.
+
 Package: ros-iron-generate-parameter-library-py
 Version: 1.0.0-0jammy
 Architecture: amd64
