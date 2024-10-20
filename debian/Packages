@@ -2892,13 +2892,13 @@ Package: ros-iron-septentrio-gnss-driver
 Version: 1.5.0-0jammy
 Architecture: amd64
 Maintainer: Tibor Dome <tibor.doeme@alumni.ethz.ch>
-Installed-Size: 8098
+Installed-Size: 8061
 Depends: libboost-regex1.74.0-icu70, libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.4), libgeographic19 (>= 1.43), libpcap0.8 (>= 0.9.8), libpython3.10 (>= 3.10.0), libstdc++6 (>= 12), ros-iron-fastcdr, libboost-all-dev, libgeographic-dev, libpcap0.8-dev, ros-iron-diagnostic-msgs, ros-iron-geographic-msgs, ros-iron-geometry-msgs, ros-iron-gps-msgs, ros-iron-nav-msgs, ros-iron-nmea-msgs, ros-iron-rclcpp, ros-iron-rclcpp-components, ros-iron-rosidl-default-runtime, ros-iron-sensor-msgs, ros-iron-tf2, ros-iron-tf2-eigen, ros-iron-tf2-geometry-msgs, ros-iron-tf2-ros
 Filename: ./ros-iron-septentrio-gnss-driver_1.5.0-0jammy_amd64.deb
-Size: 869798
-MD5sum: de0bf00968fdb84f95affdc7b425b1aa
-SHA1: 90a403c7f9e4b79d10ce044f8afe1500de92ae63
-SHA256: 178ae37ca6b2a2f2f3053853ba1fae918f84f206ad94cfb34afd8227d6898eb9
+Size: 867500
+MD5sum: 68377881806b0550f9127929b375c187
+SHA1: 982c1f2ee2dfc506b63631b94ea07fb0665f712a
+SHA256: 0e62dcd2aa04bca272c63b97e31d1973a996059ba99be73131bcc865a9bbb977
 Section: misc
 Priority: optional
 Homepage: https://github.com/septentrio-gnss/septentrio_gnss_driver
