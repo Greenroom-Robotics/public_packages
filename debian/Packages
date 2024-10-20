@@ -2879,10 +2879,10 @@ Maintainer: Tibor Dome <tibor.doeme@alumni.ethz.ch>
 Installed-Size: 7822
 Depends: libboost-regex1.74.0-icu70, libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libgeographic19 (>= 1.43), libpcap0.8 (>= 0.9.8), libpython3.10 (>= 3.10.0), libstdc++6 (>= 12), ros-iron-fastcdr, libboost-all-dev, libgeographic-dev, libpcap0.8-dev, ros-iron-diagnostic-msgs, ros-iron-geographic-msgs, ros-iron-geometry-msgs, ros-iron-gps-msgs, ros-iron-nav-msgs, ros-iron-nmea-msgs, ros-iron-rclcpp, ros-iron-rclcpp-components, ros-iron-rosidl-default-runtime, ros-iron-sensor-msgs, ros-iron-tf2, ros-iron-tf2-eigen, ros-iron-tf2-geometry-msgs, ros-iron-tf2-ros
 Filename: ./ros-iron-septentrio-gnss-driver_1.5.0-0jammy_arm64.deb
-Size: 809982
-MD5sum: 7d932260ca9c4bef687f5355bbb295ee
-SHA1: d6d0583a2d85868a145d194e0bce5fa067d93324
-SHA256: 12811c12d477c5440d2bf49ae90a4061ad778fbfdb82973f9e0037a703989321
+Size: 810212
+MD5sum: df5eb78befb7463ec5f46cd09ecc8f5d
+SHA1: 0b19ebd6f409d25ee8d4bd0d2b4a8eb4af136407
+SHA256: 09993ce0d47355688dcf8e8ed834b600acb2a291e86f7658a6c8ed70a3e6f837
 Section: misc
 Priority: optional
 Homepage: https://github.com/septentrio-gnss/septentrio_gnss_driver
@@ -3223,10 +3223,10 @@ Maintainer: Tibor Dome <tibor.doeme@alumni.ethz.ch>
 Installed-Size: 9315
 Depends: libc6 (>= 2.38), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.4), libgeographiclib26 (>= 1.43), libpcap0.8t64 (>= 0.9.8), libpython3.12t64 (>= 3.12.1), libstdc++6 (>= 14), ros-jazzy-fastcdr, libboost-all-dev, libgeographiclib-dev, libpcap0.8-dev, ros-jazzy-diagnostic-msgs, ros-jazzy-geographic-msgs, ros-jazzy-geometry-msgs, ros-jazzy-gps-msgs, ros-jazzy-nav-msgs, ros-jazzy-nmea-msgs, ros-jazzy-rclcpp, ros-jazzy-rclcpp-components, ros-jazzy-rosidl-default-runtime, ros-jazzy-sensor-msgs, ros-jazzy-tf2, ros-jazzy-tf2-eigen, ros-jazzy-tf2-geometry-msgs, ros-jazzy-tf2-ros
 Filename: ./ros-jazzy-septentrio-gnss-driver_1.5.0-0noble_amd64.deb
-Size: 1060612
-MD5sum: 1e8fa8991ff4b8a5fd0ddb36ff0b3d93
-SHA1: bb0e3a613493d99726139425a76babbe8d6fbd22
-SHA256: adafe851b77e350ce82691405c5a82291b5d5cfa361eba10e4042517cbb67f08
+Size: 1060630
+MD5sum: 1449368e1a28f686305e7d23686c1aec
+SHA1: cd97ed4564af93b4bfe415bfe65a57c808e035b3
+SHA256: f18ddadf21cbe69078cae62e2b19ab0cae70ec7d8b78b4647a2c350acbad5ec0
 Section: misc
 Priority: optional
 Homepage: https://github.com/septentrio-gnss/septentrio_gnss_driver
