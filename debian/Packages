@@ -3000,6 +3000,22 @@ Description: ROSaic: C++ driver for Septentrio's GNSS and INS receivers
 
 Package: ros-iron-septentrio-gnss-driver
 Version: 1.5.3-0jammy
+Architecture: arm64
+Maintainer: Tibor Dome <tibor.doeme@alumni.ethz.ch>
+Installed-Size: 7839
+Depends: libboost-regex1.74.0-icu70, libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libgeographic19 (>= 1.43), libpcap0.8 (>= 0.9.8), libpython3.10 (>= 3.10.0), libstdc++6 (>= 12), ros-iron-fastcdr, libboost-all-dev, libgeographic-dev, libpcap0.8-dev, ros-iron-diagnostic-msgs, ros-iron-geographic-msgs, ros-iron-geometry-msgs, ros-iron-gps-msgs, ros-iron-nav-msgs, ros-iron-nmea-msgs, ros-iron-rclcpp, ros-iron-rclcpp-components, ros-iron-rosidl-default-runtime, ros-iron-sensor-msgs, ros-iron-tf2, ros-iron-tf2-eigen, ros-iron-tf2-geometry-msgs, ros-iron-tf2-ros
+Filename: ./ros-iron-septentrio-gnss-driver_1.5.3-0jammy_arm64.deb
+Size: 812396
+MD5sum: 9e2835f0f08b28d97b8e9e18cff5dd3c
+SHA1: c6df170f8fa48fe06e83795524d4d429b6a4fe53
+SHA256: e5c64db8371a18a6215291bdd2ce510622bf6ce3ff070922034c200224ef612a
+Section: misc
+Priority: optional
+Homepage: https://github.com/septentrio-gnss/septentrio_gnss_driver
+Description: ROSaic: C++ driver for Septentrio's GNSS and INS receivers
+
+Package: ros-iron-septentrio-gnss-driver
+Version: 1.5.3-0jammy
 Architecture: amd64
 Maintainer: Tibor Dome <tibor.doeme@alumni.ethz.ch>
 Installed-Size: 8070
