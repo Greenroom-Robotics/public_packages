@@ -3275,6 +3275,22 @@ Priority: optional
 Homepage: https://github.com/Greenroom-Robotics/canary
 Description: A lightweight implementation of Linux SocketCAN bindings for ASIO
 
+Package: ros-jazzy-foxglove-bridge
+Version: 10.0.1-0noble
+Architecture: amd64
+Maintainer: Hans-Joachim Krauch <achim@foxglove.dev>
+Installed-Size: 3159
+Depends: libc6 (>= 2.38), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libssl3t64 (>= 3.0.0), libstdc++6 (>= 14), ros-jazzy-fastcdr, zlib1g (>= 1:1.1.4), openssl, ros-jazzy-ament-index-cpp, ros-jazzy-rclcpp, ros-jazzy-rclcpp-components, ros-jazzy-resource-retriever, ros-jazzy-rosgraph-msgs, ros-jazzy-rosx-introspection, zlib1g-dev
+Filename: ./ros-jazzy-foxglove-bridge_10.0.1-0noble_amd64.deb
+Size: 845276
+MD5sum: 28d357b005b193c088004fcbe134481c
+SHA1: b0251c76c1d3e3376db516e49cefc2b891ff08b4
+SHA256: e989f5b95e4f52f4b94d0a529d369b1d4d578c7ab3adc7afa8ab5d4ae0f2249e
+Section: misc
+Priority: optional
+Homepage: https://github.com/foxglove/ros-foxglove-bridge
+Description: ROS Foxglove Bridge
+
 Package: ros-jazzy-is-core
 Version: 1.1.2-0noble
 Architecture: amd64
