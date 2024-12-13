@@ -3355,6 +3355,22 @@ Priority: optional
 Homepage: https://github.com/Greenroom-Robotics/canary
 Description: A lightweight implementation of Linux SocketCAN bindings for ASIO
 
+Package: ros-jazzy-diagnostic-aggregator
+Version: 10.0.1-0noble
+Architecture: amd64
+Maintainer: Austin Hendrix <namniart@gmail.com>
+Installed-Size: 1544
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 14), libtinyxml2-10 (>= 10.0.0), ros-jazzy-rclpy
+Filename: ./ros-jazzy-diagnostic-aggregator_10.0.1-0noble_amd64.deb
+Size: 346874
+MD5sum: 64019c18dd12133e51c31c23b6ced760
+SHA1: 8e927054ae9447be7782fd43884f1a681e309ab1
+SHA256: 277f2f61001641995f6001548a60e98aff495caec40f2de48c796cd5cf44c768
+Section: misc
+Priority: optional
+Homepage: http://www.ros.org/wiki/diagnostic_aggregator
+Description: diagnostic_aggregator
+
 Package: ros-jazzy-foxglove-bridge
 Version: 10.0.1-0noble
 Architecture: amd64
