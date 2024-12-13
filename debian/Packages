@@ -1582,6 +1582,22 @@ Priority: optional
 Homepage: https://github.com/Greenroom-Robotics/canary
 Description: A lightweight implementation of Linux SocketCAN bindings for ASIO
 
+Package: ros-iron-diagnostic-aggregator
+Version: 10.0.1-0jammy
+Architecture: amd64
+Maintainer: Austin Hendrix <namniart@gmail.com>
+Installed-Size: 1431
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), libtinyxml2-9 (>= 8.0.0), ros-iron-rclpy
+Filename: ./ros-iron-diagnostic-aggregator_10.0.1-0jammy_amd64.deb
+Size: 330690
+MD5sum: a1cd86b2af1ecc1c3ae51cc0f64a00ac
+SHA1: 03db53eee1e31e1614ddb7bc7579bd1e68264fdb
+SHA256: 6d231f1df94466a2991fd8c05d4641d48aa12da92cc8d2c2530b653086ef2b59
+Section: misc
+Priority: optional
+Homepage: http://www.ros.org/wiki/diagnostic_aggregator
+Description: diagnostic_aggregator
+
 Package: ros-iron-foxglove-bridge
 Version: 10.0.1-0jammy
 Architecture: amd64
