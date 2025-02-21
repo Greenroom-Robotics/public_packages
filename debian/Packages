@@ -1832,10 +1832,10 @@ Maintainer: Hans-Joachim Krauch <achim@foxglove.dev>
 Installed-Size: 3075
 Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libssl3 (>= 3.0.0~~alpha1), libstdc++6 (>= 12), ros-iron-fastcdr, zlib1g (>= 1:1.1.4), openssl, ros-iron-ament-index-cpp, ros-iron-rclcpp, ros-iron-rclcpp-components, ros-iron-resource-retriever, ros-iron-rosgraph-msgs, ros-iron-rosx-introspection, zlib1g-dev
 Filename: ./ros-iron-foxglove-bridge_10.4.0-0jammy_amd64.deb
-Size: 827870
-MD5sum: a34e992c6b22643e4cb86f6cd34b4e90
-SHA1: 561ea656c11358aae066a3921bfe88a7f01f901d
-SHA256: 386bd224fdbfef56d6ba99ab16555f88b7342c3820a7d632255086eec5c4f1ae
+Size: 828020
+MD5sum: d3338dff415854b3fb39973f6863b60b
+SHA1: 683d12e9192717138b98ba022ee88582e76ce3b6
+SHA256: 9b87911e2c158bb873aad6a30e6f363ebe80b7f15df377202ed791a3474dfb39
 Section: misc
 Priority: optional
 Homepage: https://github.com/foxglove/ros-foxglove-bridge
