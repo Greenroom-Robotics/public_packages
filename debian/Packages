@@ -2426,6 +2426,21 @@ Priority: optional
 Description: Some extras for launch tooling.
 
 Package: ros-iron-launch-ext
+Version: 1.13.2-0jammy
+Architecture: amd64
+Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
+Installed-Size: 266
+Depends: python3-git, python3-psutil, ros-iron-launch, ros-iron-xacro
+Filename: ./ros-iron-launch-ext_1.13.2-0jammy_amd64.deb
+Size: 49518
+MD5sum: 8fd918093c649ff9172e14802d2093a3
+SHA1: e6e21f0f593788409d8a0f7acf615dad7bfce81d
+SHA256: e9f6b8a4a01b4fa8bdedc0366d4a167a94571149d7067855032a893b1ff03492
+Section: misc
+Priority: optional
+Description: Some extras for launch tooling.
+
+Package: ros-iron-launch-ext
 Version: 1.5.0-0jammy
 Architecture: amd64
 Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
@@ -3980,6 +3995,21 @@ Size: 62120
 MD5sum: 7a4855194a4671d445d2b0a7cb67743f
 SHA1: d9bbb6e3f553365552e3ec0d54ca8adcbbdeeb55
 SHA256: 304506caa03e6944317f92973d9f1549056462a01c51537fa18552c0a6e0b801
+Section: misc
+Priority: optional
+Description: Some extras for launch tooling.
+
+Package: ros-jazzy-launch-ext
+Version: 1.13.2-0noble
+Architecture: amd64
+Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
+Installed-Size: 298
+Depends: python3-git, python3-psutil, ros-jazzy-launch, ros-jazzy-xacro
+Filename: ./ros-jazzy-launch-ext_1.13.2-0noble_amd64.deb
+Size: 62020
+MD5sum: d24a7e38f0c31a3a9f54b2f37d243049
+SHA1: d059b2fa643d0aabe77c6e2faf897305156bf1b9
+SHA256: 5d0e9e03cc8c87e0c99ed6d95fc6fc7af441ba59ff04cf47513cf1565a7b5e9e
 Section: misc
 Priority: optional
 Description: Some extras for launch tooling.
