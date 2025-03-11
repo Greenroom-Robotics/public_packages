@@ -3459,13 +3459,13 @@ Package: ros-iron-septentrio-gnss-driver
 Version: 1.6.0-0jammy
 Architecture: amd64
 Maintainer: Tibor Dome <tibor.doeme@alumni.ethz.ch>
-Installed-Size: 8102
-Depends: libboost-regex1.74.0-icu70, libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.4), libgeographic19 (>= 1.43), libpcap0.8 (>= 0.9.8), libpython3.10 (>= 3.10.0), libstdc++6 (>= 12), ros-iron-fastcdr, libboost-all-dev, libgeographic-dev, libpcap0.8-dev, ros-iron-diagnostic-msgs, ros-iron-geographic-msgs, ros-iron-geometry-msgs, ros-iron-gps-msgs, ros-iron-nav-msgs, ros-iron-nmea-msgs, ros-iron-rclcpp, ros-iron-rclcpp-components, ros-iron-rosidl-default-runtime, ros-iron-sensor-msgs, ros-iron-tf2, ros-iron-tf2-eigen, ros-iron-tf2-geometry-msgs, ros-iron-tf2-ros
+Installed-Size: 8111
+Depends: libboost-regex1.74.0-icu70, libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.4), libgeographic19 (>= 1.43), libpcap0.8 (>= 0.9.8), libpython3.10 (>= 3.10.0), libstdc++6 (>= 12), ros-iron-fastcdr, libboost-all-dev, libgeographic-dev, libpcap0.8-dev, ros-iron-diagnostic-msgs, ros-iron-diagnostic-updater, ros-iron-geographic-msgs, ros-iron-geometry-msgs, ros-iron-gps-msgs, ros-iron-nav-msgs, ros-iron-nmea-msgs, ros-iron-rclcpp, ros-iron-rclcpp-components, ros-iron-rosidl-default-runtime, ros-iron-sensor-msgs, ros-iron-tf2, ros-iron-tf2-eigen, ros-iron-tf2-geometry-msgs, ros-iron-tf2-ros
 Filename: ./ros-iron-septentrio-gnss-driver_1.6.0-0jammy_amd64.deb
-Size: 871746
-MD5sum: c8bf1e62bda12d37597d1db1b33cf160
-SHA1: 92a87450dd03f2107fe66a2e228499d509894c87
-SHA256: 52d972db393602862f9f4b38ca3fba862d6760771e80d3b9cde242b896bdc3b0
+Size: 880138
+MD5sum: 0d67100487c910ac828b6e181d65c5be
+SHA1: b24c6bcb56a688bd37cfe707344d5ccad2e32fe7
+SHA256: 97ed419cca421687af06c57657db42e32289894c3e92cf103b04d9faf40b8b7b
 Section: misc
 Priority: optional
 Homepage: https://github.com/septentrio-gnss/septentrio_gnss_driver
