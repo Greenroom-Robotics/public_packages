@@ -4472,10 +4472,10 @@ Maintainer: Yadunund <yadunund@openrobotics.org>
 Installed-Size: 36130
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 4.2)
 Filename: ./ros-jazzy-zenoh-cpp-vendor_10.1.0-0noble_amd64.deb
-Size: 7375192
-MD5sum: 770ceab9ad749fdee9b42cdc2895c581
-SHA1: ab92dd55633e91139b508656f440c250e4ec9f35
-SHA256: df97a789a06569a5210b17f7861dad73fca28b6ab22ac2c91a2e9050d22bae93
+Size: 7375120
+MD5sum: 930872b1c9af90f310d70a56fdb881ac
+SHA1: 3139dc4b2209cbee043b789e3d0bc45f6601a592
+SHA256: 099894c104ba428e9ace2c6bd9845117fb45f4e299b32dab96b60985a7073157
 Section: misc
 Priority: optional
 Description: Vendor pkg to install zenoh-cpp
