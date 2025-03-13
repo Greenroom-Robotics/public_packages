@@ -4122,6 +4122,21 @@ Priority: optional
 Description: A ROS 2 middleware implementation using zenoh-cpp
 
 Package: ros-jazzy-rmw-zenoh-cpp
+Version: 1.0.0-0noble
+Architecture: arm64
+Maintainer: Yadunund <yadunund@openrobotics.org>
+Installed-Size: 644
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 14), ros-jazzy-fastcdr, ros-jazzy-ament-index-cpp, ros-jazzy-rcpputils, ros-jazzy-rcutils, ros-jazzy-rmw, ros-jazzy-rosidl-typesupport-fastrtps-c, ros-jazzy-rosidl-typesupport-fastrtps-cpp, ros-jazzy-tracetools, ros-jazzy-zenoh-cpp-vendor
+Filename: ./ros-jazzy-rmw-zenoh-cpp_1.0.0-0noble_arm64.deb
+Size: 175762
+MD5sum: 198467570f32d04d91043a3b8dd065a7
+SHA1: a3bdfe5dcd234895dc41981613210dd43c85f05d
+SHA256: 0691d1524a3051c960c7d261038ead574b53a5d25191de6a893d6c392a3b0722
+Section: misc
+Priority: optional
+Description: A ROS 2 middleware implementation using zenoh-cpp
+
+Package: ros-jazzy-rmw-zenoh-cpp
 Version: 10.1.0-0noble
 Architecture: arm64
 Maintainer: Yadunund <yadunund@openrobotics.org>
