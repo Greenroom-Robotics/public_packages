@@ -4421,6 +4421,21 @@ Homepage: https://github.com/Greenroom-Robotics/xtypes
 Description: Implementation based on DDS-XTYPES standard (https://www.omg.org/spec/DDS-XTypes)
 
 Package: ros-jazzy-zenoh-cpp-vendor
+Version: 1.0.0-0noble
+Architecture: amd64
+Maintainer: Yadunund <yadunund@openrobotics.org>
+Installed-Size: 36130
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 4.2)
+Filename: ./ros-jazzy-zenoh-cpp-vendor_1.0.0-0noble_amd64.deb
+Size: 7375300
+MD5sum: b6a6f818d9e4d2852b6b0130d582e79a
+SHA1: 2f6182e719e9014f9b091e26848c839f1031b06a
+SHA256: b5704cf5061a2e001ac87a03d7b8d52e05f7231e1c7e5614c782cbc6c93c69af
+Section: misc
+Priority: optional
+Description: Vendor pkg to install zenoh-cpp
+
+Package: ros-jazzy-zenoh-cpp-vendor
 Version: 10.1.0-0noble
 Architecture: arm64
 Maintainer: Yadunund <yadunund@openrobotics.org>
