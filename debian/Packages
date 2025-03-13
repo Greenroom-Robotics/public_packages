@@ -4107,6 +4107,21 @@ Priority: optional
 Description: ROS2 Driver for the Linux PWM Interface
 
 Package: ros-jazzy-rmw-zenoh-cpp
+Version: 1.0.0-0noble
+Architecture: amd64
+Maintainer: Yadunund <yadunund@openrobotics.org>
+Installed-Size: 604
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 14), ros-jazzy-fastcdr, ros-jazzy-ament-index-cpp, ros-jazzy-rcpputils, ros-jazzy-rcutils, ros-jazzy-rmw, ros-jazzy-rosidl-typesupport-fastrtps-c, ros-jazzy-rosidl-typesupport-fastrtps-cpp, ros-jazzy-tracetools, ros-jazzy-zenoh-cpp-vendor
+Filename: ./ros-jazzy-rmw-zenoh-cpp_1.0.0-0noble_amd64.deb
+Size: 188084
+MD5sum: 0c011f726231f566cae5d21828e3942b
+SHA1: b3ca21727a4c0b25d0b1a869456b07065d0fe51c
+SHA256: 7559eb15364330910636bae26a78f99fc6e3a00d46f16b15e8a6b745657b18f1
+Section: misc
+Priority: optional
+Description: A ROS 2 middleware implementation using zenoh-cpp
+
+Package: ros-jazzy-rmw-zenoh-cpp
 Version: 10.1.0-0noble
 Architecture: arm64
 Maintainer: Yadunund <yadunund@openrobotics.org>
