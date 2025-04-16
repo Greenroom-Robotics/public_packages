@@ -3785,6 +3785,21 @@ Priority: optional
 Homepage: https://github.com/foxglove/ros-foxglove-bridge
 Description: ROS Foxglove Bridge
 
+Package: ros-jazzy-hydrodynamics
+Version: 1.0.0-0noble
+Architecture: amd64
+Maintainer: Evan Palmer <evanp922@gmail.com>
+Installed-Size: 222
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 4.3), libstdc++6 (>= 13), libtinyxml2-10 (>= 10.0.0), libeigen3-dev, ros-jazzy-tinyxml2-vendor
+Filename: ./ros-jazzy-hydrodynamics_1.0.0-0noble_amd64.deb
+Size: 72696
+MD5sum: f857d9cbf024014a2313a606b50cb26c
+SHA1: fe5bf4a33e61ca9393adae1dc781283944e89aa0
+SHA256: 3c73ae024224d23c8d47dd42b3eb4920b1bcf1f2d8d3b550e06f85c28a07397b
+Section: misc
+Priority: optional
+Description: A collection of wrapper classes for hydrodynamic parameters.
+
 Package: ros-jazzy-is-core
 Version: 1.1.2-0noble
 Architecture: amd64
