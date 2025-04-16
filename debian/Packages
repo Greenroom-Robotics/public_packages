@@ -3800,6 +3800,21 @@ Section: misc
 Priority: optional
 Description: A collection of wrapper classes for hydrodynamic parameters.
 
+Package: ros-jazzy-hydrodynamics
+Version: 1.0.0-0noble
+Architecture: arm64
+Maintainer: Evan Palmer <evanp922@gmail.com>
+Installed-Size: 198
+Depends: libc6 (>= 2.17), libgcc-s1 (>= 4.5), libstdc++6 (>= 13), libtinyxml2-10 (>= 10.0.0), libeigen3-dev, ros-jazzy-tinyxml2-vendor
+Filename: ./ros-jazzy-hydrodynamics_1.0.0-0noble_arm64.deb
+Size: 65316
+MD5sum: 578bb220c79bceee6513c6305f79ae6d
+SHA1: 189800956adf7d9a2ecad338498c53c40981d19b
+SHA256: 45c8f9ddaed1fa2318600cb67dda14c38893d3ce1be5305b9ec493ba2c59e09d
+Section: misc
+Priority: optional
+Description: A collection of wrapper classes for hydrodynamic parameters.
+
 Package: ros-jazzy-is-core
 Version: 1.1.2-0noble
 Architecture: amd64
