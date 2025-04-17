@@ -3641,6 +3641,22 @@ Priority: optional
 Homepage: http://www.ros.org/wiki/diagnostic_aggregator
 Description: diagnostic_aggregator
 
+Package: ros-jazzy-diagnostic-aggregator
+Version: 10.1.1-0noble
+Architecture: arm64
+Maintainer: Austin Hendrix <namniart@gmail.com>
+Installed-Size: 1647
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 14), libtinyxml2-10 (>= 10.0.0), ros-jazzy-rclpy
+Filename: ./ros-jazzy-diagnostic-aggregator_10.1.1-0noble_arm64.deb
+Size: 321142
+MD5sum: 01c8adf2da234ce9d936c09e13f1883f
+SHA1: 917b47346ff999ff241f7f3f842e993b96a79c31
+SHA256: ed35a9508115a8bf1881b58899f9be704309bd7406f9954b31cb423d2a341435
+Section: misc
+Priority: optional
+Homepage: http://www.ros.org/wiki/diagnostic_aggregator
+Description: diagnostic_aggregator
+
 Package: ros-jazzy-foxglove-bridge
 Version: 10.0.1-0noble
 Architecture: amd64
