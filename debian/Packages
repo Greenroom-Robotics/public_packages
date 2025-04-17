@@ -1697,6 +1697,38 @@ Priority: optional
 Homepage: http://www.ros.org/wiki/diagnostic_aggregator
 Description: diagnostic_aggregator
 
+Package: ros-iron-diagnostic-aggregator
+Version: 10.1.1-0jammy
+Architecture: arm64
+Maintainer: Austin Hendrix <namniart@gmail.com>
+Installed-Size: 1302
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), libtinyxml2-9 (>= 8.0.0), ros-iron-rclpy
+Filename: ./ros-iron-diagnostic-aggregator_10.1.1-0jammy_arm64.deb
+Size: 300892
+MD5sum: bb5470cf7e5c55ed621cfa2cba761ece
+SHA1: 258aa274ebe62feefb7d47a0b579f4f6c40593a2
+SHA256: a06f8eb1b29dc4dcec04ed1a7709be9b9310e3b35cdc4a621ef7b2e87136c7b9
+Section: misc
+Priority: optional
+Homepage: http://www.ros.org/wiki/diagnostic_aggregator
+Description: diagnostic_aggregator
+
+Package: ros-iron-diagnostic-aggregator
+Version: 10.1.1-0jammy
+Architecture: amd64
+Maintainer: Austin Hendrix <namniart@gmail.com>
+Installed-Size: 1432
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), libtinyxml2-9 (>= 8.0.0), ros-iron-rclpy
+Filename: ./ros-iron-diagnostic-aggregator_10.1.1-0jammy_amd64.deb
+Size: 331518
+MD5sum: d9e375c9c4d99c75905a2eb38b52c70b
+SHA1: 2f5067986dbe18261c7976ca39dc7d3a03691748
+SHA256: d1c3958278f564d9725cc4fb2c184d64f5e0957083258c3be78f267de2d4f864
+Section: misc
+Priority: optional
+Homepage: http://www.ros.org/wiki/diagnostic_aggregator
+Description: diagnostic_aggregator
+
 Package: ros-iron-foxglove-bridge
 Version: 10.0.1-0jammy
 Architecture: amd64
