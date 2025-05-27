@@ -2879,6 +2879,21 @@ Section: misc
 Priority: optional
 Description: ROS2 Driver for the Linux PWM Interface
 
+Package: ros-iron-pwmdriver
+Version: 1.1.3-0jammy
+Architecture: arm64
+Maintainer: Russ Webber <russ@rw.id.au>
+Installed-Size: 457
+Depends: libc6 (>= 2.34), libfmt8 (>= 8.1.1+ds1), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-iron-rclcpp, ros-iron-std-msgs
+Filename: ./ros-iron-pwmdriver_1.1.3-0jammy_arm64.deb
+Size: 103970
+MD5sum: fa4a89b4b47094063e673059f5c5b68e
+SHA1: 890d71ec78bd372c567340852ce687a5aa74b4ce
+SHA256: d98fa29162aa35211e9424d3397a396603dac272dd3b736544569d14add2d504
+Section: misc
+Priority: optional
+Description: ROS2 Driver for the Linux PWM Interface
+
 Package: ros-iron-px4-msgs
 Version: 1.3.0-0jammy
 Architecture: amd64
@@ -4211,6 +4226,21 @@ Size: 118514
 MD5sum: 15468426c564eec21f03f39568820bdf
 SHA1: 0672eb396ba5991c4901daa19a6bdc4b183e4e0d
 SHA256: ab4bb677a9bf40a05a25b0ce5f9952a3bd9050e3d34e18854c8efc16d014f3a4
+Section: misc
+Priority: optional
+Description: ROS2 Driver for the Linux PWM Interface
+
+Package: ros-jazzy-pwmdriver
+Version: 1.1.3-0noble
+Architecture: arm64
+Maintainer: Russ Webber <russ@rw.id.au>
+Installed-Size: 574
+Depends: libc6 (>= 2.34), libfmt9 (>= 9.1.0+ds1), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 14), ros-jazzy-rclcpp, ros-jazzy-std-msgs
+Filename: ./ros-jazzy-pwmdriver_1.1.3-0noble_arm64.deb
+Size: 119028
+MD5sum: d40e17ad63e24bf9dc7f511baed2790e
+SHA1: 224e360870039308b92d66f9b011d1427ed64474
+SHA256: 03a3f9034fef5427360121f6d05d7cc69e6049b2a9f3f1ee9434396e56cf4898
 Section: misc
 Priority: optional
 Description: ROS2 Driver for the Linux PWM Interface
