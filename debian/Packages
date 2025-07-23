@@ -4320,6 +4320,22 @@ Section: misc
 Priority: optional
 Description: ROS2 Driver for the Linux PWM Interface
 
+Package: ros-jazzy-rclue-rcutils
+Version: 6.4.0-0noble
+Architecture: amd64
+Maintainer: Alejandro Hernandez Cordero <alejandro@openrobotics.org>
+Installed-Size: 495
+Depends: libc6 (>= 2.34), libatomic1
+Replaces: ros-jazzy-rcutils
+Filename: ./ros-jazzy-rclue-rcutils_6.4.0-0noble_amd64.deb
+Size: 84496
+MD5sum: 672e1487096bc417c1791fdad4ee2917
+SHA1: 12635ea42c458cce06c44641efc9d22e89d1c449
+SHA256: 8e5e40187a47bc47d622016effd0d0223f9a760e2c7f5f1eb883c86bdeeea45d
+Section: misc
+Priority: optional
+Description: Package containing various utility types and functions for C
+
 Package: ros-jazzy-rmw-zenoh-cpp
 Version: 1.0.0-0noble
 Architecture: amd64
