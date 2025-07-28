@@ -1905,6 +1905,22 @@ Priority: optional
 Homepage: https://github.com/foxglove/ros-foxglove-bridge
 Description: ROS Foxglove Bridge
 
+Package: ros-iron-foxglove-bridge
+Version: 10.5.1-0jammy
+Architecture: amd64
+Maintainer: Hans-Joachim Krauch <achim@foxglove.dev>
+Installed-Size: 3115
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libssl3 (>= 3.0.0~~alpha1), libstdc++6 (>= 12), ros-iron-fastcdr, zlib1g (>= 1:1.1.4), openssl, ros-iron-ament-index-cpp, ros-iron-rclcpp, ros-iron-rclcpp-components, ros-iron-resource-retriever, ros-iron-rosgraph-msgs, ros-iron-rosx-introspection, zlib1g-dev
+Filename: ./ros-iron-foxglove-bridge_10.5.1-0jammy_amd64.deb
+Size: 841826
+MD5sum: 7b60d6bcbdc014611fb95358ef997796
+SHA1: 9234573954e2a9f796c0f0556a120b5522cb5ede
+SHA256: b9bebdbf3ace9abeb05f82d0664afedfde870e2d17a8ffe51005fab334344af4
+Section: misc
+Priority: optional
+Homepage: https://github.com/foxglove/ros-foxglove-bridge
+Description: ROS Foxglove Bridge
+
 Package: ros-iron-generate-parameter-library-example
 Version: 1.0.0-0jammy
 Architecture: amd64
