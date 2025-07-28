@@ -3925,6 +3925,22 @@ Priority: optional
 Homepage: https://github.com/foxglove/ros-foxglove-bridge
 Description: ROS Foxglove Bridge
 
+Package: ros-jazzy-foxglove-bridge
+Version: 10.5.0-0noble
+Architecture: amd64
+Maintainer: Hans-Joachim Krauch <achim@foxglove.dev>
+Installed-Size: 3211
+Depends: libc6 (>= 2.38), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libssl3t64 (>= 3.0.0), libstdc++6 (>= 14), ros-jazzy-fastcdr, zlib1g (>= 1:1.1.4), openssl, ros-jazzy-ament-index-cpp, ros-jazzy-rclcpp, ros-jazzy-rclcpp-components, ros-jazzy-resource-retriever, ros-jazzy-rosgraph-msgs, ros-jazzy-rosx-introspection, zlib1g-dev
+Filename: ./ros-jazzy-foxglove-bridge_10.5.0-0noble_amd64.deb
+Size: 859880
+MD5sum: 6454c078c43bcca43d3d3687017b3f2b
+SHA1: bb228d5cec154db69d56f599c82c740c076a138c
+SHA256: 8130606dbd27c634ca2c1553986a8aaad9650267cd15aa3ad1963dfd84cdd4df
+Section: misc
+Priority: optional
+Homepage: https://github.com/foxglove/ros-foxglove-bridge
+Description: ROS Foxglove Bridge
+
 Package: ros-jazzy-hydrodynamics
 Version: 1.0.0-0noble
 Architecture: amd64
