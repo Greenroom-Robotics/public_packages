@@ -4569,6 +4569,21 @@ Section: misc
 Priority: optional
 Description: Package containing various utility types and functions for C
 
+Package: ros-jazzy-rosidl-generator-mypy
+Version: 0.2.0-0noble
+Architecture: amd64
+Maintainer: Yuki Igarashi <me@bonprosoft.com>
+Installed-Size: 98
+Depends: ros-jazzy-ament-cmake, ros-jazzy-rmw, ros-jazzy-rosidl-cmake, ros-jazzy-rosidl-generator-py, ros-jazzy-rosidl-parser
+Filename: ./ros-jazzy-rosidl-generator-mypy_0.2.0-0noble_amd64.deb
+Size: 13982
+MD5sum: 9fa776cab8d23c4d14114f910f6e3a82
+SHA1: 6e6469c017a77374cac75fff582ff678d237e339
+SHA256: c71810dc1780836b6eeb62101a845ce66b9a336705d8e4df711687226912c950
+Section: misc
+Priority: optional
+Description: Generate stub files for the ROS2 interfaces in Python
+
 Package: ros-jazzy-septentrio-gnss-driver
 Version: 1.4.2-0noble
 Architecture: amd64
