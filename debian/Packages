@@ -4571,15 +4571,30 @@ Description: Package containing various utility types and functions for C
 
 Package: ros-jazzy-rosidl-generator-mypy
 Version: 0.2.0-0noble
+Architecture: arm64
+Maintainer: Yuki Igarashi <me@bonprosoft.com>
+Installed-Size: 98
+Depends: ros-jazzy-ament-cmake, ros-jazzy-rmw, ros-jazzy-rosidl-cmake, ros-jazzy-rosidl-generator-py, ros-jazzy-rosidl-parser, ros-jazzy-rosidl-pycommon
+Filename: ./ros-jazzy-rosidl-generator-mypy_0.2.0-0noble_arm64.deb
+Size: 14002
+MD5sum: 46f29845bb81fcc7be11f1510948e239
+SHA1: d2a43a7acf04dd980ebab05d00c7d6e296450357
+SHA256: 782c1cdaf9044adb473e92d99e038ad2f26fc3790b0ce804f9c963e9065a1d95
+Section: misc
+Priority: optional
+Description: Generate stub files for the ROS2 interfaces in Python
+
+Package: ros-jazzy-rosidl-generator-mypy
+Version: 0.2.0-0noble
 Architecture: amd64
 Maintainer: Yuki Igarashi <me@bonprosoft.com>
 Installed-Size: 98
-Depends: ros-jazzy-ament-cmake, ros-jazzy-rmw, ros-jazzy-rosidl-cmake, ros-jazzy-rosidl-generator-py, ros-jazzy-rosidl-parser
+Depends: ros-jazzy-ament-cmake, ros-jazzy-rmw, ros-jazzy-rosidl-cmake, ros-jazzy-rosidl-generator-py, ros-jazzy-rosidl-parser, ros-jazzy-rosidl-pycommon
 Filename: ./ros-jazzy-rosidl-generator-mypy_0.2.0-0noble_amd64.deb
-Size: 13982
-MD5sum: 9fa776cab8d23c4d14114f910f6e3a82
-SHA1: 6e6469c017a77374cac75fff582ff678d237e339
-SHA256: c71810dc1780836b6eeb62101a845ce66b9a336705d8e4df711687226912c950
+Size: 14004
+MD5sum: c2695a9f462a1d199db217c6096548ce
+SHA1: 7ecbf24f373eba16c4ff8e32d379ff78d77c8e91
+SHA256: 9683fe2a9732136e79103bea80ddb19ba01ab8b8a9fcdd56fae17ee3d629a5ac
 Section: misc
 Priority: optional
 Description: Generate stub files for the ROS2 interfaces in Python
