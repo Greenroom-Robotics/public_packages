@@ -1934,6 +1934,22 @@ Priority: optional
 Homepage: https://github.com/foxglove/ros-foxglove-bridge
 Description: ROS Foxglove Bridge
 
+Package: ros-iron-foxglove-bridge
+Version: 10.5.4-0jammy
+Architecture: arm64
+Maintainer: Hans-Joachim Krauch <achim@foxglove.dev>
+Installed-Size: 2784
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libssl3 (>= 3.0.0~~alpha1), libstdc++6 (>= 12), ros-iron-fastcdr, zlib1g (>= 1:1.1.4), openssl, ros-iron-ament-index-cpp, ros-iron-rclcpp, ros-iron-rclcpp-components, ros-iron-resource-retriever, ros-iron-rosgraph-msgs, ros-iron-rosx-introspection, zlib1g-dev
+Filename: ./ros-iron-foxglove-bridge_10.5.4-0jammy_arm64.deb
+Size: 775770
+MD5sum: dff8f8eab0ee3fd4282789282472691c
+SHA1: 1ed5c1f8629fdca32c42e68a1562b27f2bc85fab
+SHA256: 1ae531645ab48eef5a211658dfa9695f48c47bf727d967f2019147477a9c1c6c
+Section: misc
+Priority: optional
+Homepage: https://github.com/foxglove/ros-foxglove-bridge
+Description: ROS Foxglove Bridge
+
 Package: ros-iron-generate-parameter-library-example
 Version: 1.0.0-0jammy
 Architecture: amd64
@@ -4153,6 +4169,22 @@ Size: 862102
 MD5sum: c9641d7cdb64d359677fc7871e8c9a15
 SHA1: 05b8d9c354a3a86493951f955199d39d0242b477
 SHA256: 2d87773e510b481e26676f28791785bdcb4cd3755ad679708a9e8b04c0b7a1b0
+Section: misc
+Priority: optional
+Homepage: https://github.com/foxglove/ros-foxglove-bridge
+Description: ROS Foxglove Bridge
+
+Package: ros-jazzy-foxglove-bridge
+Version: 10.5.4-0noble
+Architecture: arm64
+Maintainer: Hans-Joachim Krauch <achim@foxglove.dev>
+Installed-Size: 3036
+Depends: libc6 (>= 2.38), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libssl3t64 (>= 3.0.0), libstdc++6 (>= 14), ros-jazzy-fastcdr, zlib1g (>= 1:1.1.4), openssl, ros-jazzy-ament-index-cpp, ros-jazzy-rclcpp, ros-jazzy-rclcpp-components, ros-jazzy-resource-retriever, ros-jazzy-rosgraph-msgs, ros-jazzy-rosx-introspection, zlib1g-dev
+Filename: ./ros-jazzy-foxglove-bridge_10.5.4-0noble_arm64.deb
+Size: 803248
+MD5sum: c59252a4423ab562c9c4f01908eb3ba7
+SHA1: f6b37e23756c57418a5d5a7c458077dfbd887eec
+SHA256: b8e10f68fad18d8f720f2cd3d4f57362d6c7dc8e38464dcb55b57dfe86dbea81
 Section: misc
 Priority: optional
 Homepage: https://github.com/foxglove/ros-foxglove-bridge
