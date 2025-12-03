@@ -5041,3 +5041,18 @@ Priority: optional
 Homepage: https://github.com/Greenroom-Robotics/xtypes
 Description: Implementation based on DDS-XTYPES standard (https://www.omg.org/spec/DDS-XTypes)
 
+Package: ros-kilted-rosidl-generator-mypy
+Version: 0.2.1-0noble
+Architecture: arm64
+Maintainer: Yuki Igarashi <me@bonprosoft.com>
+Installed-Size: 98
+Depends: ros-kilted-ament-cmake, ros-kilted-rmw, ros-kilted-rosidl-cmake, ros-kilted-rosidl-generator-py, ros-kilted-rosidl-parser, ros-kilted-rosidl-pycommon
+Filename: ./ros-kilted-rosidl-generator-mypy_0.2.1-0noble_arm64.deb
+Size: 14024
+MD5sum: 9d3dd34accc667932869b14007e49e94
+SHA1: fa6e0323be6d73f0da2f0f383d850670dae42080
+SHA256: b6cbd508b170085344079a9f971f1e1eca177560e85d48895dda3199a06b7eb4
+Section: misc
+Priority: optional
+Description: Generate stub files for the ROS2 interfaces in Python
+
