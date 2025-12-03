@@ -5043,6 +5043,21 @@ Description: Implementation based on DDS-XTYPES standard (https://www.omg.org/sp
 
 Package: ros-kilted-rosidl-generator-mypy
 Version: 0.2.1-0noble
+Architecture: amd64
+Maintainer: Yuki Igarashi <me@bonprosoft.com>
+Installed-Size: 98
+Depends: ros-kilted-ament-cmake, ros-kilted-rmw, ros-kilted-rosidl-cmake, ros-kilted-rosidl-generator-py, ros-kilted-rosidl-parser, ros-kilted-rosidl-pycommon
+Filename: ./ros-kilted-rosidl-generator-mypy_0.2.1-0noble_amd64.deb
+Size: 14020
+MD5sum: 0c645ce7147bc97e34c27343b2e59092
+SHA1: 844366c8a3b5e4552bcefadf2557dccf61dfee4f
+SHA256: 80df2eded574411549c5093b4c1f4c5642fd98fd3fd9d94eb1c6ddb678bce348
+Section: misc
+Priority: optional
+Description: Generate stub files for the ROS2 interfaces in Python
+
+Package: ros-kilted-rosidl-generator-mypy
+Version: 0.2.1-0noble
 Architecture: arm64
 Maintainer: Yuki Igarashi <me@bonprosoft.com>
 Installed-Size: 98
