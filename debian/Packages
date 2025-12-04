@@ -4626,10 +4626,10 @@ Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
 Installed-Size: 333
 Depends: python3-git, python3-psutil, ros-jazzy-launch, ros-jazzy-xacro
 Filename: ./ros-jazzy-launch-ext_1.15.0-0noble_arm64.deb
-Size: 67808
-MD5sum: 6c786ba10e40e9a584c776cebeb180e4
-SHA1: b32a9c99317670c8b62f58d64b63ed8a642f66ba
-SHA256: ff681ffbaf11c9dcc875af4649d2847264c795a4e392f2c8b5893091507592ac
+Size: 67822
+MD5sum: e959b5d62b0138874f4d344580a3c2ad
+SHA1: c6417a263257366d82c9fb5896e320d1b00ad915
+SHA256: 2de898dfe8f2d73235a775da052323a47258432487569e2fc32839fe600c5126
 Section: misc
 Priority: optional
 Description: Some extras for launch tooling.
@@ -5040,6 +5040,21 @@ Section: misc
 Priority: optional
 Homepage: https://github.com/Greenroom-Robotics/xtypes
 Description: Implementation based on DDS-XTYPES standard (https://www.omg.org/spec/DDS-XTypes)
+
+Package: ros-kilted-launch-ext
+Version: 1.15.0-0noble
+Architecture: amd64
+Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
+Installed-Size: 333
+Depends: python3-git, python3-psutil, ros-kilted-launch, ros-kilted-xacro
+Filename: ./ros-kilted-launch-ext_1.15.0-0noble_amd64.deb
+Size: 67918
+MD5sum: 226d0c2f935bdfd3c09827e0a226a448
+SHA1: c6308ef5b05e0a60eafbb5068d1b448986008ba9
+SHA256: 2202d787d52fd14adf7a3cc737757e6693b446460461fe1da0d2a56e63c95ce1
+Section: misc
+Priority: optional
+Description: Some extras for launch tooling.
 
 Package: ros-kilted-launch-ext
 Version: 1.15.0-0noble
