@@ -4641,10 +4641,10 @@ Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
 Installed-Size: 333
 Depends: python3-git, python3-psutil, ros-jazzy-launch, ros-jazzy-xacro
 Filename: ./ros-jazzy-launch-ext_1.15.0-0noble_amd64.deb
-Size: 67798
-MD5sum: ed858a5f348c75f58acd584a9118c80f
-SHA1: b3d6a88f30dc4e21b7b49bf9d8bc0d7dcefa78cb
-SHA256: c6d243a8d52e33fdc223dfc7622a83b07d04168cc3fbf80c50370813456e61a7
+Size: 67862
+MD5sum: 78c6a2176b49daa809a727f8bd30c09c
+SHA1: 8cc62372ce3d83af8a34898084d62ff0a44418bf
+SHA256: 57523c39f51a0706433f857548df49a30983189fb2367c7346f67270ebbe0d59
 Section: misc
 Priority: optional
 Description: Some extras for launch tooling.
