@@ -4277,10 +4277,10 @@ Maintainer: Evan Palmer <evanp922@gmail.com>
 Installed-Size: 222
 Depends: libc6 (>= 2.14), libgcc-s1 (>= 4.3), libstdc++6 (>= 13), libtinyxml2-10 (>= 10.0.0), libeigen3-dev, ros-jazzy-tinyxml2-vendor
 Filename: ./ros-jazzy-hydrodynamics_1.0.0-0noble_amd64.deb
-Size: 72696
-MD5sum: f857d9cbf024014a2313a606b50cb26c
-SHA1: fe5bf4a33e61ca9393adae1dc781283944e89aa0
-SHA256: 3c73ae024224d23c8d47dd42b3eb4920b1bcf1f2d8d3b550e06f85c28a07397b
+Size: 72702
+MD5sum: b767ba875e0312db22332d17981c1781
+SHA1: fc04405769617d1f916701a3666bc1128eb96852
+SHA256: 1090144b21606c73efe02e62e48a91014ca6f9f7414ca55c02c186878d0f673e
 Section: misc
 Priority: optional
 Description: A collection of wrapper classes for hydrodynamic parameters.
@@ -4292,10 +4292,10 @@ Maintainer: Evan Palmer <evanp922@gmail.com>
 Installed-Size: 198
 Depends: libc6 (>= 2.17), libgcc-s1 (>= 4.5), libstdc++6 (>= 13), libtinyxml2-10 (>= 10.0.0), libeigen3-dev, ros-jazzy-tinyxml2-vendor
 Filename: ./ros-jazzy-hydrodynamics_1.0.0-0noble_arm64.deb
-Size: 65316
-MD5sum: 578bb220c79bceee6513c6305f79ae6d
-SHA1: 189800956adf7d9a2ecad338498c53c40981d19b
-SHA256: 45c8f9ddaed1fa2318600cb67dda14c38893d3ce1be5305b9ec493ba2c59e09d
+Size: 65312
+MD5sum: 5c7eed64d6961d876d123a535255a682
+SHA1: 174e6b53e4a45b72618811a3e252db636c4c0b06
+SHA256: d00b7268d8c9736dca19e4387a37524cdd1be2444df8b8880cda18b700590eda
 Section: misc
 Priority: optional
 Description: A collection of wrapper classes for hydrodynamic parameters.
@@ -5040,6 +5040,36 @@ Section: misc
 Priority: optional
 Homepage: https://github.com/Greenroom-Robotics/xtypes
 Description: Implementation based on DDS-XTYPES standard (https://www.omg.org/spec/DDS-XTypes)
+
+Package: ros-kilted-hydrodynamics
+Version: 1.0.0-0noble
+Architecture: arm64
+Maintainer: Evan Palmer <evanp922@gmail.com>
+Installed-Size: 198
+Depends: libc6 (>= 2.17), libgcc-s1 (>= 4.5), libstdc++6 (>= 13), libtinyxml2-10 (>= 10.0.0), libeigen3-dev, ros-kilted-tinyxml2-vendor
+Filename: ./ros-kilted-hydrodynamics_1.0.0-0noble_arm64.deb
+Size: 65290
+MD5sum: 3dfcf2c59f023dc134870b923ce0fd46
+SHA1: 38aface58cdc73122cf5c99ec01eb1499a3701a3
+SHA256: 61f28a98f1f91655b306e2080925a339ad14b440e0cf3447815b99a26acca48c
+Section: misc
+Priority: optional
+Description: A collection of wrapper classes for hydrodynamic parameters.
+
+Package: ros-kilted-hydrodynamics
+Version: 1.0.0-0noble
+Architecture: amd64
+Maintainer: Evan Palmer <evanp922@gmail.com>
+Installed-Size: 222
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 4.3), libstdc++6 (>= 13), libtinyxml2-10 (>= 10.0.0), libeigen3-dev, ros-kilted-tinyxml2-vendor
+Filename: ./ros-kilted-hydrodynamics_1.0.0-0noble_amd64.deb
+Size: 72684
+MD5sum: d965fccba18b82dc5542d3ebfc2021de
+SHA1: 0072b2a232b9dc7adad10c79ebf85de18fb8be76
+SHA256: 887b87f74ce7be5060208b516c2f5c05a51a8db8f2b1c39e75f8e81ce7d2d082
+Section: misc
+Priority: optional
+Description: A collection of wrapper classes for hydrodynamic parameters.
 
 Package: ros-kilted-launch-ext
 Version: 1.15.0-0noble
