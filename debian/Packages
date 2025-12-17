@@ -5071,6 +5071,22 @@ Priority: optional
 Homepage: https://github.com/Greenroom-Robotics/xtypes
 Description: Implementation based on DDS-XTYPES standard (https://www.omg.org/spec/DDS-XTypes)
 
+Package: ros-kilted-diagnostic-aggregator
+Version: 10.1.1-0noble
+Architecture: arm64
+Maintainer: Austin Hendrix <namniart@gmail.com>
+Installed-Size: 1647
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 14), libtinyxml2-10 (>= 10.0.0), ros-kilted-rclpy
+Filename: ./ros-kilted-diagnostic-aggregator_10.1.1-0noble_arm64.deb
+Size: 320902
+MD5sum: b92ca433471408b2aef0dc45cd2674b0
+SHA1: 59628388177532b514ec519fdc6ebf8a486e2ffd
+SHA256: 7701b9d3b59c6c56fe627b8c8156efbc3816a7cd3bdeb64d2148cfcb2f6fc9c6
+Section: misc
+Priority: optional
+Homepage: http://www.ros.org/wiki/diagnostic_aggregator
+Description: diagnostic_aggregator
+
 Package: ros-kilted-hydrodynamics
 Version: 1.0.0-0noble
 Architecture: arm64
