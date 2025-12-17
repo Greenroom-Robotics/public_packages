@@ -5073,6 +5073,22 @@ Description: Implementation based on DDS-XTYPES standard (https://www.omg.org/sp
 
 Package: ros-kilted-diagnostic-aggregator
 Version: 10.1.1-0noble
+Architecture: amd64
+Maintainer: Austin Hendrix <namniart@gmail.com>
+Installed-Size: 1545
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 14), libtinyxml2-10 (>= 10.0.0), ros-kilted-rclpy
+Filename: ./ros-kilted-diagnostic-aggregator_10.1.1-0noble_amd64.deb
+Size: 346652
+MD5sum: 295059e74076f2c3eb4a39897a62fbd9
+SHA1: 2732c6b461e90ae2e8ad4ce06473f2d5734cb077
+SHA256: d00725c2a8214a9f54b12c08759b8d53e43ad3ac99c2a46119b46b86d0df5bf2
+Section: misc
+Priority: optional
+Homepage: http://www.ros.org/wiki/diagnostic_aggregator
+Description: diagnostic_aggregator
+
+Package: ros-kilted-diagnostic-aggregator
+Version: 10.1.1-0noble
 Architecture: arm64
 Maintainer: Austin Hendrix <namniart@gmail.com>
 Installed-Size: 1647
