@@ -3909,10 +3909,10 @@ Maintainer: Austin Hendrix <namniart@gmail.com>
 Installed-Size: 1545
 Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 14), libtinyxml2-10 (>= 10.0.0), ros-jazzy-rclpy
 Filename: ./ros-jazzy-diagnostic-aggregator_10.1.1-0noble_amd64.deb
-Size: 346478
-MD5sum: ea35fe3f7afd50dc88354a3d796c767e
-SHA1: 5401c16de7e20af0d0aa429a8788d61a074ef60e
-SHA256: 28553ad18b391982df660409802bf8340660d6b648dcdc97811f69dcc6beec1e
+Size: 346662
+MD5sum: 11d75153eacf142f1219b1423b20f8ef
+SHA1: 51feca16052baadee4330a3c29838dab3a68a8ee
+SHA256: 100c6024c7a8ce361840c9d53ecd2b66be6f130cb7ae3900ae1676f87e24bce2
 Section: misc
 Priority: optional
 Homepage: http://www.ros.org/wiki/diagnostic_aggregator
@@ -3925,10 +3925,10 @@ Maintainer: Austin Hendrix <namniart@gmail.com>
 Installed-Size: 1647
 Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 14), libtinyxml2-10 (>= 10.0.0), ros-jazzy-rclpy
 Filename: ./ros-jazzy-diagnostic-aggregator_10.1.1-0noble_arm64.deb
-Size: 321142
-MD5sum: 01c8adf2da234ce9d936c09e13f1883f
-SHA1: 917b47346ff999ff241f7f3f842e993b96a79c31
-SHA256: ed35a9508115a8bf1881b58899f9be704309bd7406f9954b31cb423d2a341435
+Size: 321034
+MD5sum: 9c4ccf7abcdcaf1b36e64e85ddfe6c59
+SHA1: a2ba20d5dd49e8dbd97755435239cf7406ec447f
+SHA256: 9dec57c263ce0299a743333197c507c8098170eb7260935b4f74c83dee69a8bb
 Section: misc
 Priority: optional
 Homepage: http://www.ros.org/wiki/diagnostic_aggregator
