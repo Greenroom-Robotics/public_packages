@@ -5135,6 +5135,22 @@ Priority: optional
 Homepage: https://github.com/foxglove/ros-foxglove-bridge
 Description: ROS Foxglove Bridge
 
+Package: ros-kilted-foxglove-bridge
+Version: 10.5.7-0noble
+Architecture: arm64
+Maintainer: Hans-Joachim Krauch <achim@foxglove.dev>
+Installed-Size: 3100
+Depends: libc6 (>= 2.38), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libssl3t64 (>= 3.0.0), libstdc++6 (>= 14), ros-kilted-fastcdr, zlib1g (>= 1:1.1.4), openssl, ros-kilted-ament-index-cpp, ros-kilted-rclcpp, ros-kilted-rclcpp-components, ros-kilted-resource-retriever, ros-kilted-rosgraph-msgs, ros-kilted-rosx-introspection, zlib1g-dev
+Filename: ./ros-kilted-foxglove-bridge_10.5.7-0noble_arm64.deb
+Size: 811694
+MD5sum: c6981a0a91438e043c5a113e702a8cec
+SHA1: ad9920dbd1ec4ead4f0d89e3eb171c6e86ea77a6
+SHA256: a70fb52627c8ff8e7d35a16775a82e677bf6f8f6b382dcf98e623fbdc8806d02
+Section: misc
+Priority: optional
+Homepage: https://github.com/foxglove/ros-foxglove-bridge
+Description: ROS Foxglove Bridge
+
 Package: ros-kilted-hydrodynamics
 Version: 1.0.0-0noble
 Architecture: arm64
