@@ -5048,10 +5048,10 @@ Maintainer: Tibor Dome <tibor.doeme@alumni.ethz.ch>
 Installed-Size: 9622
 Depends: libc6 (>= 2.38), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libgeographiclib26 (>= 1.43), libpcap0.8t64 (>= 0.9.8), libpython3.12t64 (>= 3.12.1), libstdc++6 (>= 14), ros-jazzy-fastcdr, libboost-all-dev, libgeographiclib-dev, libpcap0.8-dev, ros-jazzy-diagnostic-msgs, ros-jazzy-diagnostic-updater, ros-jazzy-geographic-msgs, ros-jazzy-geometry-msgs, ros-jazzy-gps-msgs, ros-jazzy-nav-msgs, ros-jazzy-nmea-msgs, ros-jazzy-rclcpp, ros-jazzy-rclcpp-components, ros-jazzy-rosidl-default-runtime, ros-jazzy-sensor-msgs, ros-jazzy-tf2, ros-jazzy-tf2-eigen, ros-jazzy-tf2-geometry-msgs, ros-jazzy-tf2-ros
 Filename: ./ros-jazzy-septentrio-gnss-driver_1.6.0-0noble_arm64.deb
-Size: 1002912
-MD5sum: b89c4b8d937d8f9ff7d164094271ac9f
-SHA1: 7198fcf0e52a2d9e056f2e3a7854d000655944fd
-SHA256: b7f61a9844c115aaf1b26ce9cb128b06772163c4e72895b76af8709fadae39d1
+Size: 1008906
+MD5sum: bd632769505d35f835471eba199d2328
+SHA1: 2248a98563e4c24d8b45d0521d38a7808c3bd21f
+SHA256: a7c25ca60ac864eda1e1e8358545d235e72a19db218a5872ef4e41c948b46b4f
 Section: misc
 Priority: optional
 Homepage: https://github.com/septentrio-gnss/septentrio_gnss_driver
@@ -5318,4 +5318,20 @@ SHA256: b6cbd508b170085344079a9f971f1e1eca177560e85d48895dda3199a06b7eb4
 Section: misc
 Priority: optional
 Description: Generate stub files for the ROS2 interfaces in Python
+
+Package: ros-kilted-septentrio-gnss-driver
+Version: 1.6.0-0noble
+Architecture: arm64
+Maintainer: Tibor Dome <tibor.doeme@alumni.ethz.ch>
+Installed-Size: 9619
+Depends: libc6 (>= 2.38), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libgeographiclib26 (>= 1.43), libpcap0.8t64 (>= 0.9.8), libpython3.12t64 (>= 3.12.1), libstdc++6 (>= 14), ros-kilted-fastcdr, libboost-all-dev, libgeographiclib-dev, libpcap0.8-dev, ros-kilted-diagnostic-msgs, ros-kilted-diagnostic-updater, ros-kilted-geographic-msgs, ros-kilted-geometry-msgs, ros-kilted-gps-msgs, ros-kilted-nav-msgs, ros-kilted-nmea-msgs, ros-kilted-rclcpp, ros-kilted-rclcpp-components, ros-kilted-rosidl-default-runtime, ros-kilted-sensor-msgs, ros-kilted-tf2, ros-kilted-tf2-eigen, ros-kilted-tf2-geometry-msgs, ros-kilted-tf2-ros
+Filename: ./ros-kilted-septentrio-gnss-driver_1.6.0-0noble_arm64.deb
+Size: 1007216
+MD5sum: 7d3ef762c43dcfc25fb4d5dc01ee8efa
+SHA1: 9b9946f90c9eacc135e160565db1ff19b112da7d
+SHA256: 7523fcb77b790363c2b8eb7777950e177922d899ec41057bdd14235db693dcc0
+Section: misc
+Priority: optional
+Homepage: https://github.com/septentrio-gnss/septentrio_gnss_driver
+Description: ROSaic: C++ driver for Septentrio's GNSS and INS receivers
 
