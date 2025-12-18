@@ -5335,3 +5335,19 @@ Priority: optional
 Homepage: https://github.com/septentrio-gnss/septentrio_gnss_driver
 Description: ROSaic: C++ driver for Septentrio's GNSS and INS receivers
 
+Package: ros-kilted-septentrio-gnss-driver
+Version: 1.6.0-0noble
+Architecture: amd64
+Maintainer: Tibor Dome <tibor.doeme@alumni.ethz.ch>
+Installed-Size: 9317
+Depends: libc6 (>= 2.38), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.4), libgeographiclib26 (>= 1.43), libpcap0.8t64 (>= 0.9.8), libpython3.12t64 (>= 3.12.1), libstdc++6 (>= 14), ros-kilted-fastcdr, libboost-all-dev, libgeographiclib-dev, libpcap0.8-dev, ros-kilted-diagnostic-msgs, ros-kilted-diagnostic-updater, ros-kilted-geographic-msgs, ros-kilted-geometry-msgs, ros-kilted-gps-msgs, ros-kilted-nav-msgs, ros-kilted-nmea-msgs, ros-kilted-rclcpp, ros-kilted-rclcpp-components, ros-kilted-rosidl-default-runtime, ros-kilted-sensor-msgs, ros-kilted-tf2, ros-kilted-tf2-eigen, ros-kilted-tf2-geometry-msgs, ros-kilted-tf2-ros
+Filename: ./ros-kilted-septentrio-gnss-driver_1.6.0-0noble_amd64.deb
+Size: 1061368
+MD5sum: ff3511bec7ade82b274717895e32f73c
+SHA1: a01ae71e096b6534373d93603eebc519b3ff20ba
+SHA256: d891eaca4a3f951d3a7b1a2083e10f8afd5f49420aea9c2d80d574f01ab4014f
+Section: misc
+Priority: optional
+Homepage: https://github.com/septentrio-gnss/septentrio_gnss_driver
+Description: ROSaic: C++ driver for Septentrio's GNSS and INS receivers
+
