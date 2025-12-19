@@ -4711,6 +4711,21 @@ Section: misc
 Priority: optional
 Description: Some extras for launch tooling.
 
+Package: ros-jazzy-launch-ext
+Version: 1.17.0-0noble
+Architecture: arm64
+Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
+Installed-Size: 338
+Depends: python3-git, python3-psutil, ros-jazzy-launch, ros-jazzy-xacro
+Filename: ./ros-jazzy-launch-ext_1.17.0-0noble_arm64.deb
+Size: 68626
+MD5sum: f2d2cb20dcde3fe5c8ec96681e465447
+SHA1: 0272a63212eede3da7d3da5ae0f50e3ea2536329
+SHA256: 2a3f2ee7381670c0a2e27ae713274dfaa3bacb338f02d97f0f6d48ecb980de13
+Section: misc
+Priority: optional
+Description: Some extras for launch tooling.
+
 Package: ros-jazzy-libxmlmm
 Version: 1.0.0-0noble
 Architecture: arm64
@@ -5285,6 +5300,36 @@ Size: 68070
 MD5sum: 480f9627b3d35926b0662599fe4a1856
 SHA1: 43b954fc22a906f84ea7a7b0efab60b8608ba003
 SHA256: 42451c463aaa9e8988f78ad6ef25d9540f50ba32e4f189611e9bf79b03d8e7ce
+Section: misc
+Priority: optional
+Description: Some extras for launch tooling.
+
+Package: ros-kilted-launch-ext
+Version: 1.17.0-0noble
+Architecture: amd64
+Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
+Installed-Size: 338
+Depends: python3-git, python3-psutil, ros-kilted-launch, ros-kilted-xacro
+Filename: ./ros-kilted-launch-ext_1.17.0-0noble_amd64.deb
+Size: 68672
+MD5sum: ed1d2c32e7449087a6850b0aa7e214d3
+SHA1: 82185f6eae62aa4d7f55e379c2677d08df35fe9d
+SHA256: 14fdf9aa288f64257f8220864ad6fb840105493c77721a2bc9f1f1e0fc8670b0
+Section: misc
+Priority: optional
+Description: Some extras for launch tooling.
+
+Package: ros-kilted-launch-ext
+Version: 1.17.0-0noble
+Architecture: arm64
+Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
+Installed-Size: 338
+Depends: python3-git, python3-psutil, ros-kilted-launch, ros-kilted-xacro
+Filename: ./ros-kilted-launch-ext_1.17.0-0noble_arm64.deb
+Size: 68628
+MD5sum: 27b23ffc37fefa2e02a7fc213a2b041f
+SHA1: d5df3e3dc4e1ca6b1998e01f5ebf7e0b121d23b5
+SHA256: 58d5ced48b97e157eb4701463dc44f962193b22b311ac31f75582d8d573e9b24
 Section: misc
 Priority: optional
 Description: Some extras for launch tooling.
