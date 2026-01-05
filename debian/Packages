@@ -5439,6 +5439,36 @@ Section: misc
 Priority: optional
 Description: Some extras for launch tooling.
 
+Package: ros-kilted-launch-ext
+Version: 1.17.2-0noble
+Architecture: arm64
+Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
+Installed-Size: 338
+Depends: python3-git, python3-psutil, ros-kilted-launch, ros-kilted-xacro
+Filename: ./ros-kilted-launch-ext_1.17.2-0noble_arm64.deb
+Size: 68914
+MD5sum: fe6b61642199cc43f10d4f79ff3275f6
+SHA1: c33e4312c9d9b17a9006d62e169d36425d76e1ef
+SHA256: ca23a8bd76847077d54d6aa7c416588ad996dc3abb7e6413a791a56b1ad0ca6c
+Section: misc
+Priority: optional
+Description: Some extras for launch tooling.
+
+Package: ros-kilted-launch-ext
+Version: 1.17.2-0noble
+Architecture: amd64
+Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
+Installed-Size: 338
+Depends: python3-git, python3-psutil, ros-kilted-launch, ros-kilted-xacro
+Filename: ./ros-kilted-launch-ext_1.17.2-0noble_amd64.deb
+Size: 68928
+MD5sum: 33e812c7b66a2ea2913f7b7a7fc1c13f
+SHA1: 87c1202782e0fc84cf8c3ef327e6f238fbb16576
+SHA256: f023f232da0bc49261ac7da9c2004d5d60322715e77d5de190e3971da8a492fd
+Section: misc
+Priority: optional
+Description: Some extras for launch tooling.
+
 Package: ros-kilted-rosidl-generator-mypy
 Version: 0.2.1-0noble
 Architecture: amd64
