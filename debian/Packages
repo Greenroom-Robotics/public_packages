@@ -4803,6 +4803,21 @@ Description: Some extras for launch tooling.
 
 Package: ros-jazzy-launch-ext
 Version: 1.17.3-0noble
+Architecture: amd64
+Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
+Installed-Size: 338
+Depends: python3-git, python3-psutil, ros-jazzy-launch, ros-jazzy-xacro
+Filename: ./ros-jazzy-launch-ext_1.17.3-0noble_amd64.deb
+Size: 68920
+MD5sum: cf5bd0ccb404e0e0dd54b94124ddcf52
+SHA1: a8ebe5f54126abf47d647962f7d444e70bae5028
+SHA256: 3c037503c095a98a468c906f232d7db07946154fffd3d9de0a44a75198b7dcf7
+Section: misc
+Priority: optional
+Description: Some extras for launch tooling.
+
+Package: ros-jazzy-launch-ext
+Version: 1.17.3-0noble
 Architecture: arm64
 Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
 Installed-Size: 338
@@ -5480,6 +5495,21 @@ Size: 68928
 MD5sum: 33e812c7b66a2ea2913f7b7a7fc1c13f
 SHA1: 87c1202782e0fc84cf8c3ef327e6f238fbb16576
 SHA256: f023f232da0bc49261ac7da9c2004d5d60322715e77d5de190e3971da8a492fd
+Section: misc
+Priority: optional
+Description: Some extras for launch tooling.
+
+Package: ros-kilted-launch-ext
+Version: 1.17.3-0noble
+Architecture: arm64
+Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
+Installed-Size: 338
+Depends: python3-git, python3-psutil, ros-kilted-launch, ros-kilted-xacro
+Filename: ./ros-kilted-launch-ext_1.17.3-0noble_arm64.deb
+Size: 68912
+MD5sum: 41fb1384dd4fbfcf3eb66cff3c4778a5
+SHA1: de3e827ef8af0f644e6fb594431fc174a08dcc8e
+SHA256: f5895404f806d7770061b655c641e35c55f51d88857ecd892ac495e24aead1b1
 Section: misc
 Priority: optional
 Description: Some extras for launch tooling.
