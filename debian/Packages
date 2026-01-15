@@ -3936,6 +3936,23 @@ Description: diagnostic_aggregator
 
 Package: ros-jazzy-diagnostic-updater
 Version: 4.5.0-0noble
+Architecture: amd64
+Maintainer: Austin Hendrix <namniart@gmail.com>
+Installed-Size: 481
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), ros-jazzy-diagnostic-msgs, ros-jazzy-rclcpp, ros-jazzy-rclpy, ros-jazzy-std-msgs
+Filename: ./ros-jazzy-diagnostic-updater_4.5.0-0noble_amd64.deb
+Size: 115966
+MD5sum: 47dae216da47d1e24241a405fdf1cdb1
+SHA1: e62bd013f00bff414209139c90514db894679d91
+SHA256: 8026db1fe638d46050ed72b495d717676f48bb4e4a20699541cd9cfbb46fb48d
+Section: misc
+Priority: optional
+Homepage: http://www.ros.org/wiki/diagnostic_updater
+Description: diagnostic_updater contains tools for easily updating diagnostics.
+ it is commonly used in device drivers to keep track of the status of output topics, device status, etc.
+
+Package: ros-jazzy-diagnostic-updater
+Version: 4.5.0-0noble
 Architecture: arm64
 Maintainer: Austin Hendrix <namniart@gmail.com>
 Installed-Size: 517
