@@ -3934,6 +3934,23 @@ Priority: optional
 Homepage: http://www.ros.org/wiki/diagnostic_aggregator
 Description: diagnostic_aggregator
 
+Package: ros-jazzy-diagnostic-updater
+Version: 4.5.0-0noble
+Architecture: arm64
+Maintainer: Austin Hendrix <namniart@gmail.com>
+Installed-Size: 517
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), ros-jazzy-diagnostic-msgs, ros-jazzy-rclcpp, ros-jazzy-rclpy, ros-jazzy-std-msgs
+Filename: ./ros-jazzy-diagnostic-updater_4.5.0-0noble_arm64.deb
+Size: 111414
+MD5sum: 5245fd6ade810382837aaf6e75fa59f3
+SHA1: 92f2e79d386847c20a827de49a8418743273cb60
+SHA256: d292960f54d38ea15c2882b6f92a345e1042f032fc04644ffc906a0b28605274
+Section: misc
+Priority: optional
+Homepage: http://www.ros.org/wiki/diagnostic_updater
+Description: diagnostic_updater contains tools for easily updating diagnostics.
+ it is commonly used in device drivers to keep track of the status of output topics, device status, etc.
+
 Package: ros-jazzy-foxglove-bridge
 Version: 10.0.1-0noble
 Architecture: amd64
@@ -5434,6 +5451,23 @@ Section: misc
 Priority: optional
 Homepage: http://www.ros.org/wiki/diagnostic_aggregator
 Description: diagnostic_aggregator
+
+Package: ros-kilted-diagnostic-updater
+Version: 4.5.0-0noble
+Architecture: amd64
+Maintainer: Austin Hendrix <namniart@gmail.com>
+Installed-Size: 481
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), ros-kilted-diagnostic-msgs, ros-kilted-rclcpp, ros-kilted-rclpy, ros-kilted-std-msgs
+Filename: ./ros-kilted-diagnostic-updater_4.5.0-0noble_amd64.deb
+Size: 115964
+MD5sum: e25f37a36f66b10d0a71e87eba980a23
+SHA1: b0aae36cdc79f4930714c27351045960c10dca0f
+SHA256: ae500ae89e986a93606e3c624d0ce28e0c4db7c2db7d7cadf128f7ae472238a8
+Section: misc
+Priority: optional
+Homepage: http://www.ros.org/wiki/diagnostic_updater
+Description: diagnostic_updater contains tools for easily updating diagnostics.
+ it is commonly used in device drivers to keep track of the status of output topics, device status, etc.
 
 Package: ros-kilted-foxglove-bridge
 Version: 10.5.6-0noble
