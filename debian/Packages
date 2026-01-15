@@ -5469,6 +5469,23 @@ Homepage: http://www.ros.org/wiki/diagnostic_updater
 Description: diagnostic_updater contains tools for easily updating diagnostics.
  it is commonly used in device drivers to keep track of the status of output topics, device status, etc.
 
+Package: ros-kilted-diagnostic-updater
+Version: 4.5.0-0noble
+Architecture: arm64
+Maintainer: Austin Hendrix <namniart@gmail.com>
+Installed-Size: 517
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), ros-kilted-diagnostic-msgs, ros-kilted-rclcpp, ros-kilted-rclpy, ros-kilted-std-msgs
+Filename: ./ros-kilted-diagnostic-updater_4.5.0-0noble_arm64.deb
+Size: 111432
+MD5sum: f9261d2039901c63e7a9035b937c1c8c
+SHA1: fee55ff061d584f3260697a724c6471f6b5bbc3a
+SHA256: ccef62a43669fc1f67db57cedd06af18563a8a9c2091277070b1b4badc8e9681
+Section: misc
+Priority: optional
+Homepage: http://www.ros.org/wiki/diagnostic_updater
+Description: diagnostic_updater contains tools for easily updating diagnostics.
+ it is commonly used in device drivers to keep track of the status of output topics, device status, etc.
+
 Package: ros-kilted-foxglove-bridge
 Version: 10.5.6-0noble
 Architecture: arm64
