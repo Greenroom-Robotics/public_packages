@@ -5011,6 +5011,36 @@ Section: misc
 Priority: optional
 Description: Some extras for launch tooling.
 
+Package: ros-jazzy-launch-ext
+Version: 1.19.4-0noble
+Architecture: amd64
+Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
+Installed-Size: 375
+Depends: python3-git, python3-psutil, ros-jazzy-launch, ros-jazzy-xacro
+Filename: ./ros-jazzy-launch-ext_1.19.4-0noble_amd64.deb
+Size: 74396
+MD5sum: 8689ac75bc819c78614bf86316b2b9f8
+SHA1: b9f417c3d98ca731d55e125cc60b0de2fa76ff5b
+SHA256: 904520f9b6512c1ce526090ea3cec794094f8cec0b7e8111f297646e4ad53062
+Section: misc
+Priority: optional
+Description: Some extras for launch tooling.
+
+Package: ros-jazzy-launch-ext
+Version: 1.19.4-0noble
+Architecture: arm64
+Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
+Installed-Size: 375
+Depends: python3-git, python3-psutil, ros-jazzy-launch, ros-jazzy-xacro
+Filename: ./ros-jazzy-launch-ext_1.19.4-0noble_arm64.deb
+Size: 74406
+MD5sum: 8ff847ffaf564c8b50a8f8ec73e6f2ed
+SHA1: 1ca52a911243bc3e321f31291236fea31ba00833
+SHA256: 9e10e86b8ee3871436a9d33019858635813ab041fd49b81dbb10d53ef7337acb
+Section: misc
+Priority: optional
+Description: Some extras for launch tooling.
+
 Package: ros-jazzy-libxmlmm
 Version: 1.0.0-0noble
 Architecture: arm64
@@ -5885,6 +5915,21 @@ Size: 74508
 MD5sum: 666e2541a07e87fd6f82561b200e6cc9
 SHA1: 6ff3b2c6124eedc36a9dcce31ee22d58fcc47996
 SHA256: 957ccccad00851d3fda9fb482bf965d7461baa048b7cf9b625e287bc6c63cf55
+Section: misc
+Priority: optional
+Description: Some extras for launch tooling.
+
+Package: ros-kilted-launch-ext
+Version: 1.19.4-0noble
+Architecture: amd64
+Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
+Installed-Size: 375
+Depends: python3-git, python3-psutil, ros-kilted-launch, ros-kilted-xacro
+Filename: ./ros-kilted-launch-ext_1.19.4-0noble_amd64.deb
+Size: 74402
+MD5sum: 669e9f6a8efde612b8a1cfdf5c8bb01e
+SHA1: 652122f137107ca1702caf67a39ddeefe671a34d
+SHA256: 788e2947062157de22e68f35676bf4d7ed28d9baa32ac7c856f29e3cdc279c42
 Section: misc
 Priority: optional
 Description: Some extras for launch tooling.
