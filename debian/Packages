@@ -5041,6 +5041,36 @@ Section: misc
 Priority: optional
 Description: Some extras for launch tooling.
 
+Package: ros-jazzy-launch-ext
+Version: 1.19.5-0noble
+Architecture: arm64
+Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
+Installed-Size: 375
+Depends: python3-git, python3-psutil, ros-jazzy-launch, ros-jazzy-xacro
+Filename: ./ros-jazzy-launch-ext_1.19.5-0noble_arm64.deb
+Size: 74538
+MD5sum: 26ff3c5b4b782b25cf217e53e729441d
+SHA1: 781f2467fb75b57983c2f062430682ef8169fbc4
+SHA256: 87cda3d3f83c5c3daee6331ec16041abcfdc2452ff340f51316513446022e053
+Section: misc
+Priority: optional
+Description: Some extras for launch tooling.
+
+Package: ros-jazzy-launch-ext
+Version: 1.19.5-0noble
+Architecture: amd64
+Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
+Installed-Size: 375
+Depends: python3-git, python3-psutil, ros-jazzy-launch, ros-jazzy-xacro
+Filename: ./ros-jazzy-launch-ext_1.19.5-0noble_amd64.deb
+Size: 74544
+MD5sum: 0f2d74d90acec35f74ca7dabf345afa1
+SHA1: 826b09ca96d216339d8ba09363152cdf09c571b5
+SHA256: 6c25428c49f7a6574db3cc911e82008269567c1851f1c488091f8bde260e0aeb
+Section: misc
+Priority: optional
+Description: Some extras for launch tooling.
+
 Package: ros-jazzy-libxmlmm
 Version: 1.0.0-0noble
 Architecture: arm64
