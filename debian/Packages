@@ -5514,6 +5514,23 @@ Description: diagnostic_aggregator
 
 Package: ros-kilted-diagnostic-updater
 Version: 4.5.0-0noble
+Architecture: amd64
+Maintainer: Austin Hendrix <namniart@gmail.com>
+Installed-Size: 482
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), ros-kilted-diagnostic-msgs, ros-kilted-rclcpp, ros-kilted-rclpy, ros-kilted-std-msgs
+Filename: ./ros-kilted-diagnostic-updater_4.5.0-0noble_amd64.deb
+Size: 116518
+MD5sum: 974a6aa4feee3a2c1e8e20d46e137820
+SHA1: 833eb27effb4ebe7a27129224e028b7c1f28399f
+SHA256: c4b6fc3bb0cf67efd540fb47198ebcd71a169c0639ca2175a8b55d1d8630f930
+Section: misc
+Priority: optional
+Homepage: http://www.ros.org/wiki/diagnostic_updater
+Description: diagnostic_updater contains tools for easily updating diagnostics.
+ it is commonly used in device drivers to keep track of the status of output topics, device status, etc.
+
+Package: ros-kilted-diagnostic-updater
+Version: 4.5.0-0noble
 Architecture: arm64
 Maintainer: Austin Hendrix <namniart@gmail.com>
 Installed-Size: 518
