@@ -3941,10 +3941,10 @@ Maintainer: Austin Hendrix <namniart@gmail.com>
 Installed-Size: 482
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), ros-jazzy-diagnostic-msgs, ros-jazzy-rclcpp, ros-jazzy-rclpy, ros-jazzy-std-msgs
 Filename: ./ros-jazzy-diagnostic-updater_4.5.0-0noble_amd64.deb
-Size: 116474
-MD5sum: c1ac583f47d802729bb8f2b0e9cba014
-SHA1: fc7f08aaf2fb23be41d593bc19e70d74e1893317
-SHA256: 5e7d3a4661e97fe2a7e6e0b798564515700585ce4ef9064a542edd9eaf2fd6b2
+Size: 116396
+MD5sum: f50937ddecdf15541e5c90d12d8e13fe
+SHA1: 657f3ef579a27d52b5cb3eb65987b757ebd1b121
+SHA256: 7b19a13a12382b1fd6440882ddb86c8e528a5945fa1428d21ae62b65b1ffd733
 Section: misc
 Priority: optional
 Homepage: http://www.ros.org/wiki/diagnostic_updater
@@ -5536,10 +5536,10 @@ Maintainer: Austin Hendrix <namniart@gmail.com>
 Installed-Size: 482
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), ros-kilted-diagnostic-msgs, ros-kilted-rclcpp, ros-kilted-rclpy, ros-kilted-std-msgs
 Filename: ./ros-kilted-diagnostic-updater_4.5.0-0noble_amd64.deb
-Size: 116518
-MD5sum: 974a6aa4feee3a2c1e8e20d46e137820
-SHA1: 833eb27effb4ebe7a27129224e028b7c1f28399f
-SHA256: c4b6fc3bb0cf67efd540fb47198ebcd71a169c0639ca2175a8b55d1d8630f930
+Size: 116254
+MD5sum: fc3701625c77e2c42a8a095b01a72b3e
+SHA1: d73bb9822848718c5ff964d63ad17455df9abfe8
+SHA256: 91c9bb6682c7e9617dd7e9decadf626477be39d8a29915ba3c5536c05057abe0
 Section: misc
 Priority: optional
 Homepage: http://www.ros.org/wiki/diagnostic_updater
@@ -5553,10 +5553,10 @@ Maintainer: Austin Hendrix <namniart@gmail.com>
 Installed-Size: 518
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), ros-kilted-diagnostic-msgs, ros-kilted-rclcpp, ros-kilted-rclpy, ros-kilted-std-msgs
 Filename: ./ros-kilted-diagnostic-updater_4.5.0-0noble_arm64.deb
-Size: 111752
-MD5sum: aa828f5f95454bb252aff0e4c2e3bcc3
-SHA1: 64a7f68c15410e889ffeea6268480a63719b556e
-SHA256: ecea93026719e82fe3ee4f79636ee82d2da23d1867dfce458c195fdabdfd22c4
+Size: 111530
+MD5sum: 2e5c61810d331d11b4c3f84744b35b93
+SHA1: bb0970a31630c85362c285680a1019548ff3c321
+SHA256: 5a4bbf62b430ba64e50f079c65d81de0676edbce1b66dfbd11419ed5e5c5e6d6
 Section: misc
 Priority: optional
 Homepage: http://www.ros.org/wiki/diagnostic_updater
