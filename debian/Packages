@@ -3540,6 +3540,36 @@ Priority: optional
 Homepage: http://ros.org/wiki/rosbridge_library
 Description: Message and service definitions used in internal tests for rosbridge packages.
 
+Package: ros-iron-rosidl-generator-mypy
+Version: 0.2.1-0jammy
+Architecture: arm64
+Maintainer: Yuki Igarashi <me@bonprosoft.com>
+Installed-Size: 98
+Depends: ros-iron-ament-cmake, ros-iron-rmw, ros-iron-rosidl-cmake, ros-iron-rosidl-generator-py, ros-iron-rosidl-parser, ros-iron-rosidl-pycommon
+Filename: ./ros-iron-rosidl-generator-mypy_0.2.1-0jammy_arm64.deb
+Size: 14024
+MD5sum: 99c4108e7ade9297b7460cce539867d7
+SHA1: 644d1986f3e3200d740d528461c69cd1f1d4b584
+SHA256: db5509cd55b2b9891f4c0919aaabc4df8f85b0a039349c0da2394c49384ec285
+Section: misc
+Priority: optional
+Description: Generate stub files for the ROS2 interfaces in Python
+
+Package: ros-iron-rosidl-generator-mypy
+Version: 0.2.1-0jammy
+Architecture: amd64
+Maintainer: Yuki Igarashi <me@bonprosoft.com>
+Installed-Size: 98
+Depends: ros-iron-ament-cmake, ros-iron-rmw, ros-iron-rosidl-cmake, ros-iron-rosidl-generator-py, ros-iron-rosidl-parser, ros-iron-rosidl-pycommon
+Filename: ./ros-iron-rosidl-generator-mypy_0.2.1-0jammy_amd64.deb
+Size: 14042
+MD5sum: 40ec6c5a98449f000a0709daf55909a6
+SHA1: a7bac2f159343d70254448a39ae29200a4eae4bd
+SHA256: c976c219fbc8ea6f94ea73c328700699669519f78b5552856d8283d34e614bc1
+Section: misc
+Priority: optional
+Description: Generate stub files for the ROS2 interfaces in Python
+
 Package: ros-iron-septentrio-gnss-driver
 Version: 1.4.2-0jammy
 Architecture: amd64
@@ -6140,10 +6170,10 @@ Maintainer: Yuki Igarashi <me@bonprosoft.com>
 Installed-Size: 98
 Depends: ros-kilted-ament-cmake, ros-kilted-rmw, ros-kilted-rosidl-cmake, ros-kilted-rosidl-generator-py, ros-kilted-rosidl-parser, ros-kilted-rosidl-pycommon
 Filename: ./ros-kilted-rosidl-generator-mypy_0.2.1-0noble_amd64.deb
-Size: 14022
-MD5sum: 9db0f235523ec55857b111dda4566d97
-SHA1: ba258198946e01b9ba8419ab7b871dcbae7387b1
-SHA256: ed158ec6f732b48479ba379231bfaaa93ea0c3f3c31e2ee15756c147953540b7
+Size: 14008
+MD5sum: b17c69818d5d20f147a193dc9e7f16da
+SHA1: c8c386649623815b327233feeb6db43707ac7908
+SHA256: 9ef6a66d3fb266e01857c8ffd9f299f1925e3ae42a13709f0e5f15bdbf539fdb
 Section: misc
 Priority: optional
 Description: Generate stub files for the ROS2 interfaces in Python
