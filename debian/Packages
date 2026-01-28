@@ -2688,6 +2688,21 @@ Description: Some extras for launch tooling.
 
 Package: ros-iron-launch-ext
 Version: 1.20.0-0jammy
+Architecture: arm64
+Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
+Installed-Size: 363
+Depends: python3-git, python3-psutil, ros-iron-launch, ros-iron-xacro
+Filename: ./ros-iron-launch-ext_1.20.0-0jammy_arm64.deb
+Size: 66282
+MD5sum: b19b9677c3591300d1ecf086308a31e1
+SHA1: 0637c7cc7a94fc1a4ebb21e92289ffc17f735306
+SHA256: 5447095fb3bb494a302c0d824f2753c62841d048bbda1f407003cf169463bcd6
+Section: misc
+Priority: optional
+Description: Some extras for launch tooling.
+
+Package: ros-iron-launch-ext
+Version: 1.20.0-0jammy
 Architecture: amd64
 Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
 Installed-Size: 363
