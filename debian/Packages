@@ -2687,6 +2687,21 @@ Priority: optional
 Description: Some extras for launch tooling.
 
 Package: ros-iron-launch-ext
+Version: 1.20.0-0jammy
+Architecture: amd64
+Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
+Installed-Size: 363
+Depends: python3-git, python3-psutil, ros-iron-launch, ros-iron-xacro
+Filename: ./ros-iron-launch-ext_1.20.0-0jammy_amd64.deb
+Size: 66294
+MD5sum: a6c1bd2d1f49c6fcf811203b62659de5
+SHA1: f69a4adb91081af0e06d2ee580160f2919dabfaa
+SHA256: 846ef5459b3b367ec3a9dfbc83a2752134a0f1c5f17f50f082b2f409e989f0db
+Section: misc
+Priority: optional
+Description: Some extras for launch tooling.
+
+Package: ros-iron-launch-ext
 Version: 1.5.0-0jammy
 Architecture: amd64
 Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
@@ -6140,10 +6155,10 @@ Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
 Installed-Size: 406
 Depends: python3-git, python3-psutil, ros-kilted-launch, ros-kilted-xacro
 Filename: ./ros-kilted-launch-ext_1.20.0-0noble_amd64.deb
-Size: 82124
-MD5sum: 634491407fc68279d252fd6dfed2f265
-SHA1: 437c1f178dd5c29f588bbb951f9806a04b37529b
-SHA256: c1d715d5e18e74af492919ce50ac673e1e4cfe473f98be5b3ab4f36c1f7860ac
+Size: 82120
+MD5sum: fc10345054897eab88a8f3af003a1d3b
+SHA1: 32c7dc73dc0f9fd5ecb7fa489bf8818671e17ac9
+SHA256: 9481acc76774f556eaf0cfc5ea443eec13cd28f0fb9b4cea87a012f795ead981
 Section: misc
 Priority: optional
 Description: Some extras for launch tooling.
@@ -6155,10 +6170,10 @@ Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
 Installed-Size: 406
 Depends: python3-git, python3-psutil, ros-kilted-launch, ros-kilted-xacro
 Filename: ./ros-kilted-launch-ext_1.20.0-0noble_arm64.deb
-Size: 82124
-MD5sum: 231d9932c824854632a27a48f163f84e
-SHA1: 501e6855a0b3e53b4457063e8305748044bbe265
-SHA256: 161a695cdc11cf81cfca8d614901474c8122fc546739aa284b77caa9615a7b17
+Size: 82128
+MD5sum: f4d789ec58df1ca68dd7a0bb05d55da1
+SHA1: 343a5b85335006e71eeec6e753a0cda89c502587
+SHA256: a329f024c428572c272949eb2a3d7c539398c63f89acfa2104e4f2599aa9990c
 Section: misc
 Priority: optional
 Description: Some extras for launch tooling.
