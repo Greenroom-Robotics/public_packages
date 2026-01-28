@@ -6185,10 +6185,10 @@ Maintainer: Yuki Igarashi <me@bonprosoft.com>
 Installed-Size: 98
 Depends: ros-kilted-ament-cmake, ros-kilted-rmw, ros-kilted-rosidl-cmake, ros-kilted-rosidl-generator-py, ros-kilted-rosidl-parser, ros-kilted-rosidl-pycommon
 Filename: ./ros-kilted-rosidl-generator-mypy_0.2.1-0noble_arm64.deb
-Size: 14020
-MD5sum: 729ee98eb0620db8973dd8ae293ae522
-SHA1: 9d892595244461658d53a7250fa1268999e323ae
-SHA256: 3db210560ff00ad2d5bcb4731ab29f3e1de1caf55908d561888be4828e64c42f
+Size: 14010
+MD5sum: da7c2d858e575e493427db0e7c8d7622
+SHA1: 40d5c886b42c4ae4bd5c360834620dffe1028f07
+SHA256: e791e3dfc0dda5dc86e19fd20474525a599380a8762496771f7426ad96d316f4
 Section: misc
 Priority: optional
 Description: Generate stub files for the ROS2 interfaces in Python
