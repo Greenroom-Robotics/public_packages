@@ -4394,6 +4394,426 @@ Priority: optional
 Homepage: https://github.com/foxglove/ros-foxglove-bridge
 Description: ROS Foxglove Bridge
 
+Package: ros-jazzy-generate-parameter-library
+Version: 10.0.1-0noble
+Architecture: arm64
+Maintainer: Paul Gesel <paul.gesel@picknik.ai>
+Installed-Size: 53
+Depends: libfmt-dev, ros-jazzy-generate-parameter-library-py, ros-jazzy-parameter-traits, ros-jazzy-rclcpp, ros-jazzy-rclcpp-lifecycle, ros-jazzy-rclpy, ros-jazzy-rsl, ros-jazzy-tcb-span, ros-jazzy-tl-expected
+Filename: ./ros-jazzy-generate-parameter-library_10.0.1-0noble_arm64.deb
+Size: 8574
+MD5sum: ed5b0d2e74a842f9cacbf14fadac9560
+SHA1: 0da251f3703bc1d6abc603c76c63b6fe580a4b16
+SHA256: 015f26156ff6420d2ea62089cbcfae0435ffdcd5c5510dde73b9b82fcddd46f9
+Section: misc
+Priority: optional
+Description: CMake to generate ROS parameter library.
+
+Package: ros-jazzy-generate-parameter-library
+Version: 10.0.1-0noble
+Architecture: amd64
+Maintainer: Paul Gesel <paul.gesel@picknik.ai>
+Installed-Size: 53
+Depends: libfmt-dev, ros-jazzy-generate-parameter-library-py, ros-jazzy-parameter-traits, ros-jazzy-rclcpp, ros-jazzy-rclcpp-lifecycle, ros-jazzy-rclpy, ros-jazzy-rsl, ros-jazzy-tcb-span, ros-jazzy-tl-expected
+Filename: ./ros-jazzy-generate-parameter-library_10.0.1-0noble_amd64.deb
+Size: 8574
+MD5sum: af4932eb514631ecd21b6e83635c1704
+SHA1: f0e3a1c62045e1ea69ddb4681389ad4d55890864
+SHA256: 2c55e288433dc8b9306c9e32383519be47865e8d793eef3835040991416b0b6d
+Section: misc
+Priority: optional
+Description: CMake to generate ROS parameter library.
+
+Package: ros-jazzy-generate-parameter-library-py
+Version: 10.0.1-0noble
+Architecture: amd64
+Maintainer: Paul Gesel <paul.gesel@picknik.ai>
+Installed-Size: 280
+Depends: python3-dev, python3-jinja2, python3-typeguard, python3-yaml
+Filename: ./ros-jazzy-generate-parameter-library-py_10.0.1-0noble_amd64.deb
+Size: 52792
+MD5sum: 30b30b66c8f15164177e845f2476ef4c
+SHA1: 0d4ec1c0932676638dcd1dce28fee1628b73bce8
+SHA256: 2fc9ef4dcb0abfb7d1b208a8f36951276d7f36f8af079e2101cf7ba1e5d0e16a
+Section: misc
+Priority: optional
+Description: Python to generate ROS parameter library.
+
+Package: ros-jazzy-generate-parameter-library-py
+Version: 10.0.1-0noble
+Architecture: arm64
+Maintainer: Paul Gesel <paul.gesel@picknik.ai>
+Installed-Size: 280
+Depends: python3-dev, python3-jinja2, python3-typeguard, python3-yaml
+Filename: ./ros-jazzy-generate-parameter-library-py_10.0.1-0noble_arm64.deb
+Size: 52792
+MD5sum: 88913d4c1285fc50108c66d6ea5da80d
+SHA1: 86234b2d3d3c40ae681d129cffc715d5811aa444
+SHA256: 4671cc54ee0f8026b874902803b66a3666427934a9b17499394d7089d7cb9e34
+Section: misc
+Priority: optional
+Description: Python to generate ROS parameter library.
+
+Package: ros-jazzy-generate-parameter-library-py
+Version: 10.0.2-0noble
+Architecture: arm64
+Maintainer: Paul Gesel <paul.gesel@picknik.ai>
+Installed-Size: 282
+Depends: python3-dev, python3-jinja2, python3-typeguard, python3-yaml
+Filename: ./ros-jazzy-generate-parameter-library-py_10.0.2-0noble_arm64.deb
+Size: 52992
+MD5sum: 8437a8e36fae57c48168515a9f247ed9
+SHA1: f208d20eb6ebd5069a4c06d65ac8b5016c3974e7
+SHA256: b16af783abd1946d798b42871cc3bf9db99baf1b868688ef9cbfaed646204ea1
+Section: misc
+Priority: optional
+Description: Python to generate ROS parameter library.
+
+Package: ros-jazzy-generate-parameter-library-py
+Version: 10.0.2-0noble
+Architecture: amd64
+Maintainer: Paul Gesel <paul.gesel@picknik.ai>
+Installed-Size: 282
+Depends: python3-dev, python3-jinja2, python3-typeguard, python3-yaml
+Filename: ./ros-jazzy-generate-parameter-library-py_10.0.2-0noble_amd64.deb
+Size: 52992
+MD5sum: 8c4ddc68e7491ffefff01e5393455e1f
+SHA1: d5847268002e048b6c80b9d669bd08513eacac4e
+SHA256: de4c03e11b375784f96e3b28f8f259f3ad1b67bfd73c655ec52e22bb91811366
+Section: misc
+Priority: optional
+Description: Python to generate ROS parameter library.
+
+Package: ros-jazzy-generate-parameter-library-py
+Version: 10.0.3-0noble
+Architecture: amd64
+Maintainer: Paul Gesel <paul.gesel@picknik.ai>
+Installed-Size: 282
+Depends: python3-dev, python3-jinja2, python3-typeguard, python3-yaml
+Filename: ./ros-jazzy-generate-parameter-library-py_10.0.3-0noble_amd64.deb
+Size: 53022
+MD5sum: 98689b1371d6a7e702cbdcab207f5ee6
+SHA1: b2cf66f81c118c084c96c880f88b8dc303d7dc39
+SHA256: 151fd5e69023562de664d3da462954de51d7ff2d1ccc472455495e4c21e8699a
+Section: misc
+Priority: optional
+Description: Python to generate ROS parameter library.
+
+Package: ros-jazzy-generate-parameter-library-py
+Version: 10.0.3-0noble
+Architecture: arm64
+Maintainer: Paul Gesel <paul.gesel@picknik.ai>
+Installed-Size: 282
+Depends: python3-dev, python3-jinja2, python3-typeguard, python3-yaml
+Filename: ./ros-jazzy-generate-parameter-library-py_10.0.3-0noble_arm64.deb
+Size: 53030
+MD5sum: d9a90a7444f3bd4755683e4adacd2438
+SHA1: 253367d412175b64ab15492f53a44f60ca906748
+SHA256: 906db5794884d03110114e8a9eab3350d0056236ab4ec0114b80264b1d3fa37d
+Section: misc
+Priority: optional
+Description: Python to generate ROS parameter library.
+
+Package: ros-jazzy-generate-parameter-library-py
+Version: 10.1.0-0noble
+Architecture: amd64
+Maintainer: Paul Gesel <paul.gesel@picknik.ai>
+Installed-Size: 282
+Depends: python3-dev, python3-jinja2, python3-typeguard, python3-yaml
+Filename: ./ros-jazzy-generate-parameter-library-py_10.1.0-0noble_amd64.deb
+Size: 53128
+MD5sum: 7ce9c44ecca33581e3845672b2365975
+SHA1: 69a4c28f369e71489c548d137a911cf6030819b7
+SHA256: 90141a70773d80f81cb159eee63c6c1cc302cef119e9c0e9c314a900dfa124ca
+Section: misc
+Priority: optional
+Description: Python to generate ROS parameter library.
+
+Package: ros-jazzy-generate-parameter-library-py
+Version: 10.1.0-0noble
+Architecture: arm64
+Maintainer: Paul Gesel <paul.gesel@picknik.ai>
+Installed-Size: 282
+Depends: python3-dev, python3-jinja2, python3-typeguard, python3-yaml
+Filename: ./ros-jazzy-generate-parameter-library-py_10.1.0-0noble_arm64.deb
+Size: 53134
+MD5sum: 5f49e89dcc850c2b08267d8aa7cd849c
+SHA1: d9e9d46749e70976557961380a355fb27ea53682
+SHA256: 495a3d6b7caa58d6ff8b7dbaaab64e0ee9387e4dc0bc8715b6a169b8646c7f46
+Section: misc
+Priority: optional
+Description: Python to generate ROS parameter library.
+
+Package: ros-jazzy-generate-parameter-library-py
+Version: 10.1.1-0noble
+Architecture: amd64
+Maintainer: Paul Gesel <paul.gesel@picknik.ai>
+Installed-Size: 282
+Depends: python3-dev, python3-jinja2, python3-typeguard, python3-yaml
+Filename: ./ros-jazzy-generate-parameter-library-py_10.1.1-0noble_amd64.deb
+Size: 53600
+MD5sum: cdf9e5086d0ae02d0771968bd10f3d36
+SHA1: 5f60b89128e636c345403392dd6a2a2583c3fbef
+SHA256: 20c62184a28f6e82115518ddf70c3bc551978c021ea019302ac9c551f0d436e5
+Section: misc
+Priority: optional
+Description: Python to generate ROS parameter library.
+
+Package: ros-jazzy-generate-parameter-library-py
+Version: 10.1.1-0noble
+Architecture: arm64
+Maintainer: Paul Gesel <paul.gesel@picknik.ai>
+Installed-Size: 282
+Depends: python3-dev, python3-jinja2, python3-typeguard, python3-yaml
+Filename: ./ros-jazzy-generate-parameter-library-py_10.1.1-0noble_arm64.deb
+Size: 53610
+MD5sum: 6f5777345af2045dbc8f70b010fcd62a
+SHA1: 7df94b61e4da824bb95a5d45f82cffdc5312f99e
+SHA256: d992f85b0c4ac16f19755b9f902c235d74eea9a84eef774ef4d5f6977673f931
+Section: misc
+Priority: optional
+Description: Python to generate ROS parameter library.
+
+Package: ros-jazzy-generate-parameter-library-py
+Version: 10.1.2-0noble
+Architecture: amd64
+Maintainer: Paul Gesel <paul.gesel@picknik.ai>
+Installed-Size: 284
+Depends: python3-dev, python3-jinja2, python3-typeguard, python3-yaml
+Filename: ./ros-jazzy-generate-parameter-library-py_10.1.2-0noble_amd64.deb
+Size: 53712
+MD5sum: 73b7bc9cc905f44040c0afc7d79c6f81
+SHA1: 4ba2fad1c3c7e1f37a7e4d8de777ab71561637e7
+SHA256: 603a242c1a1f012ae7f51eb77af4e4d0a2db3ec6e307e96490e4ff96d20b6ffd
+Section: misc
+Priority: optional
+Description: Python to generate ROS parameter library.
+
+Package: ros-jazzy-generate-parameter-library-py
+Version: 10.1.2-0noble
+Architecture: arm64
+Maintainer: Paul Gesel <paul.gesel@picknik.ai>
+Installed-Size: 284
+Depends: python3-dev, python3-jinja2, python3-typeguard, python3-yaml
+Filename: ./ros-jazzy-generate-parameter-library-py_10.1.2-0noble_arm64.deb
+Size: 53710
+MD5sum: 7377a1c3fcd948547797c18b4bb58322
+SHA1: a05017759ae2a9b5400294f5fbe3b1242280e087
+SHA256: 462293d9ff629583e0780bf01da07e7f4c371845bf66d27a199ddc8b9236acd0
+Section: misc
+Priority: optional
+Description: Python to generate ROS parameter library.
+
+Package: ros-jazzy-generate-parameter-library-py
+Version: 10.1.3-0noble
+Architecture: arm64
+Maintainer: Paul Gesel <paul.gesel@picknik.ai>
+Installed-Size: 284
+Depends: python3-dev, python3-jinja2, python3-typeguard, python3-yaml
+Filename: ./ros-jazzy-generate-parameter-library-py_10.1.3-0noble_arm64.deb
+Size: 53728
+MD5sum: 7dca7a8a7254abdafa3c6a75f0d1256d
+SHA1: 34de13befb3be6f00a47bb90bd17a701bb83e7b3
+SHA256: 18774fd44ad2199e404a9a74a445ff2024d088ece2aace90d66715abb23734b9
+Section: misc
+Priority: optional
+Description: Python to generate ROS parameter library.
+
+Package: ros-jazzy-generate-parameter-library-py
+Version: 10.1.3-0noble
+Architecture: amd64
+Maintainer: Paul Gesel <paul.gesel@picknik.ai>
+Installed-Size: 284
+Depends: python3-dev, python3-jinja2, python3-typeguard, python3-yaml
+Filename: ./ros-jazzy-generate-parameter-library-py_10.1.3-0noble_amd64.deb
+Size: 53744
+MD5sum: b12ede1b92a40cb42fdcf6004747e1f8
+SHA1: ea1074d712db3a426838af58c067a36cf5833d33
+SHA256: 45079d035fac9f479c1f3536d49efdad2cf61a408f35dc6f01094fd2943b4a70
+Section: misc
+Priority: optional
+Description: Python to generate ROS parameter library.
+
+Package: ros-jazzy-generate-parameter-library-py
+Version: 10.1.4-0noble
+Architecture: amd64
+Maintainer: Paul Gesel <paul.gesel@picknik.ai>
+Installed-Size: 284
+Depends: python3-dev, python3-jinja2, python3-typeguard, python3-yaml
+Filename: ./ros-jazzy-generate-parameter-library-py_10.1.4-0noble_amd64.deb
+Size: 53732
+MD5sum: 89485bc2b0715534fc487a66e9b17957
+SHA1: c10440b033b2e5c1bb66528c36d032c79bf74fbf
+SHA256: adf66f27356e026c3142aede3511d6b6de8c9f2eeb65c9d278ea032c6afd3c08
+Section: misc
+Priority: optional
+Description: Python to generate ROS parameter library.
+
+Package: ros-jazzy-generate-parameter-library-py
+Version: 10.1.4-0noble
+Architecture: arm64
+Maintainer: Paul Gesel <paul.gesel@picknik.ai>
+Installed-Size: 284
+Depends: python3-dev, python3-jinja2, python3-typeguard, python3-yaml
+Filename: ./ros-jazzy-generate-parameter-library-py_10.1.4-0noble_arm64.deb
+Size: 53728
+MD5sum: 481beb8713717e131fdfd47620d57057
+SHA1: 94dc83574acd6ba5942be4657ed3f7501c57adff
+SHA256: 9bb5391ebfe3aa939279be59681e0889b316854688f0fc40a38e9ca3feecd8c3
+Section: misc
+Priority: optional
+Description: Python to generate ROS parameter library.
+
+Package: ros-jazzy-generate-parameter-library-py
+Version: 10.1.5-0noble
+Architecture: arm64
+Maintainer: Paul Gesel <paul.gesel@picknik.ai>
+Installed-Size: 284
+Depends: python3-dev, python3-jinja2, python3-typeguard, python3-yaml
+Filename: ./ros-jazzy-generate-parameter-library-py_10.1.5-0noble_arm64.deb
+Size: 53756
+MD5sum: 532fe870283abc1157f8683e454484e8
+SHA1: c251266a994f6c784a1aa71b1d1d956881555233
+SHA256: 21becdfec4af5304ff15fbea8ca6b2280cb34494249077929a828a7796212cb5
+Section: misc
+Priority: optional
+Description: Python to generate ROS parameter library.
+
+Package: ros-jazzy-generate-parameter-library-py
+Version: 10.1.5-0noble
+Architecture: amd64
+Maintainer: Paul Gesel <paul.gesel@picknik.ai>
+Installed-Size: 284
+Depends: python3-dev, python3-jinja2, python3-typeguard, python3-yaml
+Filename: ./ros-jazzy-generate-parameter-library-py_10.1.5-0noble_amd64.deb
+Size: 53752
+MD5sum: ec9e082775f814e958295050c2b9cac9
+SHA1: 0b50e3248a05e0f6aabd1e5933056c395e7253e7
+SHA256: d3ae2b06759fab8660630692ae9d06cac025efcc024bcb999a4a18054232d965
+Section: misc
+Priority: optional
+Description: Python to generate ROS parameter library.
+
+Package: ros-jazzy-generate-parameter-library-py
+Version: 10.1.6-0noble
+Architecture: amd64
+Maintainer: Paul Gesel <paul.gesel@picknik.ai>
+Installed-Size: 284
+Depends: python3-dev, python3-jinja2, python3-typeguard, python3-yaml
+Filename: ./ros-jazzy-generate-parameter-library-py_10.1.6-0noble_amd64.deb
+Size: 53756
+MD5sum: 8aa4b3a608d2f498d308d71047c6aa27
+SHA1: fb0384d53585bf6b3d8b7978121b3c9087427525
+SHA256: e3911498193816ab4d363762578bb610fbfc6280056b628c6c55f11efef7fe40
+Section: misc
+Priority: optional
+Description: Python to generate ROS parameter library.
+
+Package: ros-jazzy-generate-parameter-library-py
+Version: 10.1.6-0noble
+Architecture: arm64
+Maintainer: Paul Gesel <paul.gesel@picknik.ai>
+Installed-Size: 284
+Depends: python3-dev, python3-jinja2, python3-typeguard, python3-yaml
+Filename: ./ros-jazzy-generate-parameter-library-py_10.1.6-0noble_arm64.deb
+Size: 53746
+MD5sum: 2d84fc4468d1b46190bd1af106b288ba
+SHA1: 629a02d11242a85b97a94241a0c84f9ac882c799
+SHA256: 8eb278e59e0c880ecb26ca0bdbed2f0443008b446bfa2355f75c5f29836fc7b7
+Section: misc
+Priority: optional
+Description: Python to generate ROS parameter library.
+
+Package: ros-jazzy-generate-parameter-library-py
+Version: 10.1.7-0noble
+Architecture: arm64
+Maintainer: Paul Gesel <paul.gesel@picknik.ai>
+Installed-Size: 284
+Depends: python3-dev, python3-jinja2, python3-typeguard, python3-yaml
+Filename: ./ros-jazzy-generate-parameter-library-py_10.1.7-0noble_arm64.deb
+Size: 53750
+MD5sum: dfd4e53ad77fb3b4f3a7f5e4fb64e4f2
+SHA1: 848c716b9911eb343700f2df24d3894a6a568acf
+SHA256: d23d0c50ba1ba4828c71e845cf379ee571b944856a8981737bb896ca236db393
+Section: misc
+Priority: optional
+Description: Python to generate ROS parameter library.
+
+Package: ros-jazzy-generate-parameter-library-py
+Version: 10.1.7-0noble
+Architecture: amd64
+Maintainer: Paul Gesel <paul.gesel@picknik.ai>
+Installed-Size: 284
+Depends: python3-dev, python3-jinja2, python3-typeguard, python3-yaml
+Filename: ./ros-jazzy-generate-parameter-library-py_10.1.7-0noble_amd64.deb
+Size: 53744
+MD5sum: b306d563ddbf09399fb108e19ce2779f
+SHA1: d18c636a6a409853ca2f32ae4b6daba6a1b8c972
+SHA256: e7440877785dd34ab6c5f4846282f80f64c95f783ce316960ea4d46a3104393f
+Section: misc
+Priority: optional
+Description: Python to generate ROS parameter library.
+
+Package: ros-jazzy-generate-parameter-library-py
+Version: 10.2.0-0noble
+Architecture: amd64
+Maintainer: Paul Gesel <paul.gesel@picknik.ai>
+Installed-Size: 284
+Depends: python3-dev, python3-jinja2, python3-typeguard, python3-yaml
+Filename: ./ros-jazzy-generate-parameter-library-py_10.2.0-0noble_amd64.deb
+Size: 53754
+MD5sum: 358b813741eb02dd3df417d99cecb205
+SHA1: 96a957806f7e36cf91a48c45eddb064f037fed9d
+SHA256: 835ebd7c2d8868a7c592bbb19c31118d75519cc8f114cd2594446d3b4f7a3c43
+Section: misc
+Priority: optional
+Description: Python to generate ROS parameter library.
+
+Package: ros-jazzy-generate-parameter-library-py
+Version: 10.2.0-0noble
+Architecture: arm64
+Maintainer: Paul Gesel <paul.gesel@picknik.ai>
+Installed-Size: 284
+Depends: python3-dev, python3-jinja2, python3-typeguard, python3-yaml
+Filename: ./ros-jazzy-generate-parameter-library-py_10.2.0-0noble_arm64.deb
+Size: 53766
+MD5sum: e665420fceb39ac1d217e3c45dbd1ccc
+SHA1: 8c16c41a28318d8404831559076c3b762dd91d4f
+SHA256: 75ea5a90ce140601c87d6de139f447a117f662206b1745ed11ccb72336080da5
+Section: misc
+Priority: optional
+Description: Python to generate ROS parameter library.
+
+Package: ros-jazzy-generate-parameter-library-py
+Version: 10.2.1-0noble
+Architecture: arm64
+Maintainer: Paul Gesel <paul.gesel@picknik.ai>
+Installed-Size: 284
+Depends: python3-dev, python3-jinja2, python3-typeguard, python3-yaml
+Filename: ./ros-jazzy-generate-parameter-library-py_10.2.1-0noble_arm64.deb
+Size: 53876
+MD5sum: f638448ba0b3048f7c8eeb6a7e8f020d
+SHA1: 77b2e4f905c5e24e0b93266a9d6638ea14560116
+SHA256: b394795f828db47f03ac6456e2bcb03da44e717fd7ed67692a3a543ce4bc5a6a
+Section: misc
+Priority: optional
+Description: Python to generate ROS parameter library.
+
+Package: ros-jazzy-generate-parameter-library-py
+Version: 10.2.1-0noble
+Architecture: amd64
+Maintainer: Paul Gesel <paul.gesel@picknik.ai>
+Installed-Size: 284
+Depends: python3-dev, python3-jinja2, python3-typeguard, python3-yaml
+Filename: ./ros-jazzy-generate-parameter-library-py_10.2.1-0noble_amd64.deb
+Size: 53866
+MD5sum: 155750ff6f4be07c503662e5f0e1c9f4
+SHA1: 72b5026c599d453a3b09d8735d5cde24755dc2dd
+SHA256: ba26e87386050aa00a04cbc137324e2a0975ee0a7bf08f47edd54e4f2e7e03a7
+Section: misc
+Priority: optional
+Description: Python to generate ROS parameter library.
+
 Package: ros-jazzy-hydrodynamics
 Version: 1.0.0-0noble
 Architecture: amd64
@@ -5257,6 +5677,36 @@ Priority: optional
 Homepage: https://github.com/Greenroom-Robotics/libxmlmm
 Description: Libxmlmm is a C++ wrapper for libxml 2.0 that only relies on standard C++ and libxml2
 
+Package: ros-jazzy-parameter-traits
+Version: 10.0.1-0noble
+Architecture: arm64
+Maintainer: Tyler Weaver <maybe@tylerjw.dev>
+Installed-Size: 59
+Depends: libfmt-dev, ros-jazzy-rclcpp, ros-jazzy-rsl, ros-jazzy-tcb-span, ros-jazzy-tl-expected
+Filename: ./ros-jazzy-parameter-traits_10.0.1-0noble_arm64.deb
+Size: 9730
+MD5sum: eac775b17ce3792a670a5c45f0444e77
+SHA1: ae2b9ae21756ebbc5e41ab0f455371dcad5ce9c7
+SHA256: bddbcd5bba23ddfbdf021ebd0e000ac0ae122064e65518d281f700683306f81e
+Section: misc
+Priority: optional
+Description: Functions and types for rclcpp::Parameter
+
+Package: ros-jazzy-parameter-traits
+Version: 10.0.1-0noble
+Architecture: amd64
+Maintainer: Tyler Weaver <maybe@tylerjw.dev>
+Installed-Size: 59
+Depends: libfmt-dev, ros-jazzy-rclcpp, ros-jazzy-rsl, ros-jazzy-tcb-span, ros-jazzy-tl-expected
+Filename: ./ros-jazzy-parameter-traits_10.0.1-0noble_amd64.deb
+Size: 9730
+MD5sum: 125f8243400d2707f50c8c1d016e86aa
+SHA1: 97e90ea6ffdf2644db4f10369d52708280121bc2
+SHA256: a017092dea678c1cdf74e949c40fe401a809e4a732b928800dd32bf5e2fcf371
+Section: misc
+Priority: optional
+Description: Functions and types for rclcpp::Parameter
+
 Package: ros-jazzy-pwmdriver
 Version: 1.1.2-0noble
 Architecture: arm64
@@ -5712,6 +6162,66 @@ Section: misc
 Priority: optional
 Homepage: https://github.com/foxglove/ros-foxglove-bridge
 Description: ROS Foxglove Bridge
+
+Package: ros-kilted-generate-parameter-library
+Version: 10.0.1-0noble
+Architecture: amd64
+Maintainer: Paul Gesel <paul.gesel@picknik.ai>
+Installed-Size: 53
+Depends: libfmt-dev, ros-kilted-generate-parameter-library-py, ros-kilted-parameter-traits, ros-kilted-rclcpp, ros-kilted-rclcpp-lifecycle, ros-kilted-rclpy, ros-kilted-rsl, ros-kilted-tcb-span, ros-kilted-tl-expected
+Filename: ./ros-kilted-generate-parameter-library_10.0.1-0noble_amd64.deb
+Size: 8592
+MD5sum: fde28bdbe892fa1bec5d64d503ba3c93
+SHA1: 92f697e2eb6f656dbaa0d3050506f96b29a158ea
+SHA256: 17d9158c11d32cd6e1aa087f985cc49a1f99a40a2ae64bdbef6b077860edbb08
+Section: misc
+Priority: optional
+Description: CMake to generate ROS parameter library.
+
+Package: ros-kilted-generate-parameter-library
+Version: 10.0.1-0noble
+Architecture: arm64
+Maintainer: Paul Gesel <paul.gesel@picknik.ai>
+Installed-Size: 53
+Depends: libfmt-dev, ros-kilted-generate-parameter-library-py, ros-kilted-parameter-traits, ros-kilted-rclcpp, ros-kilted-rclcpp-lifecycle, ros-kilted-rclpy, ros-kilted-rsl, ros-kilted-tcb-span, ros-kilted-tl-expected
+Filename: ./ros-kilted-generate-parameter-library_10.0.1-0noble_arm64.deb
+Size: 8592
+MD5sum: 14163d39f1c8706b3c0e312bd5d9ce9a
+SHA1: 1414e6e8056d363a3bc95d16efe63f906b7d7246
+SHA256: b658dfbecebd87eaebda822c3d7a326e312946f9a644de5a11a9c6fb771bbba3
+Section: misc
+Priority: optional
+Description: CMake to generate ROS parameter library.
+
+Package: ros-kilted-generate-parameter-library-py
+Version: 10.2.1-0noble
+Architecture: arm64
+Maintainer: Paul Gesel <paul.gesel@picknik.ai>
+Installed-Size: 284
+Depends: python3-dev, python3-jinja2, python3-typeguard, python3-yaml
+Filename: ./ros-kilted-generate-parameter-library-py_10.2.1-0noble_arm64.deb
+Size: 53928
+MD5sum: bd48a3474c49feeb4a9336a32eaa8b05
+SHA1: 5831ddca2563ef5b730d105e3bf5ce2d77dba2db
+SHA256: 7ae6817f5bdb8921add6dba935bbdcb910caec8aecdcc32e9304b88eaa48fb4f
+Section: misc
+Priority: optional
+Description: Python to generate ROS parameter library.
+
+Package: ros-kilted-generate-parameter-library-py
+Version: 10.2.1-0noble
+Architecture: amd64
+Maintainer: Paul Gesel <paul.gesel@picknik.ai>
+Installed-Size: 284
+Depends: python3-dev, python3-jinja2, python3-typeguard, python3-yaml
+Filename: ./ros-kilted-generate-parameter-library-py_10.2.1-0noble_amd64.deb
+Size: 53918
+MD5sum: 53c103ba22362f0e07a493941bb5eb16
+SHA1: 0585226f99eac3ed005216223f3fc55e90007f85
+SHA256: 5c387010b13a3e53e11a69b90a63b2181deb981bf00efaf1dc4081a14ee32ae8
+Section: misc
+Priority: optional
+Description: Python to generate ROS parameter library.
 
 Package: ros-kilted-hydrodynamics
 Version: 1.0.0-0noble
@@ -6224,6 +6734,36 @@ SHA256: a329f024c428572c272949eb2a3d7c539398c63f89acfa2104e4f2599aa9990c
 Section: misc
 Priority: optional
 Description: Some extras for launch tooling.
+
+Package: ros-kilted-parameter-traits
+Version: 10.0.1-0noble
+Architecture: arm64
+Maintainer: Tyler Weaver <maybe@tylerjw.dev>
+Installed-Size: 59
+Depends: libfmt-dev, ros-kilted-rclcpp, ros-kilted-rsl, ros-kilted-tcb-span, ros-kilted-tl-expected
+Filename: ./ros-kilted-parameter-traits_10.0.1-0noble_arm64.deb
+Size: 9740
+MD5sum: fb1590ce4cff5c1212ca5452e59dfa22
+SHA1: bd8d8d2f3f68ad73555e4584288d767dbf47e7c9
+SHA256: 309a29e56d43a246f50f1f851eb9a468a3bd96038d7b8ddd0a3b0428df56389a
+Section: misc
+Priority: optional
+Description: Functions and types for rclcpp::Parameter
+
+Package: ros-kilted-parameter-traits
+Version: 10.0.1-0noble
+Architecture: amd64
+Maintainer: Tyler Weaver <maybe@tylerjw.dev>
+Installed-Size: 59
+Depends: libfmt-dev, ros-kilted-rclcpp, ros-kilted-rsl, ros-kilted-tcb-span, ros-kilted-tl-expected
+Filename: ./ros-kilted-parameter-traits_10.0.1-0noble_amd64.deb
+Size: 9740
+MD5sum: c88eedb9f392690a8d88ed838866e259
+SHA1: 4bb005baa90c96f710a96c43c3bde8d511da9613
+SHA256: ebe114d35084e3a2b1c37204f92f3602bf2ad1e8c75b972133aada0f905f1c0c
+Section: misc
+Priority: optional
+Description: Functions and types for rclcpp::Parameter
 
 Package: ros-kilted-rosidl-generator-mypy
 Version: 0.2.1-0noble
