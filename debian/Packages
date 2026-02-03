@@ -1982,6 +1982,22 @@ Priority: optional
 Homepage: https://github.com/foxglove/ros-foxglove-bridge
 Description: ROS Foxglove Bridge
 
+Package: ros-iron-foxglove-bridge
+Version: 10.5.7-0jammy
+Architecture: amd64
+Maintainer: Hans-Joachim Krauch <achim@foxglove.dev>
+Installed-Size: 3124
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libssl3 (>= 3.0.0~~alpha1), libstdc++6 (>= 12), ros-iron-fastcdr, zlib1g (>= 1:1.1.4), openssl, ros-iron-ament-index-cpp, ros-iron-rclcpp, ros-iron-rclcpp-components, ros-iron-resource-retriever, ros-iron-rosgraph-msgs, ros-iron-rosx-introspection, zlib1g-dev
+Filename: ./ros-iron-foxglove-bridge_10.5.7-0jammy_amd64.deb
+Size: 821510
+MD5sum: 03b55505614934cafac73999fa213ca8
+SHA1: fce61666a07200587fe195a91877c2e0b2754e4d
+SHA256: d0c0bad2a4781ee030a811a618903c041d77cc066c257916fcdd2d1e958ff7ec
+Section: misc
+Priority: optional
+Homepage: https://github.com/foxglove/ros-foxglove-bridge
+Description: ROS Foxglove Bridge
+
 Package: ros-iron-generate-parameter-library-example
 Version: 1.0.0-0jammy
 Architecture: amd64
@@ -5656,10 +5672,10 @@ Maintainer: Hans-Joachim Krauch <achim@foxglove.dev>
 Installed-Size: 3100
 Depends: libc6 (>= 2.38), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libssl3t64 (>= 3.0.0), libstdc++6 (>= 14), ros-kilted-fastcdr, zlib1g (>= 1:1.1.4), openssl, ros-kilted-ament-index-cpp, ros-kilted-rclcpp, ros-kilted-rclcpp-components, ros-kilted-resource-retriever, ros-kilted-rosgraph-msgs, ros-kilted-rosx-introspection, zlib1g-dev
 Filename: ./ros-kilted-foxglove-bridge_10.5.7-0noble_arm64.deb
-Size: 811694
-MD5sum: c6981a0a91438e043c5a113e702a8cec
-SHA1: ad9920dbd1ec4ead4f0d89e3eb171c6e86ea77a6
-SHA256: a70fb52627c8ff8e7d35a16775a82e677bf6f8f6b382dcf98e623fbdc8806d02
+Size: 811700
+MD5sum: 2c5d7fc393cbab2694922f764f08f467
+SHA1: b02b648d781756a13a93d15de165d8a88064c2c7
+SHA256: 76fb203933ecfd379c31ea9e324c78d486f0761ca2ca894cff9247ddc2e54ff6
 Section: misc
 Priority: optional
 Homepage: https://github.com/foxglove/ros-foxglove-bridge
@@ -5672,10 +5688,10 @@ Maintainer: Hans-Joachim Krauch <achim@foxglove.dev>
 Installed-Size: 3232
 Depends: libc6 (>= 2.38), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libssl3t64 (>= 3.0.0), libstdc++6 (>= 14), ros-kilted-fastcdr, zlib1g (>= 1:1.1.4), openssl, ros-kilted-ament-index-cpp, ros-kilted-rclcpp, ros-kilted-rclcpp-components, ros-kilted-resource-retriever, ros-kilted-rosgraph-msgs, ros-kilted-rosx-introspection, zlib1g-dev
 Filename: ./ros-kilted-foxglove-bridge_10.5.7-0noble_amd64.deb
-Size: 866378
-MD5sum: a90b9e91e017c75be1964405a3f22781
-SHA1: 2c4e03f3cdc7759d48331c1980da9ff0ec76a32d
-SHA256: 471fec71fdef650262cbc31dc5128b2a9ddc7f13b131ffb800a640baccf1e886
+Size: 866354
+MD5sum: 72f178f52b46151e06ff6ef5aeacc8af
+SHA1: 0fc49b01084eebf3dddad2efe802199409d1efb5
+SHA256: 3be2359bbf6b7034a3c9c5d6f497015499ff612b6d4d53f3dc8ba58ebbac6df9
 Section: misc
 Priority: optional
 Homepage: https://github.com/foxglove/ros-foxglove-bridge
