@@ -1,3 +1,40 @@
+Package: emuc-b202-dkms
+Version: 3.9-1
+Architecture: all
+Maintainer: Nathan Edwards <nathan.edwards@greenroomrobotics.com>
+Installed-Size: 62
+Depends: dkms (>= 2.1.0.0)
+Filename: ./emuc-b202-dkms_3.9-1_all.deb
+Size: 13408
+MD5sum: 59432e96df6dc21a258acfb420046337
+SHA1: 315b9332018bc27be708759864084085b72bbe44
+SHA256: 28ddf7e01bf8c74d05a72b1cf2831c976fee595a3c8c2483b472828a281fb784
+Section: kernel
+Priority: optional
+Homepage: https://github.com/Greenroom-Robotics/emuc-b202
+Description: EMUC-B202 USB CAN driver (DKMS)
+ This package provides the EMUC-B202 USB CAN driver for Linux systems
+ using DKMS (Dynamic Kernel Module Support). The driver enables support
+ for Innodisk EMUC-B202 USB CAN interfaces.
+
+Package: emuc-b202-utils
+Source: emuc-b202-dkms
+Version: 3.9-1
+Architecture: amd64
+Maintainer: Nathan Edwards <nathan.edwards@greenroomrobotics.com>
+Installed-Size: 53
+Depends: emuc-b202-dkms
+Filename: ./emuc-b202-utils_3.9-1_amd64.deb
+Size: 14806
+MD5sum: 4d2bdb8352c6e872c6aef11ff6a8e288
+SHA1: 3a00775d0641f15294ab172936d627fdcbda080d
+SHA256: 6e0b31b530acd04f8cc7b6c9c6500c09c48b0e4206ae009c2ebbac4e2a7d3c67
+Section: kernel
+Priority: optional
+Homepage: https://github.com/Greenroom-Robotics/emuc-b202
+Description: EMUC-B202 utilities
+ This package provides utilities for the EMUC-B202 USB CAN driver.
+
 Package: ros-humble-argparse
 Version: 1.0.0-0jammy
 Architecture: amd64
