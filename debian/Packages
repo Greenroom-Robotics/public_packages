@@ -1618,13 +1618,13 @@ Package: ros-iron-diagnostic-aggregator
 Version: 10.1.1-0jammy
 Architecture: amd64
 Maintainer: Austin Hendrix <namniart@gmail.com>
-Installed-Size: 1432
+Installed-Size: 1444
 Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), libtinyxml2-9 (>= 8.0.0), ros-iron-rclpy
 Filename: ./ros-iron-diagnostic-aggregator_10.1.1-0jammy_amd64.deb
-Size: 331518
-MD5sum: d9e375c9c4d99c75905a2eb38b52c70b
-SHA1: 2f5067986dbe18261c7976ca39dc7d3a03691748
-SHA256: d1c3958278f564d9725cc4fb2c184d64f5e0957083258c3be78f267de2d4f864
+Size: 328236
+MD5sum: 1f13ff6e6ce8ccef2e77e34a245b6f50
+SHA1: 56e357361bb30af08274f5b7f7dc8bc6f011136f
+SHA256: dcbb138e90832e6109b677136cb473cde03eab55553ac41c9de29c0f7ce5e468
 Section: misc
 Priority: optional
 Homepage: http://www.ros.org/wiki/diagnostic_aggregator
@@ -6074,10 +6074,10 @@ Maintainer: Austin Hendrix <namniart@gmail.com>
 Installed-Size: 1545
 Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 14), libtinyxml2-10 (>= 10.0.0), ros-kilted-rclpy
 Filename: ./ros-kilted-diagnostic-aggregator_10.1.1-0noble_amd64.deb
-Size: 346652
-MD5sum: 295059e74076f2c3eb4a39897a62fbd9
-SHA1: 2732c6b461e90ae2e8ad4ce06473f2d5734cb077
-SHA256: d00725c2a8214a9f54b12c08759b8d53e43ad3ac99c2a46119b46b86d0df5bf2
+Size: 346666
+MD5sum: b18c74fd834fa4e6c4968d1ad23242fa
+SHA1: 021f127a2f5b370c6945efb5414deea61a0840bc
+SHA256: b8e1fd166e1bf6b2a18c0c6b80067c63f0498ffb9d7b7dc94f19949c50d3bfb2
 Section: misc
 Priority: optional
 Homepage: http://www.ros.org/wiki/diagnostic_aggregator
@@ -6090,10 +6090,10 @@ Maintainer: Austin Hendrix <namniart@gmail.com>
 Installed-Size: 1647
 Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 14), libtinyxml2-10 (>= 10.0.0), ros-kilted-rclpy
 Filename: ./ros-kilted-diagnostic-aggregator_10.1.1-0noble_arm64.deb
-Size: 320902
-MD5sum: b92ca433471408b2aef0dc45cd2674b0
-SHA1: 59628388177532b514ec519fdc6ebf8a486e2ffd
-SHA256: 7701b9d3b59c6c56fe627b8c8156efbc3816a7cd3bdeb64d2148cfcb2f6fc9c6
+Size: 320860
+MD5sum: 9abba426a2449c326633639f158765f5
+SHA1: a8311d7cb2a5d7594a6781620694db3c7d935def
+SHA256: 857e3cf45c1244b339c8e592497fb6851a88202e1ac70160562c9e1c0f5ad2c8
 Section: misc
 Priority: optional
 Homepage: http://www.ros.org/wiki/diagnostic_aggregator
