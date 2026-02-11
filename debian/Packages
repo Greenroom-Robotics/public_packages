@@ -6391,10 +6391,10 @@ Maintainer: Greenroom Robotics <team@greenroomrobotics.com>
 Installed-Size: 485
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 14), libyaml-cpp0.8 (>= 0.7.0), ros-kilted-is-core (>= 1.1.3), ros-kilted-rclcpp, ros-kilted-xtypes
 Filename: ./ros-kilted-is-ros2_1.2.3-0noble_arm64.deb
-Size: 110518
-MD5sum: f6cb3256d8f08519951eba174769de0b
-SHA1: 3950cea3a379939d7dd5b1973af54368fce04de5
-SHA256: f294359313d11c41aa26bdb50155cd73bb7298c55f05ba5976e5f466ee5059fa
+Size: 110524
+MD5sum: 0857d2fa03f3993e609548dda610283c
+SHA1: a27a3149de104fc06df621abd3630e6cfcc15b89
+SHA256: 8c28984fc9235c1d0adbe20f9eb7331058a445e5aa2340ad34595bfd77c5c16d
 Section: misc
 Priority: optional
 Homepage: https://github.com/Greenroom-Robotics/ROS2-SH/tree/feature/mix-idl-support
