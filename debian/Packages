@@ -3937,6 +3937,36 @@ Priority: optional
 Homepage: https://github.com/Greenroom-Robotics/xtypes
 Description: Implementation based on DDS-XTYPES standard (https://www.omg.org/spec/DDS-XTypes)
 
+Package: ros-iron-xtypes
+Version: 1.1.2-0jammy
+Architecture: amd64
+Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
+Installed-Size: 635
+Filename: ./ros-iron-xtypes_1.1.2-0jammy_amd64.deb
+Size: 83982
+MD5sum: 233cd23b4fea39c3a496b048a54b83b1
+SHA1: d3e5b03261f230c457177117fe0cb34767a28d34
+SHA256: bf90cfee78612f6d4d237d0173f5e58c84e72fb8a0b101f4cdfa29664f7cb650
+Section: misc
+Priority: optional
+Homepage: https://github.com/Greenroom-Robotics/xtypes
+Description: Implementation based on DDS-XTYPES standard (https://www.omg.org/spec/DDS-XTypes)
+
+Package: ros-iron-xtypes
+Version: 1.1.2-0jammy
+Architecture: arm64
+Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
+Installed-Size: 635
+Filename: ./ros-iron-xtypes_1.1.2-0jammy_arm64.deb
+Size: 84012
+MD5sum: 7f6f8755071fb2a19fb9a487309886ae
+SHA1: 5a04d4d8093b951bad7e55945fa2659e0e34c688
+SHA256: d2746046b4b9676aa8067cd58206f85871473254ec6a3083849712d3d3cc95b7
+Section: misc
+Priority: optional
+Homepage: https://github.com/Greenroom-Robotics/xtypes
+Description: Implementation based on DDS-XTYPES standard (https://www.omg.org/spec/DDS-XTypes)
+
 Package: ros-jazzy-argparse
 Version: 1.1.0-0noble
 Architecture: amd64
@@ -6927,4 +6957,34 @@ Section: misc
 Priority: optional
 Homepage: https://github.com/septentrio-gnss/septentrio_gnss_driver
 Description: ROSaic: C++ driver for Septentrio's GNSS and INS receivers
+
+Package: ros-kilted-xtypes
+Version: 1.1.2-0noble
+Architecture: arm64
+Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
+Installed-Size: 635
+Filename: ./ros-kilted-xtypes_1.1.2-0noble_arm64.deb
+Size: 84056
+MD5sum: cdd00ddba967059e3a44ccccc1234ce2
+SHA1: f14a14c8073ff37a44e77e65db4c6cfac052c08a
+SHA256: ee48af0bc96f0dcbdcab6ec230855666f2f8192be10ee6f2461593a5c667c21b
+Section: misc
+Priority: optional
+Homepage: https://github.com/Greenroom-Robotics/xtypes
+Description: Implementation based on DDS-XTYPES standard (https://www.omg.org/spec/DDS-XTypes)
+
+Package: ros-kilted-xtypes
+Version: 1.1.2-0noble
+Architecture: amd64
+Maintainer: Russ Webber <russ.webber@greenroomrobotics.com>
+Installed-Size: 635
+Filename: ./ros-kilted-xtypes_1.1.2-0noble_amd64.deb
+Size: 84008
+MD5sum: 177e6e069ef25e1243993d82ee09c9bb
+SHA1: f11d81cfa34f68ce36a425014c9ca04d96f956f2
+SHA256: fbf052ea93e18847f2447d39fc8abe25ce31e748f26440e32f3cf425cd19fc4b
+Section: misc
+Priority: optional
+Homepage: https://github.com/Greenroom-Robotics/xtypes
+Description: Implementation based on DDS-XTYPES standard (https://www.omg.org/spec/DDS-XTypes)
 
