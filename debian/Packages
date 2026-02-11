@@ -6391,10 +6391,10 @@ Maintainer: Greenroom Robotics <team@greenroomrobotics.com>
 Installed-Size: 485
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 14), libyaml-cpp0.8 (>= 0.7.0), ros-kilted-is-core (>= 1.1.3), ros-kilted-rclcpp, ros-kilted-xtypes
 Filename: ./ros-kilted-is-ros2_1.2.3-0noble_arm64.deb
-Size: 110524
-MD5sum: 0857d2fa03f3993e609548dda610283c
-SHA1: a27a3149de104fc06df621abd3630e6cfcc15b89
-SHA256: 8c28984fc9235c1d0adbe20f9eb7331058a445e5aa2340ad34595bfd77c5c16d
+Size: 110532
+MD5sum: 2cfaf44387a2fb55065b33d1eca63b69
+SHA1: 6c9c76fb614c9a44c1c0d0bd7f0915bfbfa092c0
+SHA256: e56b15302e51824a3a4ff3ecadc3579efbc4b55458b0772711117fc0eaf00dfa
 Section: misc
 Priority: optional
 Homepage: https://github.com/Greenroom-Robotics/ROS2-SH/tree/feature/mix-idl-support
@@ -6407,10 +6407,10 @@ Maintainer: Greenroom Robotics <team@greenroomrobotics.com>
 Installed-Size: 485
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 14), libyaml-cpp0.8 (>= 0.7.0), ros-kilted-is-core (>= 1.1.3), ros-kilted-rclcpp, ros-kilted-xtypes
 Filename: ./ros-kilted-is-ros2_1.2.3-0noble_amd64.deb
-Size: 115562
-MD5sum: e4b3efe37b998dc0c96e8c525a9d76d7
-SHA1: 3b4a383288202b104e674bf4988b2cca27c3f4bb
-SHA256: 111f9e637a31ddb1a625f9bb5f0229d4725afd9cff03988d7a67a8a5baea60a8
+Size: 115550
+MD5sum: b64ba291b54a526f618e7178c07e9cce
+SHA1: 0457b0b2d239fd7e8d5d72f39e9890aaff133cca
+SHA256: 1abff8cc3097844b711fd8bd7a6e21ba26309ac611e309957fdc601be0ec9947
 Section: misc
 Priority: optional
 Homepage: https://github.com/Greenroom-Robotics/ROS2-SH/tree/feature/mix-idl-support
